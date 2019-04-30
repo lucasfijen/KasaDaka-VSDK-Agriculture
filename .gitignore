@@ -95,3 +95,4 @@ ENV/
 #vsdk/settings.py
 *.DS_Store
 .vscode/settings.json
+.vscode/launch.json
