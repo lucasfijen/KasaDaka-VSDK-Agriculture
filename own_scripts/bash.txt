@@ -1,0 +1,8 @@
+#!/bin/bash 
+if [ ! -d converted/ ] 
+then 
+ mkdir converted; 
+fi;
+for i in ./*.wav
+ do sox -t wav -S "$i" -r 8k -b 16 -c 1 -e signed-integer -t wav "converted/$i";
+done;
