@@ -192,6 +192,190 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 26,
+  "fields": {
+    "name": "welcome",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 27,
+  "fields": {
+    "name": "category",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 28,
+  "fields": {
+    "name": "transport",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 29,
+  "fields": {
+    "name": "milling devices",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 30,
+  "fields": {
+    "name": "storage",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 31,
+  "fields": {
+    "name": "to continue",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 32,
+  "fields": {
+    "name": "choose_differently",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 33,
+  "fields": {
+    "name": "you selected",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 34,
+  "fields": {
+    "name": "hear offers",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 35,
+  "fields": {
+    "name": "select offers",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 36,
+  "fields": {
+    "name": "contact user",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 37,
+  "fields": {
+    "name": "transport1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 38,
+  "fields": {
+    "name": "transport2",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 39,
+  "fields": {
+    "name": "transport 3",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 40,
+  "fields": {
+    "name": "milling device1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 41,
+  "fields": {
+    "name": "milling device2",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 42,
+  "fields": {
+    "name": "milling device3",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 43,
+  "fields": {
+    "name": "storage1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 44,
+  "fields": {
+    "name": "storage2",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 45,
+  "fields": {
+    "name": "storage3",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 46,
+  "fields": {
+    "name": "selected storage",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 47,
+  "fields": {
+    "name": "selected milling devices",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 48,
+  "fields": {
+    "name": "selected transport",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -891,6 +1075,420 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 75,
+  "fields": {
+    "parent": 26,
+    "language": 2,
+    "audio": "welcome_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 76,
+  "fields": {
+    "parent": 26,
+    "language": 3,
+    "audio": "welcome_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 77,
+  "fields": {
+    "parent": 27,
+    "language": 2,
+    "audio": "category_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 78,
+  "fields": {
+    "parent": 27,
+    "language": 3,
+    "audio": "category_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 79,
+  "fields": {
+    "parent": 28,
+    "language": 2,
+    "audio": "transport_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 80,
+  "fields": {
+    "parent": 28,
+    "language": 3,
+    "audio": "transport_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 81,
+  "fields": {
+    "parent": 29,
+    "language": 2,
+    "audio": "milling_devices_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 82,
+  "fields": {
+    "parent": 29,
+    "language": 3,
+    "audio": "milling_devices_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 83,
+  "fields": {
+    "parent": 30,
+    "language": 2,
+    "audio": "storage_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 84,
+  "fields": {
+    "parent": 30,
+    "language": 3,
+    "audio": "storage_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 85,
+  "fields": {
+    "parent": 31,
+    "language": 2,
+    "audio": "to_continue_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 86,
+  "fields": {
+    "parent": 31,
+    "language": 3,
+    "audio": "to_continue_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 87,
+  "fields": {
+    "parent": 32,
+    "language": 2,
+    "audio": "choose_differently_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 88,
+  "fields": {
+    "parent": 32,
+    "language": 3,
+    "audio": "choose_differently_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 89,
+  "fields": {
+    "parent": 33,
+    "language": 2,
+    "audio": "you_selected_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 90,
+  "fields": {
+    "parent": 33,
+    "language": 3,
+    "audio": "you_selected_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 91,
+  "fields": {
+    "parent": 34,
+    "language": 2,
+    "audio": "hear_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 92,
+  "fields": {
+    "parent": 34,
+    "language": 3,
+    "audio": "hear_offers_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 93,
+  "fields": {
+    "parent": 35,
+    "language": 2,
+    "audio": "select_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 94,
+  "fields": {
+    "parent": 35,
+    "language": 3,
+    "audio": "select_offers_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 95,
+  "fields": {
+    "parent": 36,
+    "language": 2,
+    "audio": "contact_user_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 96,
+  "fields": {
+    "parent": 36,
+    "language": 3,
+    "audio": "contact_user_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 97,
+  "fields": {
+    "parent": 37,
+    "language": 2,
+    "audio": "transport1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 98,
+  "fields": {
+    "parent": 37,
+    "language": 3,
+    "audio": "transport1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 99,
+  "fields": {
+    "parent": 38,
+    "language": 2,
+    "audio": "transport2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 100,
+  "fields": {
+    "parent": 38,
+    "language": 3,
+    "audio": "transport2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 101,
+  "fields": {
+    "parent": 39,
+    "language": 2,
+    "audio": "transport3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 102,
+  "fields": {
+    "parent": 39,
+    "language": 3,
+    "audio": "transport3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 103,
+  "fields": {
+    "parent": 40,
+    "language": 2,
+    "audio": "milling_device1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 104,
+  "fields": {
+    "parent": 40,
+    "language": 3,
+    "audio": "milling_device1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 105,
+  "fields": {
+    "parent": 41,
+    "language": 2,
+    "audio": "milling_device2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 106,
+  "fields": {
+    "parent": 41,
+    "language": 3,
+    "audio": "milling_device2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 107,
+  "fields": {
+    "parent": 42,
+    "language": 2,
+    "audio": "milling_device3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 108,
+  "fields": {
+    "parent": 42,
+    "language": 3,
+    "audio": "milling_device3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 109,
+  "fields": {
+    "parent": 43,
+    "language": 2,
+    "audio": "storage1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 110,
+  "fields": {
+    "parent": 43,
+    "language": 3,
+    "audio": "storage1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 111,
+  "fields": {
+    "parent": 44,
+    "language": 2,
+    "audio": "storage2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 112,
+  "fields": {
+    "parent": 44,
+    "language": 3,
+    "audio": "storage2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 113,
+  "fields": {
+    "parent": 45,
+    "language": 2,
+    "audio": "storage3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 114,
+  "fields": {
+    "parent": 45,
+    "language": 3,
+    "audio": "storage3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 115,
+  "fields": {
+    "parent": 46,
+    "language": 2,
+    "audio": "selected_storage_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 116,
+  "fields": {
+    "parent": 46,
+    "language": 3,
+    "audio": "selected_storage_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 117,
+  "fields": {
+    "parent": 47,
+    "language": 2,
+    "audio": "selected_milling_devices_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 118,
+  "fields": {
+    "parent": 47,
+    "language": 3,
+    "audio": "selected_milling_devices_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 119,
+  "fields": {
+    "parent": 48,
+    "language": 2,
+    "audio": "selected_transport_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 120,
+  "fields": {
+    "parent": 48,
+    "language": 3,
+    "audio": "selected_transport_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -963,6 +1561,330 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 8,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:29:00.903Z",
+    "modification_date": "2019-05-01T15:39:45.636Z",
+    "name": "Welcome",
+    "description": "",
+    "voice_label": 26
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 9,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:29:55.825Z",
+    "modification_date": "2019-05-01T15:29:58.052Z",
+    "name": "Contact user",
+    "description": "",
+    "voice_label": 36
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 10,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.314Z",
+    "modification_date": "2019-05-01T15:38:31.226Z",
+    "name": "What product would you like?",
+    "description": "",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 11,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.319Z",
+    "modification_date": "2019-05-01T15:38:31.229Z",
+    "name": "transport",
+    "description": "",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 12,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.321Z",
+    "modification_date": "2019-05-01T15:38:31.231Z",
+    "name": "milling devices",
+    "description": "",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 13,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.323Z",
+    "modification_date": "2019-05-01T15:38:31.233Z",
+    "name": "storage",
+    "description": "",
+    "voice_label": 30
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 14,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:32:36.450Z",
+    "modification_date": "2019-05-01T15:37:40.823Z",
+    "name": "continue transport",
+    "description": "",
+    "voice_label": 48
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 15,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:32:36.453Z",
+    "modification_date": "2019-05-01T15:37:40.826Z",
+    "name": "continue",
+    "description": "",
+    "voice_label": 31
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 16,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:32:36.456Z",
+    "modification_date": "2019-05-01T15:32:36.456Z",
+    "name": "go back",
+    "description": "",
+    "voice_label": 32
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 17,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:33:29.464Z",
+    "modification_date": "2019-05-01T15:37:53.823Z",
+    "name": "continue milling devices",
+    "description": "",
+    "voice_label": 47
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 18,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:33:29.468Z",
+    "modification_date": "2019-05-01T15:37:53.826Z",
+    "name": "continue milling",
+    "description": "",
+    "voice_label": 31
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 19,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:33:29.471Z",
+    "modification_date": "2019-05-01T15:33:29.471Z",
+    "name": "go back",
+    "description": "",
+    "voice_label": 32
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 20,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:34:25.044Z",
+    "modification_date": "2019-05-01T15:38:02.449Z",
+    "name": "continue storage",
+    "description": "",
+    "voice_label": 48
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 21,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:34:25.047Z",
+    "modification_date": "2019-05-01T15:38:02.452Z",
+    "name": "continue storage",
+    "description": "",
+    "voice_label": 31
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 22,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:34:25.048Z",
+    "modification_date": "2019-05-01T15:34:25.048Z",
+    "name": "go back",
+    "description": "",
+    "voice_label": 32
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 23,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:07.564Z",
+    "modification_date": "2019-05-01T15:35:33.169Z",
+    "name": "offers transport",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 24,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:07.571Z",
+    "modification_date": "2019-05-01T15:35:07.571Z",
+    "name": "transport1",
+    "description": "",
+    "voice_label": 37
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 25,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:07.575Z",
+    "modification_date": "2019-05-01T15:35:07.575Z",
+    "name": "transport2",
+    "description": "",
+    "voice_label": 38
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 26,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:33.172Z",
+    "modification_date": "2019-05-01T15:35:33.172Z",
+    "name": "transport3",
+    "description": "",
+    "voice_label": 39
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 27,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.750Z",
+    "modification_date": "2019-05-01T15:36:23.750Z",
+    "name": "offers milling devices",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 28,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.753Z",
+    "modification_date": "2019-05-01T15:36:23.754Z",
+    "name": "milling1",
+    "description": "",
+    "voice_label": 40
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 29,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.755Z",
+    "modification_date": "2019-05-01T15:36:23.755Z",
+    "name": "milling2",
+    "description": "",
+    "voice_label": 41
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 30,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.757Z",
+    "modification_date": "2019-05-01T15:36:23.757Z",
+    "name": "milling3",
+    "description": "",
+    "voice_label": 42
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 31,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.632Z",
+    "modification_date": "2019-05-01T15:37:23.632Z",
+    "name": "offers storage",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 32,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.635Z",
+    "modification_date": "2019-05-01T15:37:23.635Z",
+    "name": "storage1",
+    "description": "",
+    "voice_label": 43
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 33,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.637Z",
+    "modification_date": "2019-05-01T15:37:23.637Z",
+    "name": "storage2",
+    "description": "",
+    "voice_label": 44
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 34,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.639Z",
+    "modification_date": "2019-05-01T15:37:23.639Z",
+    "name": "storage3",
+    "description": "",
+    "voice_label": 45
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 2,
   "fields": {}
@@ -980,6 +1902,51 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 7,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 8,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 9,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 10,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 14,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 17,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 20,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 23,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 27,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 31,
   "fields": {}
 },
 {
@@ -1009,9 +1976,9 @@
     "name": "Shariculture",
     "description": "Sharing platform",
     "creation_date": "2019-05-01T12:10:48.511Z",
-    "modification_date": "2019-05-01T12:10:48.511Z",
-    "active": false,
-    "_start_element": 6,
+    "modification_date": "2019-05-01T15:40:08.260Z",
+    "active": true,
+    "_start_element": 8,
     "registration": "preferred",
     "registration_language": true,
     "registration_name": false,
@@ -1452,6 +2419,41 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 10,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 14,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 17,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 20,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 23,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 27,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 31,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 3,
   "fields": {
@@ -1465,6 +2467,150 @@
   "fields": {
     "parent": 2,
     "_redirect": 7
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 11,
+  "fields": {
+    "parent": 10,
+    "_redirect": 14
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 12,
+  "fields": {
+    "parent": 10,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 13,
+  "fields": {
+    "parent": 10,
+    "_redirect": 20
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 15,
+  "fields": {
+    "parent": 14,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 16,
+  "fields": {
+    "parent": 14,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 18,
+  "fields": {
+    "parent": 17,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 19,
+  "fields": {
+    "parent": 17,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 21,
+  "fields": {
+    "parent": 20,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 22,
+  "fields": {
+    "parent": 20,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 24,
+  "fields": {
+    "parent": 23,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 25,
+  "fields": {
+    "parent": 23,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 26,
+  "fields": {
+    "parent": 23,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 28,
+  "fields": {
+    "parent": 27,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 29,
+  "fields": {
+    "parent": 27,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 30,
+  "fields": {
+    "parent": 27,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 32,
+  "fields": {
+    "parent": 31,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 33,
+  "fields": {
+    "parent": 31,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 34,
+  "fields": {
+    "parent": 31,
+    "_redirect": 9
   }
 },
 {
@@ -1489,6 +2635,22 @@
   "fields": {
     "final_element": false,
     "_redirect": 6
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 8,
+  "fields": {
+    "final_element": false,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 9,
+  "fields": {
+    "final_element": true,
+    "_redirect": null
   }
 }
 ]

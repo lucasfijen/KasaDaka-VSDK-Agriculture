@@ -40,6 +40,6 @@ milling_device3,A milling device. Located at Bougouni. 6 Malian franc per day.,U
 storage1,Large shed.  Located at Banco. 3 Malian franc per day.,Grande remise.  Localisé à Banco. 3 Franc Malien par jour.,0
 storage2,Small room. Located at San. 3 Malian franc per day.,Une chambre. Localisé à San. 3 Franc Malien par jour.,0
 storage3,Part of a room. Located at Bougouni. 2 Malian franc per day,Une demi chambre. 2 Franc Malien par jour.,0
-selected_storage,You have selected storage.,Vous avez sélectionné moyen de transports,0
-selected_milling_devices,You have selected milling devices.,Vous avez sélectionné fraiseuse,0
-selected_transport,You have selected transport.,Vous avez sélectionné espace de rangement,0
+selected_storage,You have selected storage.,Vous avez sélectionné des moyen de transports,0
+selected_milling_devices,You have selected milling devices.,Vous avez sélectionné des fraiseuse,0
+selected_transport,You have selected transport.,Vous avez sélectionné d’espace de rangement,0
