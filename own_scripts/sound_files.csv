@@ -29,17 +29,17 @@ choose_differently,to choose a different category,choisir une catégorie différ
 you_selected,you selected,vous avez sélectionné,0
 hear_offers,You will now hear several local offers:,Les offres locales sont,0
 select_offers,Please choose an offer by pressing the corresponding number on your phone.,"S'il vous plaît, choisir un offre par touchez le nummero de ce offre. ",0
-contact_user,You can contact the owner at,Vous pouvez contacter le propriétaire à,0
+contact_user,You can contact the owner at 22344978200 ,Vous pouvez contacter le propriétaire à 22344978200 ,0
 phonenumber1,22344978200,22344978200,0
-transport1,This is transport option 1.,c'est l'option de transport 1.,0
-transport2,This is transport option 2.,c'est l'option de transport 2.,0
-transport3,This is transport option 3.,c'est l'option de transport 3.,0
-milling_device1,This is milling device option 1.,c'est l'option de fraisage 1.,0
-milling_device2,This is milling device option 2.,c'est l'option de fraisage 2.,0
-milling_device3,This is milling device option 3.,c'est l'option de fraisage 3.,0
-storage1,This is storage option 1.,c'est l'option de stockage 1.,0
-storage2,This is storage option 2.,c'est l'option de stockage 2.,0
-storage3,This is storage option 3.,c'est l'option de stockage 3.,0
-selected_storage,You have selected storage.,Vous avez sélectionné,0
-selected_milling_devices,You have selected milling devices.,Vous avez sélectionné,0
-selected_transport,You have selected transport.,Vous avez sélectionné,0
+transport1,Pick-up truck for rent. Located at Banco. 3 Malian franc per day.,Un camion à louer à Banco. 3 Franc Malien par jour.,0
+transport2,Horse and carriage for rent. Located at San. 2 Malian franc per day.,Une charette avec cheval à louer à San. 2 Franc Malien par jour.,0
+transport3,A donkey for rent. Located at Bougouni. 1 Malian franc per day.,Un âne à louer à Bougouni. 1 Franc Malien par jour.,0
+milling_device1,A milling device. Located at Banco. 7 Malian franc per day.,Une fraiseuse à Banco. 7 Franc Malien par jour,0
+milling_device2,An extra large milling device. Located at San. 8 Malian franc per day.,Une plus grande fraiseuse. Located at San. 8 Franc Malien par jour,0
+milling_device3,A milling device. Located at Bougouni. 6 Malian franc per day.,Une fraiseuse à Bougouni. 6 Franc Malien par jour.,0
+storage1,Large shed.  Located at Banco. 3 Malian franc per day.,Grande remise.  Localisé à Banco. 3 Franc Malien par jour.,0
+storage2,Small room. Located at San. 3 Malian franc per day.,Une chambre. Localisé à San. 3 Franc Malien par jour.,0
+storage3,Part of a room. Located at Bougouni. 2 Malian franc per day,Une demi chambre. 2 Franc Malien par jour.,0
+selected_storage,You have selected storage.,Vous avez sélectionné moyen de transports,0
+selected_milling_devices,You have selected milling devices.,Vous avez sélectionné fraiseuse,0
+selected_transport,You have selected transport.,Vous avez sélectionné espace de rangement,0
