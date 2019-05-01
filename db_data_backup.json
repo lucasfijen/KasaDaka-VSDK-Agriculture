@@ -2002,6 +2002,45 @@
   }
 },
 {
+  "model": "service_development.kasadakauser",
+  "pk": 2,
+  "fields": {
+    "caller_id": "123",
+    "first_name": "lucas",
+    "last_name": "",
+    "creation_date": "2019-05-01T16:29:28.898Z",
+    "modification_date": "2019-05-01T16:29:28.898Z",
+    "language": 2,
+    "service": 2
+  }
+},
+{
+  "model": "service_development.kasadakauser",
+  "pk": 3,
+  "fields": {
+    "caller_id": "234",
+    "first_name": "suus",
+    "last_name": "",
+    "creation_date": "2019-05-01T16:29:48.216Z",
+    "modification_date": "2019-05-01T16:29:48.216Z",
+    "language": 3,
+    "service": 2
+  }
+},
+{
+  "model": "service_development.kasadakauser",
+  "pk": 4,
+  "fields": {
+    "caller_id": "124",
+    "first_name": "rens",
+    "last_name": "",
+    "creation_date": "2019-05-01T16:30:02.357Z",
+    "modification_date": "2019-05-01T16:30:02.357Z",
+    "language": 2,
+    "service": 2
+  }
+},
+{
   "model": "service_development.callsession",
   "pk": 1,
   "fields": {
@@ -2370,6 +2409,18 @@
     "user": null,
     "caller_id": null,
     "service": 1,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 32,
+  "fields": {
+    "start": "2019-05-01T16:03:22.639Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 2,
     "_language": null
   }
 },
