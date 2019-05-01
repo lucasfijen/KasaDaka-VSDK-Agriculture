@@ -31,12 +31,15 @@ hear_offers,You will now hear several local offers:,Les offres locales sont,0
 select_offers,Please choose an offer by pressing the corresponding number on your phone.,"S'il vous plaît, choisir un offre par touchez le nummero de ce offre. ",0
 contact_user,You can contact the owner at,Vous pouvez contacter le propriétaire à,0
 phonenumber1,22344978200,22344978200,0
-transport1,This is transport option 1,c'est l'option de transport 1,0
-transport2,This is transport option 2,c'est l'option de transport 2,0
-transport3,This is transport option 3,c'est l'option de transport 3,0
-milling_device1,This is milling device option 1,c'est l'option de fraisage 1,0
-milling_device2,This is milling device option 2,c'est l'option de fraisage 2,0
-milling_device3,This is milling device option 3,c'est l'option de fraisage 3,0
-storage1,This is storage option 1,c'est l'option de stockage 1,0
-storage2,This is storage option 2,c'est l'option de stockage 2,0
-storage3,This is storage option 3,c'est l'option de stockage 3,0
+transport1,This is transport option 1.,c'est l'option de transport 1.,0
+transport2,This is transport option 2.,c'est l'option de transport 2.,0
+transport3,This is transport option 3.,c'est l'option de transport 3.,0
+milling_device1,This is milling device option 1.,c'est l'option de fraisage 1.,0
+milling_device2,This is milling device option 2.,c'est l'option de fraisage 2.,0
+milling_device3,This is milling device option 3.,c'est l'option de fraisage 3.,0
+storage1,This is storage option 1.,c'est l'option de stockage 1.,0
+storage2,This is storage option 2.,c'est l'option de stockage 2.,0
+storage3,This is storage option 3.,c'est l'option de stockage 3.,0
+selected_storage,You have selected storage.,Vous avez sélectionné,0
+selected_milling_devices,You have selected milling devices.,Vous avez sélectionné,0
+selected_transport,You have selected transport.,Vous avez sélectionné,0
