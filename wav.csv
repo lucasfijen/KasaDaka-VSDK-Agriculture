@@ -1,0 +1,42 @@
+filename,en,fr,exists
+welcome,Welcome to our application prototype Shariculture! A platform to borrow items or services from others.,Bienvenue à notre prototype de Shariculture! Où on peut louer des outils agricoles d'autre fermiers. ,0
+category,What product would you like to lend?,Quel produit es-ce que vous voulez louer?,0
+pre_choice_option,To select,Pour sélectionner,1
+post_choice_option,press,appuyer sur,1
+0,0,0,1
+1,1,1,1
+2,2,2,1
+3,3,3,1
+4,4,4,1
+5,5,5,1
+6,6,6,1
+7,7,7,1
+8,8,8,1
+9,9,9,1
+dutch,dutch,néerlandais,1
+english,english,anglais,1
+error,sorry an error occurred,"excusez moi, il y a une erreur",1
+french,french,francais,1
+no,no,non,1
+select_language,please select your language,voulez sélectionner votre langue,1
+thank_you_for_using,thank your for using this service,merci d’utiliser ce service,1
+yes,yes,oui,1
+transport,transport,Moyen de transports,0
+milling_devices,Milling devices,Fraiseuse,0
+storage,storage,espace de rangement,0
+to_continue,to continue,continuer,0
+choose_differently,to choose a different category,choisir une catégorie différente,0
+you_selected,you selected,vous avez sélectionné,0
+hear_offers,You will now hear several local offers:,Les offres locales sont,0
+select_offers,Please choose an offer by pressing the corresponding number on your phone.,"S'il vous plaît, choisir un offre par touchez le nummero de ce offre. ",0
+contact_user,You can contact the owner at,Vous pouvez contacter le propriétaire à,0
+phonenumber1,22344978200,22344978200,0
+transport1,This is transport option 1,c'est l'option de transport 1,0
+transport2,This is transport option 2,c'est l'option de transport 2,0
+transport3,This is transport option 3,c'est l'option de transport 3,0
+milling_device1,This is milling device option 1,c'est l'option de fraisage 1,0
+milling_device2,This is milling device option 2,c'est l'option de fraisage 2,0
+milling_device3,This is milling device option 3,c'est l'option de fraisage 3,0
+storage1,This is storage option 1,c'est l'option de stockage 1,0
+storage2,This is storage option 2,c'est l'option de stockage 2,0
+storage3,This is storage option 3,c'est l'option de stockage 3,0
