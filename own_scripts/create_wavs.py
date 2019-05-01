@@ -24,7 +24,7 @@ for file in os.listdir(folder):
         sound = AudioSegment.from_mp3(folder+file)
         sound = sound.set_channels(1)
         sound = sound.set_frame_rate(8000)
-        sound.export(folder + filename + '.wav', format="wav", bitrate=16, codec='s16l')
+        sound.export(folder + filename + '.wav', format="wav", bitrate=16, codec='s16le')
         os.remove(folder+file)
 
 #%%
