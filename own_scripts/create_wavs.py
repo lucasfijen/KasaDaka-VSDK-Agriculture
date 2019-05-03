@@ -1,5 +1,5 @@
 #%%
-# For explanation, look at readmy.md in this folder.
+# For explanation, look at readme.md in this folder.
 import pandas as pd
 import json
 from gtts import gTTS

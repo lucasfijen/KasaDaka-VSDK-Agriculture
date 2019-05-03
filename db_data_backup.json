@@ -376,6 +376,94 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 49,
+  "fields": {
+    "name": "choose_region",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 50,
+  "fields": {
+    "name": "region_gao",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 51,
+  "fields": {
+    "name": "region_kayes",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 52,
+  "fields": {
+    "name": "region_kidal",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 53,
+  "fields": {
+    "name": "region_koulikoro",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 54,
+  "fields": {
+    "name": "region_menaka",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 55,
+  "fields": {
+    "name": "region_mopti",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 56,
+  "fields": {
+    "name": "region_segou",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 57,
+  "fields": {
+    "name": "region_sikasso",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 58,
+  "fields": {
+    "name": "region_taoudenit",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 59,
+  "fields": {
+    "name": "region_tombouctou",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -1489,6 +1577,204 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 121,
+  "fields": {
+    "parent": 49,
+    "language": 2,
+    "audio": "choose_region_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 122,
+  "fields": {
+    "parent": 49,
+    "language": 3,
+    "audio": "choose_region_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 123,
+  "fields": {
+    "parent": 50,
+    "language": 2,
+    "audio": "region_gao_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 124,
+  "fields": {
+    "parent": 50,
+    "language": 3,
+    "audio": "region_gao_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 125,
+  "fields": {
+    "parent": 51,
+    "language": 2,
+    "audio": "region_kayes_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 126,
+  "fields": {
+    "parent": 51,
+    "language": 3,
+    "audio": "region_kayes_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 127,
+  "fields": {
+    "parent": 52,
+    "language": 2,
+    "audio": "region_kidal_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 128,
+  "fields": {
+    "parent": 52,
+    "language": 3,
+    "audio": "region_kidal_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 129,
+  "fields": {
+    "parent": 53,
+    "language": 2,
+    "audio": "region_koulikoro_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 130,
+  "fields": {
+    "parent": 53,
+    "language": 3,
+    "audio": "region_koulikoro_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 131,
+  "fields": {
+    "parent": 54,
+    "language": 2,
+    "audio": "region_menaka_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 132,
+  "fields": {
+    "parent": 54,
+    "language": 3,
+    "audio": "region_menaka_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 133,
+  "fields": {
+    "parent": 55,
+    "language": 2,
+    "audio": "region_mopti_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 134,
+  "fields": {
+    "parent": 55,
+    "language": 3,
+    "audio": "region_mopti_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 135,
+  "fields": {
+    "parent": 56,
+    "language": 2,
+    "audio": "region_segou_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 136,
+  "fields": {
+    "parent": 56,
+    "language": 3,
+    "audio": "region_segou_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 137,
+  "fields": {
+    "parent": 57,
+    "language": 2,
+    "audio": "region_sikasso_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 138,
+  "fields": {
+    "parent": 57,
+    "language": 3,
+    "audio": "region_sikasso_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 139,
+  "fields": {
+    "parent": 58,
+    "language": 2,
+    "audio": "region_taoudenit_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 140,
+  "fields": {
+    "parent": 58,
+    "language": 3,
+    "audio": "region_taoudenit_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 141,
+  "fields": {
+    "parent": 59,
+    "language": 2,
+    "audio": "region_tombouctou_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 142,
+  "fields": {
+    "parent": 59,
+    "language": 3,
+    "audio": "region_tombouctou_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -1638,7 +1924,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:32:36.450Z",
-    "modification_date": "2019-05-01T15:37:40.823Z",
+    "modification_date": "2019-05-03T16:12:20.148Z",
     "name": "continue transport",
     "description": "",
     "voice_label": 48
@@ -1650,7 +1936,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:32:36.453Z",
-    "modification_date": "2019-05-01T15:37:40.826Z",
+    "modification_date": "2019-05-03T16:12:20.152Z",
     "name": "continue",
     "description": "",
     "voice_label": 31
@@ -1674,7 +1960,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:33:29.464Z",
-    "modification_date": "2019-05-01T15:37:53.823Z",
+    "modification_date": "2019-05-03T16:11:56.754Z",
     "name": "continue milling devices",
     "description": "",
     "voice_label": 47
@@ -1686,7 +1972,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:33:29.468Z",
-    "modification_date": "2019-05-01T15:37:53.826Z",
+    "modification_date": "2019-05-03T16:11:56.759Z",
     "name": "continue milling",
     "description": "",
     "voice_label": 31
@@ -1710,7 +1996,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:34:25.044Z",
-    "modification_date": "2019-05-01T15:38:02.449Z",
+    "modification_date": "2019-05-03T16:11:10.146Z",
     "name": "continue storage",
     "description": "",
     "voice_label": 48
@@ -1722,7 +2008,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:34:25.047Z",
-    "modification_date": "2019-05-01T15:38:02.452Z",
+    "modification_date": "2019-05-03T16:11:10.153Z",
     "name": "continue storage",
     "description": "",
     "voice_label": 31
@@ -1885,6 +2171,402 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 35,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.732Z",
+    "modification_date": "2019-05-03T16:05:20.637Z",
+    "name": "choice_region_transport",
+    "description": "",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 36,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.739Z",
+    "modification_date": "2019-05-03T16:04:46.740Z",
+    "name": "gao",
+    "description": "",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 37,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.745Z",
+    "modification_date": "2019-05-03T16:04:46.746Z",
+    "name": "kayes",
+    "description": "",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 38,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.748Z",
+    "modification_date": "2019-05-03T16:04:46.748Z",
+    "name": "kidal",
+    "description": "",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 39,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.750Z",
+    "modification_date": "2019-05-03T16:04:46.750Z",
+    "name": "koulikoro",
+    "description": "",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 40,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.754Z",
+    "modification_date": "2019-05-03T16:04:46.754Z",
+    "name": "menaka",
+    "description": "",
+    "voice_label": 54
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 41,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.756Z",
+    "modification_date": "2019-05-03T16:04:46.756Z",
+    "name": "mopti",
+    "description": "",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 42,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.758Z",
+    "modification_date": "2019-05-03T16:04:46.758Z",
+    "name": "segou",
+    "description": "",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 43,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.759Z",
+    "modification_date": "2019-05-03T16:04:46.759Z",
+    "name": "sikasso",
+    "description": "",
+    "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 44,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.761Z",
+    "modification_date": "2019-05-03T16:04:46.761Z",
+    "name": "taoudenit",
+    "description": "",
+    "voice_label": 58
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 45,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.763Z",
+    "modification_date": "2019-05-03T16:04:46.763Z",
+    "name": "tombouctou",
+    "description": "",
+    "voice_label": 59
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 46,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.394Z",
+    "modification_date": "2019-05-03T16:07:50.394Z",
+    "name": "choice_region_milling",
+    "description": "",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 47,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.397Z",
+    "modification_date": "2019-05-03T16:07:50.397Z",
+    "name": "gao",
+    "description": "",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 48,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.399Z",
+    "modification_date": "2019-05-03T16:07:50.399Z",
+    "name": "kayes",
+    "description": "",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 49,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.403Z",
+    "modification_date": "2019-05-03T16:07:50.403Z",
+    "name": "kidal",
+    "description": "",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 50,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.405Z",
+    "modification_date": "2019-05-03T16:07:50.405Z",
+    "name": "koulikoro",
+    "description": "",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 51,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.408Z",
+    "modification_date": "2019-05-03T16:07:50.408Z",
+    "name": "menaka",
+    "description": "",
+    "voice_label": 54
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 52,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.410Z",
+    "modification_date": "2019-05-03T16:07:50.410Z",
+    "name": "mopti",
+    "description": "",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 53,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.412Z",
+    "modification_date": "2019-05-03T16:07:50.412Z",
+    "name": "segou",
+    "description": "",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 54,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.413Z",
+    "modification_date": "2019-05-03T16:07:50.414Z",
+    "name": "sikasso",
+    "description": "",
+    "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 55,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.415Z",
+    "modification_date": "2019-05-03T16:07:50.415Z",
+    "name": "taoudenit",
+    "description": "",
+    "voice_label": 58
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 56,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.419Z",
+    "modification_date": "2019-05-03T16:07:50.420Z",
+    "name": "tombouctou",
+    "description": "",
+    "voice_label": 59
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 57,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.465Z",
+    "modification_date": "2019-05-03T16:10:01.465Z",
+    "name": "choice_region_storage",
+    "description": "",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 58,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.471Z",
+    "modification_date": "2019-05-03T16:10:01.471Z",
+    "name": "gao",
+    "description": "",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 59,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.473Z",
+    "modification_date": "2019-05-03T16:10:01.473Z",
+    "name": "kayes",
+    "description": "",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 60,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.476Z",
+    "modification_date": "2019-05-03T16:10:01.476Z",
+    "name": "kidal",
+    "description": "",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 61,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.478Z",
+    "modification_date": "2019-05-03T16:10:01.478Z",
+    "name": "koulikoro",
+    "description": "",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 62,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.479Z",
+    "modification_date": "2019-05-03T16:10:01.479Z",
+    "name": "menaka",
+    "description": "",
+    "voice_label": 54
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 63,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.481Z",
+    "modification_date": "2019-05-03T16:10:01.481Z",
+    "name": "mopti",
+    "description": "",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 64,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.484Z",
+    "modification_date": "2019-05-03T16:10:01.484Z",
+    "name": "segou",
+    "description": "",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 65,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.487Z",
+    "modification_date": "2019-05-03T16:10:01.487Z",
+    "name": "sikasso",
+    "description": "",
+    "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 66,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.489Z",
+    "modification_date": "2019-05-03T16:10:01.489Z",
+    "name": "taoudenit",
+    "description": "",
+    "voice_label": 58
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 67,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.492Z",
+    "modification_date": "2019-05-03T16:10:01.492Z",
+    "name": "tombouctou",
+    "description": "",
+    "voice_label": 59
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 2,
   "fields": {}
@@ -1947,6 +2629,21 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 31,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 35,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 46,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 57,
   "fields": {}
 },
 {
@@ -2505,6 +3202,21 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 35,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 46,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 57,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 3,
   "fields": {
@@ -2549,7 +3261,7 @@
   "pk": 15,
   "fields": {
     "parent": 14,
-    "_redirect": 23
+    "_redirect": 35
   }
 },
 {
@@ -2565,7 +3277,7 @@
   "pk": 18,
   "fields": {
     "parent": 17,
-    "_redirect": 27
+    "_redirect": 46
   }
 },
 {
@@ -2581,7 +3293,7 @@
   "pk": 21,
   "fields": {
     "parent": 20,
-    "_redirect": 31
+    "_redirect": 57
   }
 },
 {
@@ -2662,6 +3374,246 @@
   "fields": {
     "parent": 31,
     "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 36,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 37,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 38,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 39,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 40,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 41,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 42,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 43,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 44,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 45,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 47,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 48,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 49,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 50,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 51,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 52,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 53,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 54,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 55,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 56,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 58,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 59,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 60,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 61,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 62,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 63,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 64,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 65,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 66,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 67,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
   }
 },
 {

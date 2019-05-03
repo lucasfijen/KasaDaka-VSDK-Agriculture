@@ -43,3 +43,14 @@ storage3,Part of a room. Located at Bougouni. 2 Malian franc per day,Une demi ch
 selected_storage,You have selected storage.,Vous avez sélectionné des moyen de transports,0
 selected_milling_devices,You have selected milling devices.,Vous avez sélectionné des fraiseuse,0
 selected_transport,You have selected transport.,Vous avez sélectionné d’espace de rangement,0
+region_kayes,Kayes,Kayes,0
+region_koulikoro,Koulikoro,Koulikoro,0
+region_sikasso,Sikasso,Sikasso,0
+region_segou,Ségou,Ségou,0
+region_mopti,Mopti,Mopti,0
+region_tombouctou,Tombouctou,Tombouctou,0
+region_gao,Gao,Gao,0
+region_kidal,Kidal,Kidal,0
+region_taoudenit,Taoudénit,Taoudénit,0
+region_menaka,Ménaka,Ménaka,0
+choose_region,In what region are you located?,Dans quelle région cherchez-vous ce produit?,0
