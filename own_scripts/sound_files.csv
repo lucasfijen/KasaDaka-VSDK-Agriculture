@@ -24,8 +24,8 @@ yes,yes,oui,1
 transport,transport,Moyen de transports,0
 milling_devices,Milling devices,Fraiseuse,0
 storage,storage,espace de rangement,0
-to_continue,to continue,continuer,0
-choose_differently,to choose a different category,choisir une catégorie différente,0
+to_continue,continue,continuer,0
+choose_differently,choose a different category,choisir une catégorie différente,0
 you_selected,you selected,vous avez sélectionné,0
 hear_offers,You will now hear several local offers:,Les offres locales sont,0
 select_offers,Please choose an offer by pressing the corresponding number on your phone.,"S'il vous plaît, choisir un offre par touchez le nummero de ce offre. ",0
@@ -54,6 +54,6 @@ region_kidal,Kidal,Kidal,0
 region_taoudenit,Taoudénit,Taoudénit,0
 region_menaka,Ménaka,Ménaka,0
 choose_region,In what region are you located?,Dans quelle région cherchez-vous ce produit?,0
-choose_offer_or_request, Do you want to use or share a product?, Voulez-vous utiliser ou partager un produit?, 0
-choose_offer, Share, Partager, 0
-choose_request, Use, Utiliser, 0
+choose_offer_or_request, Do you want to use a product or share a product?, Voulez-vous utiliser un produitou partager un produit?, 0
+choose_offer, Share a product, Partager un produit, 0
+choose_request, Use a product, Utiliser un produit, 0
