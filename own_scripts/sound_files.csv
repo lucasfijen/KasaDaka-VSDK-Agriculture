@@ -54,3 +54,6 @@ region_kidal,Kidal,Kidal,0
 region_taoudenit,Taoudénit,Taoudénit,0
 region_menaka,Ménaka,Ménaka,0
 choose_region,In what region are you located?,Dans quelle région cherchez-vous ce produit?,0
+choose_offer_or_request, Do you want to use or share a product?, Voulez-vous utiliser ou partager un produit?, 0
+choose_offer, Share, Partager, 0
+choose_request, Use, Utiliser, 0
