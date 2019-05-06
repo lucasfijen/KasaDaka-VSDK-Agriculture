@@ -2686,6 +2686,22 @@
   }
 },
 {
+  "model": "service_development.voiceservice",
+  "pk": 3,
+  "fields": {
+    "name": "test",
+    "description": "This is a test",
+    "creation_date": "2019-05-06T09:42:16.415Z",
+    "modification_date": "2019-05-06T09:42:16.415Z",
+    "active": false,
+    "_start_element": null,
+    "registration": "preferred",
+    "registration_language": true,
+    "registration_name": false,
+    "supported_languages": []
+  }
+},
+{
   "model": "service_development.kasadakauser",
   "pk": 1,
   "fields": {
