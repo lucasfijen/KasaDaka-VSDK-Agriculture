@@ -148,7 +148,7 @@
   "pk": 19,
   "fields": {
     "name": "Nine",
-    "description": null
+    "description": ""
   }
 },
 {
@@ -464,6 +464,30 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 60,
+  "fields": {
+    "name": "choose_request",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 61,
+  "fields": {
+    "name": "choose_offer",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 62,
+  "fields": {
+    "name": "choose_offer_request",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -645,7 +669,7 @@
   "pk": 16,
   "fields": {
     "parent": 19,
-    "language": 3,
+    "language": 2,
     "audio": "9_fr.wav"
   }
 },
@@ -654,7 +678,7 @@
   "pk": 17,
   "fields": {
     "parent": 19,
-    "language": 2,
+    "language": 3,
     "audio": "9_en.wav"
   }
 },
@@ -1775,6 +1799,60 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 143,
+  "fields": {
+    "parent": 60,
+    "language": 2,
+    "audio": "choose_request_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 144,
+  "fields": {
+    "parent": 60,
+    "language": 3,
+    "audio": "choose_request_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 145,
+  "fields": {
+    "parent": 61,
+    "language": 2,
+    "audio": "choose_offer_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 146,
+  "fields": {
+    "parent": 61,
+    "language": 3,
+    "audio": "choose_offer_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 147,
+  "fields": {
+    "parent": 62,
+    "language": 2,
+    "audio": "choose_offer_or_request_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 148,
+  "fields": {
+    "parent": 62,
+    "language": 3,
+    "audio": "choose_offer_or_request_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -1852,7 +1930,7 @@
   "fields": {
     "service": 2,
     "creation_date": "2019-05-01T15:29:00.903Z",
-    "modification_date": "2019-05-01T15:39:45.636Z",
+    "modification_date": "2019-05-06T12:34:46.671Z",
     "name": "Welcome",
     "description": "",
     "voice_label": 26
@@ -2567,6 +2645,42 @@
   }
 },
 {
+  "model": "service_development.voiceservicesubelement",
+  "pk": 68,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-06T11:54:10.267Z",
+    "modification_date": "2019-05-06T12:34:22.136Z",
+    "name": "choose_offer_request",
+    "description": "",
+    "voice_label": 62
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 69,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-06T11:54:10.279Z",
+    "modification_date": "2019-05-06T12:34:22.142Z",
+    "name": "request",
+    "description": "",
+    "voice_label": 60
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 70,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-06T11:54:10.286Z",
+    "modification_date": "2019-05-06T12:34:22.145Z",
+    "name": "offer",
+    "description": "",
+    "voice_label": 61
+  }
+},
+{
   "model": "service_development.voiceserviceelement",
   "pk": 2,
   "fields": {}
@@ -2644,6 +2758,11 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 57,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 68,
   "fields": {}
 },
 {
@@ -3233,6 +3352,11 @@
   "fields": {}
 },
 {
+  "model": "service_development.choice",
+  "pk": 68,
+  "fields": {}
+},
+{
   "model": "service_development.choiceoption",
   "pk": 3,
   "fields": {
@@ -3633,6 +3757,22 @@
   }
 },
 {
+  "model": "service_development.choiceoption",
+  "pk": 69,
+  "fields": {
+    "parent": 68,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 70,
+  "fields": {
+    "parent": 68,
+    "_redirect": 10
+  }
+},
+{
   "model": "service_development.messagepresentation",
   "pk": 5,
   "fields": {
@@ -3661,7 +3801,7 @@
   "pk": 8,
   "fields": {
     "final_element": false,
-    "_redirect": 10
+    "_redirect": 68
   }
 },
 {
