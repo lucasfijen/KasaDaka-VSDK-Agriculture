@@ -182,6 +182,8 @@ class SpokenUserInputAdmin(admin.ModelAdmin):
     def has_add_permission(self, request):
         return False
 
+class OfferAdmin(admin.ModelAdmin):
+    list_display = ('description', 'is_active')
 
 
 # Register your models here.
@@ -196,3 +198,4 @@ admin.site.register(VoiceLabel, VoiceLabelAdmin)
 admin.site.register(SpokenUserInput, SpokenUserInputAdmin)
 admin.site.register(UserInputCategory)
 admin.site.register(Record)
+admin.site.register(Offer, OfferAdmin)
