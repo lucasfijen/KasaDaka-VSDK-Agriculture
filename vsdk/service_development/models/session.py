@@ -9,6 +9,8 @@ from . import KasaDakaUser
 from . import VoiceService, VoiceServiceElement
 from . import Language
 
+from .region import Region 
+
 class CallSession(models.Model):
     start = models.DateTimeField(_('Starting time'),auto_now_add = True)
     #TODO: make some kind of handler when the Asterisk connection is closed, to officially end the session.
@@ -17,6 +19,7 @@ class CallSession(models.Model):
     caller_id = models.CharField(_('Caller ID'),max_length = 100, blank = True, null = True)
     service = models.ForeignKey(VoiceService, on_delete = models.SET_NULL, null = True)
     _language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
+    _region = models.ForeignKey(Region, on_delete = models.SET_NULL, null = True)
 
     class Meta:
         verbose_name = _('Call Session')

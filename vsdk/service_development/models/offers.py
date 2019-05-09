@@ -30,7 +30,8 @@ class Offer(models.Model):
 
 
     # Reference to the wav that describes the product 
-    description = models.IntegerField()
+    #description = models.IntegerField()
+    description = Entry.objects.get(pk=1)
 
     startdate = models.DateField(auto_now_add=True)
     enddate = models.DateField()
@@ -40,3 +41,7 @@ class Offer(models.Model):
     region = models.IntegerField()
     phonenumber = models.IntegerField()
 
+# class Description(models.Model):
+
+
+#     save()
