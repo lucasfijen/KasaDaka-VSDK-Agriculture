@@ -1,13 +1,13 @@
 {% extends "base.xml" %}
 {% block content%}
-<form id="region_form">
+<form id="regions">
 	<field name="region_field">
 		<prompt>
-			{% for region in regions %}
-			<audio src="{{ region.get_interface_voice_label_url_dict.pre_choice_option }}"/>
-			<audio src="{{ region.get_interface_voice_label_url_dict.voice_label }}"/>
-			<audio src="{{ region.get_interface_voice_label_url_dict.post_choice_option }}"/>
-			{% for number in region.get_interface_numbers_voice_label_url_list %}{% if forloop.counter0 == forloop.parentloop.counter %}<audio src="{{ number }}"/>{% endif %}{% endfor %}
+			{% for region_voice_lable in region_voice_labels %}
+			<audio src="{{ language.get_interface_voice_label_url_dict.pre_choice_option }}"/>
+			<audio src="{{ region_voice_lable }}"/>
+			<audio src="{{ language.get_interface_voice_label_url_dict.post_choice_option }}"/>
+			{% for number in language.get_interface_numbers_voice_label_url_list %}{% if forloop.counter0 == forloop.parentloop.counter %}<audio src="{{ number }}"/>{% endif %}{% endfor %}
 			{% endfor %}
 		</prompt>
 
@@ -23,23 +23,22 @@
    </grammar>
    {# when there has been input, save the corresponding URI in the given variable #}
    <filled>
-    {% for region in regions %}
+    {% for option_redirect in region_options_redirect_urls %}
       {% if forloop.counter == 1 %}
-      <if cond="region_field == '{{ forloop.counter }}'">
-		  <assign name="region_id" expr="'{{ region.id }}'"/>
+      <if cond="choice == '{{ forloop.counter }}'">
+	      {% comment %} TODO hoe doe je een url opzoeken als je nog niet weet welke class object je naar refereert? {% endcomment %}
+      <goto next="{{ option_redirect }}"/>
       {% else %}
-      <elseif cond="region_field == '{{ forloop.counter }}'" />
-      <assign name="region_id" expr="'{{ region.id }}'"/>
+      <elseif cond="choice == '{{ forloop.counter }}'" />
+      <goto next="{{ option_redirect }}" /> 
       {% endif %}
     {% endfor %}
 
     <else/>
     </if>
-    <goto next="#submit_form"/>
   </filled>
  </field>
 </form>
-
 
 <form id="submit_form">
 <block>
@@ -47,9 +46,10 @@
 	{% for key, value in pass_on_variables.items %}
 	<assign name="{{ key }}" expr="'{{ value }}'"/>
 	{% endfor %}
-	<submit next="{{ redirect_url }}" method="post" namelist="region_id {% for key, value in pass_on_variables.items %} {{ key }} {% endfor %}"/>
+	<submit next="{{region_options_redirect_urls}}" method="post" namelist="region_selected {% for key, value in pass_on_variables.items %} {{ key }} {% endfor %}"/>
 </block>
 </form>
 
 
 {% endblock %}
+
