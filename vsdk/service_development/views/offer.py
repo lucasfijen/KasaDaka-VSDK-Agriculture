@@ -2,9 +2,6 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404, redirec
 
 from ..models import *
 
-
-
-
 def create_requests(session):
     # language = session.language
     # product = session._product
@@ -13,7 +10,7 @@ def create_requests(session):
     product = 1
     region = 1
     offers = get_list_or_404(Offer, region = region, product_type = product)
-    print(len(offers))
+    offers = [offer for offer in offers if offer.is_active()]
     context = { 'offers': offers,
                 'questions': ['These are the offerse of',
                              'pruduct',
@@ -29,12 +26,6 @@ def offer(request, element_id, session_id):
 
     session = get_object_or_404(CallSession, pk=session_id)
     # session.record_step(offer_element)
-
-    # offers = get_list_or_404(Offer, region = 1, product_type = 1)
-    # print(offers[0].user_id)
-    # print(Offer.objects.filter(region = session.region, 
-    #                            product_type = session.product))
-    # raise Http404("Debugging")
     
     context = create_requests(session)
     
