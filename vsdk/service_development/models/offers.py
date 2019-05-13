@@ -39,7 +39,7 @@ class Offer(models.Model):
 
     # Reference to the wav that describes the product, for now redirects to voicelabel
     # TODO: change this to actual recorded instances
-    description = models.ForeignKey(
+    voice_label = models.ForeignKey(
             VoiceLabel,
             verbose_name = _('Voice label'),
             on_delete = models.SET_NULL,
