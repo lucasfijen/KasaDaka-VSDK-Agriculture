@@ -19,7 +19,7 @@ class CallSession(models.Model):
     caller_id = models.CharField(_('Caller ID'),max_length = 100, blank = True, null = True)
     service = models.ForeignKey(VoiceService, on_delete = models.SET_NULL, null = True)
     _language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
-    _region = models.ForeignKey(Region, on_delete = models.SET_NULL, null = True)
+    _region = models.ForeignKey(Region, on_delete = models.SET_NULL, null = True, blank = True)
 
     class Meta:
         verbose_name = _('Call Session')
