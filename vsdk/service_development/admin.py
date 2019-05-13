@@ -183,7 +183,7 @@ class SpokenUserInputAdmin(admin.ModelAdmin):
         return False
 
 class OfferAdmin(admin.ModelAdmin):
-    list_display = ('description', 'is_active')
+    list_display = ('name', 'product_type', 'region','user_id', 'is_active')
 
 
 # Register your models here.
