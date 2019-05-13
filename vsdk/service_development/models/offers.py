@@ -12,6 +12,10 @@ from . import Language
 import datetime
 from django.utils import timezone
 
+from .product import Product
+from .region import Region
+from .voicelabel import VoiceLabel
+
 
 class Offer(models.Model):
     _urls_name = 'service-development:offer'
@@ -20,7 +24,7 @@ class Offer(models.Model):
         verbose_name = _('Offer Element')
 
     def __str__(self):
-        return str(self.product_type) + str(self.region)
+        return str(self.name)
 
     def is_active(self):
         return self.enddate >= timezone.now().date()
@@ -28,18 +32,47 @@ class Offer(models.Model):
     is_active.boolean = True
     is_active.short_description = 'Is active?'
 
+    name = models.CharField(max_length = 255, null = True, blank = True)
 
-    # Reference to the wav that describes the product 
-    #description = models.IntegerField()
-    description = Entry.objects.get(pk=1)
-
-    startdate = models.DateField(auto_now_add=True)
+    startdate = models.DateField(auto_now_add = True)
     enddate = models.DateField()
 
-    product_type = models.IntegerField()
+    # Reference to the wav that describes the product, for now redirects to voicelabel
+    # TODO: change this to actual recorded instances
+    description = models.ForeignKey(
+            VoiceLabel,
+            verbose_name = _('Voice label'),
+            on_delete = models.SET_NULL,
+            null = True,
+            blank = True,
+            )
+
+    # Selects product type
+    product_type = models.ForeignKey(
+            Product,
+            verbose_name = _('Product type'),
+            on_delete = models.SET_NULL,
+            null = True,
+            blank = True,
+            )
+
     # ID towards the location field
-    region = models.IntegerField()
-    phonenumber = models.IntegerField()
+    region = models.ForeignKey(
+            Region,
+            verbose_name = _('Region'),
+            on_delete = models.SET_NULL,
+            null = True,
+            blank = True,
+            )
+
+    # Id to which user the offer belongs, gives information on phonenumber
+    user_id = models.ForeignKey(
+            KasaDakaUser,
+            verbose_name = _('Caller id'),
+            on_delete = models.CASCADE,
+            null = True,
+            blank = True,
+            )
 
 # class Description(models.Model):
 
