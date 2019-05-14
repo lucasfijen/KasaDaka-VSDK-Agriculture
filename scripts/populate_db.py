@@ -9,7 +9,7 @@ import os, glob
 # To Run: perform python manage.py runscript populate_db
 def run():
     # Read db
-    df = pd.read_csv('own_scripts/sound_files.csv')
+    df = pd.read_csv('scripts/sound_files.csv')
     folder = 'vsdk/uploads/'
     print('Performing text to speech')
     for i,row in df.iterrows():
