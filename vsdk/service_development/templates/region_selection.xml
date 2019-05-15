@@ -23,16 +23,16 @@
    </grammar>
    {# when there has been input, save the corresponding URI in the given variable #}
    <filled>
-    {% for option_redirect in region_options_redirect_urls %}
+    {% for region in regions %}
       {% if forloop.counter == 1 %}
-      <if cond="choice == '{{ forloop.counter }}'">
-	      {% comment %} TODO hoe doe je een url opzoeken als je nog niet weet welke class object je naar refereert? {% endcomment %}
-      <goto next="{{ option_redirect }}"/>
+      <if cond="region_field == '{{ forloop.counter }}'">
+		  <assign name="region_id" expr="'{{ region.id }}'"/>
       {% else %}
-      <elseif cond="choice == '{{ forloop.counter }}'" />
-      <goto next="{{ option_redirect }}" /> 
+      <elseif cond="region_field == '{{ forloop.counter }}'" />
+      <assign name="region_id" expr="'{{ region.id }}'"/>
       {% endif %}
     {% endfor %}
+
 
     <else/>
     </if>
@@ -48,7 +48,7 @@
 	{% for key, value in pass_on_variables.items %}
 	<assign name="{{ key }}" expr="'{{ value }}'"/>
 	{% endfor %}
-	<submit next="{{region_options_redirect_urls}}" method="post" namelist="region_selected {% for key, value in pass_on_variables.items %} {{ key }} {% endfor %}"/>
+	<submit next="{{region_options_redirect_urls}}" method="post" namelist="region_id {% for key, value in pass_on_variables.items %} {{ key }} {% endfor %}"/>
 </block>
 </form>
 

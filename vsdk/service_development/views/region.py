@@ -31,8 +31,8 @@ def region(request, session_id):
 
 class RegionSelection(TemplateView):
 
-    def render_region_selection_form(request, session, redirect_url):
-        regions = session.service.region.all()
+    def render_region_selection_form(self, request, session, redirect_url):
+        regions = get_list_or_404(Region)
 
         # This is the redirect URL to POST the region selected
         redirect_url_POST = reverse('service-development:region', args = [session.id])
@@ -40,9 +40,14 @@ class RegionSelection(TemplateView):
         # This is the redirect URL for *AFTER* the region selection process
         pass_on_variables = {'redirect_url' : redirect_url}
 
+        region_options =  Region.objects.values_list('region_name', flat=True)
+        language = get_object_or_404(Language, pk=2)
         context = {'regions' : regions,
+                    'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
+                    'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
                     'redirect_url' : redirect_url_POST,
-                    'pass_on_variables' : pass_on_variables
+                    'pass_on_variables' : pass_on_variables,
+                    'language': language
                     }
         return render(request, 'region_selection.xml', context, content_type='text/xml')
 
@@ -52,23 +57,25 @@ class RegionSelection(TemplateView):
         Asks the user to select one of the supported languages.
         """
         session = get_object_or_404(CallSession, pk = session_id)
-        voice_service = session.service
+        #voice_service = session.service
+        redirect_url = 'vxml/region_redirect/Gao'
         if 'redirect_url' in request.GET:
             redirect_url = request.GET['redirect_url']
         return self.render_region_selection_form(request, session, redirect_url)
 
-    def post(request, session_id):
+    def post(self, request, session_id):
         if 'region_options_redirect_urls' in request.POST:
-            redirect_url = request.POST['region_options_redirect_urlsredirect_url']
+            redirect_url = request.POST['region_options_redirect_urls']
         else: raise ValueError('Incorrect request, redirect_url not set')
         
         session = get_object_or_404(CallSession, pk = session_id)
         #voice_service = session.service
-        region = get_object_or_404(Region, pk = request.POST['region_name'])
+        region = get_object_or_404(Region, pk = request.POST['region_id'])
 
         session._region = region
         session.save()
+        print('done')
 
-        session.record_step(None, "Region selected, %s" % region.name)
+        #session.record_step(None, "Region selected, %s" % region.region_name)
 
         return HttpResponseRedirect(redirect_url)

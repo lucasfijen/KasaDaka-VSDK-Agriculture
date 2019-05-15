@@ -20,6 +20,7 @@ class CallSession(models.Model):
     service = models.ForeignKey(VoiceService, on_delete = models.SET_NULL, null = True)
     _language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
     _region = models.ForeignKey(Region, on_delete = models.SET_NULL, null = True, blank = True)
+    
 
     class Meta:
         verbose_name = _('Call Session')
