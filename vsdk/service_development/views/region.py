@@ -58,7 +58,7 @@ class RegionSelection(TemplateView):
         """
         session = get_object_or_404(CallSession, pk = session_id)
         #voice_service = session.service
-        redirect_url = 'vxml/region_redirect/Gao'
+        #redirect_url = 'vxml/region_redirect/Gao'
         if 'redirect_url' in request.GET:
             redirect_url = request.GET['redirect_url']
         return self.render_region_selection_form(request, session, redirect_url)
