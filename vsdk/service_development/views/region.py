@@ -5,29 +5,29 @@ from django.http.response import HttpResponseRedirect
 
 from ..models import *
 
-def region_generate_context(session):
+# def region_generate_context(session):
     
-    regions = get_list_or_404(Region)
-    region_options =  Region.objects.values_list('region_name', flat=True)
-    language = get_object_or_404(Language, pk=2)
-    context = {'region': regions,
-                'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
-                'region_options': region_options,
-                'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
-                'language': language
-                    }
-    return context
+#     regions = get_list_or_404(Region)
+#     region_options =  Region.objects.values_list('region_name', flat=True)
+#     language = get_object_or_404(Language, pk=2)
+#     context = {'region': regions,
+#                 'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
+#                 'region_options': region_options,
+#                 'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
+#                 'language': language
+#                     }
+#     return context
 
-def region(request, session_id):
-    #region_element = get_list_or_404(Region)
-    region_options =  Region.objects.values_list('region_name', flat=True)
-    print("hoi")
-    print(region_options[1])
-    session = get_object_or_404(CallSession, pk=session_id)
-    #session.record_step(choice_element)
-    context = region_generate_context(session)
+# def region(request, session_id):
+#     #region_element = get_list_or_404(Region)
+#     region_options =  Region.objects.values_list('region_name', flat=True)
+#     print("hoi")
+#     print(region_options[1])
+#     session = get_object_or_404(CallSession, pk=session_id)
+#     #session.record_step(choice_element)
+#     context = region_generate_context(session)
 
-    return render(request, 'region_selection.xml', context, content_type='text/xml')
+#     return render(request, 'region_selection.xml', context, content_type='text/xml')
 
 class RegionSelection(TemplateView):
 
@@ -44,7 +44,7 @@ class RegionSelection(TemplateView):
         language = get_object_or_404(Language, pk=2)
         context = {'regions' : regions,
                     'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
-                    'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
+                    # 'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
                     'redirect_url' : redirect_url_POST,
                     'pass_on_variables' : pass_on_variables,
                     'language': language
