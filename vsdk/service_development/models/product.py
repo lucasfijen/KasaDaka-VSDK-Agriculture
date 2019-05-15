@@ -12,7 +12,7 @@ from .voicelabel import VoiceLabel
 
 
 class Product(models.Model):
-    _urls_name = 'service-development:region'
+    _urls_name = 'service-development:product'
 
     class Meta:
         verbose_name = _('Product Element')
