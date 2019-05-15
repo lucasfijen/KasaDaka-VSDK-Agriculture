@@ -57,3 +57,5 @@ choose_region,In what region are you located?,Dans quelle région cherchez-vous 
 choose_offer_or_request, Do you want to use a product or share a product?, Voulez-vous utiliser un produitou partager un produit?, 0
 choose_offer, Share a product, Partager un produit, 0
 choose_request, Use a product, Utiliser un produit, 0
+pre_offers, These are the offers of, Ce sont les offres des, 0
+post_offers, in, a, 0

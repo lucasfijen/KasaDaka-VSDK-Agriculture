@@ -193,7 +193,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 26,
+  "pk": 108,
   "fields": {
     "name": "welcome",
     "description": null
@@ -201,7 +201,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 27,
+  "pk": 109,
   "fields": {
     "name": "category",
     "description": null
@@ -209,7 +209,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 28,
+  "pk": 110,
   "fields": {
     "name": "transport",
     "description": null
@@ -217,15 +217,15 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 29,
+  "pk": 111,
   "fields": {
-    "name": "milling devices",
+    "name": "milling_devices",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 30,
+  "pk": 112,
   "fields": {
     "name": "storage",
     "description": null
@@ -233,15 +233,15 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 31,
+  "pk": 113,
   "fields": {
-    "name": "to continue",
+    "name": "to_continue",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 32,
+  "pk": 114,
   "fields": {
     "name": "choose_differently",
     "description": null
@@ -249,39 +249,47 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 33,
+  "pk": 115,
   "fields": {
-    "name": "you selected",
+    "name": "you_selected",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 34,
+  "pk": 116,
   "fields": {
-    "name": "hear offers",
+    "name": "hear_offers",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 35,
+  "pk": 117,
   "fields": {
-    "name": "select offers",
+    "name": "select_offers",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 36,
+  "pk": 118,
   "fields": {
-    "name": "contact user",
+    "name": "contact_user",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 37,
+  "pk": 119,
+  "fields": {
+    "name": "phonenumber1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 120,
   "fields": {
     "name": "transport1",
     "description": null
@@ -289,7 +297,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 38,
+  "pk": 121,
   "fields": {
     "name": "transport2",
     "description": null
@@ -297,39 +305,39 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 39,
+  "pk": 122,
   "fields": {
-    "name": "transport 3",
+    "name": "transport3",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 40,
+  "pk": 123,
   "fields": {
-    "name": "milling device1",
+    "name": "milling_device1",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 41,
+  "pk": 124,
   "fields": {
-    "name": "milling device2",
+    "name": "milling_device2",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 42,
+  "pk": 125,
   "fields": {
-    "name": "milling device3",
+    "name": "milling_device3",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 43,
+  "pk": 126,
   "fields": {
     "name": "storage1",
     "description": null
@@ -337,7 +345,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 44,
+  "pk": 127,
   "fields": {
     "name": "storage2",
     "description": null
@@ -345,7 +353,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 45,
+  "pk": 128,
   "fields": {
     "name": "storage3",
     "description": null
@@ -353,47 +361,31 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 46,
+  "pk": 129,
   "fields": {
-    "name": "selected storage",
+    "name": "selected_storage",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 47,
+  "pk": 130,
   "fields": {
-    "name": "selected milling devices",
+    "name": "selected_milling_devices",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 48,
+  "pk": 131,
   "fields": {
-    "name": "selected transport",
+    "name": "selected_transport",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 49,
-  "fields": {
-    "name": "choose_region",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 50,
-  "fields": {
-    "name": "region_gao",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 51,
+  "pk": 132,
   "fields": {
     "name": "region_kayes",
     "description": null
@@ -401,15 +393,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 52,
-  "fields": {
-    "name": "region_kidal",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 53,
+  "pk": 133,
   "fields": {
     "name": "region_koulikoro",
     "description": null
@@ -417,31 +401,7 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 54,
-  "fields": {
-    "name": "region_menaka",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 55,
-  "fields": {
-    "name": "region_mopti",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 56,
-  "fields": {
-    "name": "region_segou",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
-  "pk": 57,
+  "pk": 134,
   "fields": {
     "name": "region_sikasso",
     "description": null
@@ -449,15 +409,23 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 58,
+  "pk": 135,
   "fields": {
-    "name": "region_taoudenit",
+    "name": "region_segou",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 59,
+  "pk": 136,
+  "fields": {
+    "name": "region_mopti",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 137,
   "fields": {
     "name": "region_tombouctou",
     "description": null
@@ -465,15 +433,55 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 60,
+  "pk": 138,
   "fields": {
-    "name": "choose_request",
+    "name": "region_gao",
     "description": null
   }
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 61,
+  "pk": 139,
+  "fields": {
+    "name": "region_kidal",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 140,
+  "fields": {
+    "name": "region_taoudenit",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 141,
+  "fields": {
+    "name": "region_menaka",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 142,
+  "fields": {
+    "name": "choose_region",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 143,
+  "fields": {
+    "name": "choose_offer_or_request",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 144,
   "fields": {
     "name": "choose_offer",
     "description": null
@@ -481,9 +489,25 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 62,
+  "pk": 145,
   "fields": {
-    "name": "choose_offer_request",
+    "name": "choose_request",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 146,
+  "fields": {
+    "name": "pre_offers",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 147,
+  "fields": {
+    "name": "post_offers",
     "description": null
   }
 },
@@ -1188,668 +1212,722 @@
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 75,
+  "pk": 153,
   "fields": {
-    "parent": 26,
+    "parent": 108,
     "language": 2,
     "audio": "welcome_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 76,
+  "pk": 154,
   "fields": {
-    "parent": 26,
-    "language": 3,
-    "audio": "welcome_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 77,
-  "fields": {
-    "parent": 27,
+    "parent": 109,
     "language": 2,
     "audio": "category_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 78,
+  "pk": 155,
   "fields": {
-    "parent": 27,
-    "language": 3,
-    "audio": "category_fr.wav"
+    "parent": 108,
+    "language": 2,
+    "audio": "lol"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 79,
+  "pk": 156,
   "fields": {
-    "parent": 28,
+    "parent": 108,
+    "language": 2,
+    "audio": ""
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 157,
+  "fields": {
+    "parent": 110,
     "language": 2,
     "audio": "transport_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 80,
+  "pk": 158,
   "fields": {
-    "parent": 28,
+    "parent": 110,
     "language": 3,
     "audio": "transport_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 81,
+  "pk": 159,
   "fields": {
-    "parent": 29,
+    "parent": 111,
     "language": 2,
     "audio": "milling_devices_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 82,
+  "pk": 160,
   "fields": {
-    "parent": 29,
+    "parent": 111,
     "language": 3,
     "audio": "milling_devices_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 83,
+  "pk": 161,
   "fields": {
-    "parent": 30,
+    "parent": 112,
     "language": 2,
     "audio": "storage_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 84,
+  "pk": 162,
   "fields": {
-    "parent": 30,
+    "parent": 112,
     "language": 3,
     "audio": "storage_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 85,
+  "pk": 163,
   "fields": {
-    "parent": 31,
+    "parent": 113,
     "language": 2,
     "audio": "to_continue_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 86,
+  "pk": 164,
   "fields": {
-    "parent": 31,
+    "parent": 113,
     "language": 3,
     "audio": "to_continue_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 87,
+  "pk": 165,
   "fields": {
-    "parent": 32,
+    "parent": 114,
     "language": 2,
     "audio": "choose_differently_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 88,
+  "pk": 166,
   "fields": {
-    "parent": 32,
+    "parent": 114,
     "language": 3,
     "audio": "choose_differently_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 89,
+  "pk": 167,
   "fields": {
-    "parent": 33,
+    "parent": 115,
     "language": 2,
     "audio": "you_selected_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 90,
+  "pk": 168,
   "fields": {
-    "parent": 33,
+    "parent": 115,
     "language": 3,
     "audio": "you_selected_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 91,
+  "pk": 169,
   "fields": {
-    "parent": 34,
+    "parent": 116,
     "language": 2,
     "audio": "hear_offers_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 92,
+  "pk": 170,
   "fields": {
-    "parent": 34,
+    "parent": 116,
     "language": 3,
     "audio": "hear_offers_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 93,
+  "pk": 171,
   "fields": {
-    "parent": 35,
+    "parent": 117,
     "language": 2,
     "audio": "select_offers_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 94,
+  "pk": 172,
   "fields": {
-    "parent": 35,
+    "parent": 117,
     "language": 3,
     "audio": "select_offers_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 95,
+  "pk": 173,
   "fields": {
-    "parent": 36,
+    "parent": 118,
     "language": 2,
     "audio": "contact_user_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 96,
+  "pk": 174,
   "fields": {
-    "parent": 36,
+    "parent": 118,
     "language": 3,
     "audio": "contact_user_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 97,
+  "pk": 175,
   "fields": {
-    "parent": 37,
+    "parent": 119,
+    "language": 2,
+    "audio": "phonenumber1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 176,
+  "fields": {
+    "parent": 119,
+    "language": 3,
+    "audio": "phonenumber1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 177,
+  "fields": {
+    "parent": 120,
     "language": 2,
     "audio": "transport1_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 98,
+  "pk": 178,
   "fields": {
-    "parent": 37,
+    "parent": 120,
     "language": 3,
     "audio": "transport1_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 99,
+  "pk": 179,
   "fields": {
-    "parent": 38,
+    "parent": 121,
     "language": 2,
     "audio": "transport2_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 100,
+  "pk": 180,
   "fields": {
-    "parent": 38,
+    "parent": 121,
     "language": 3,
     "audio": "transport2_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 101,
+  "pk": 181,
   "fields": {
-    "parent": 39,
+    "parent": 122,
     "language": 2,
     "audio": "transport3_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 102,
+  "pk": 182,
   "fields": {
-    "parent": 39,
+    "parent": 122,
     "language": 3,
     "audio": "transport3_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 103,
+  "pk": 183,
   "fields": {
-    "parent": 40,
+    "parent": 123,
     "language": 2,
     "audio": "milling_device1_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 104,
+  "pk": 184,
   "fields": {
-    "parent": 40,
+    "parent": 123,
     "language": 3,
     "audio": "milling_device1_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 105,
+  "pk": 185,
   "fields": {
-    "parent": 41,
+    "parent": 124,
     "language": 2,
     "audio": "milling_device2_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 106,
+  "pk": 186,
   "fields": {
-    "parent": 41,
+    "parent": 124,
     "language": 3,
     "audio": "milling_device2_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 107,
+  "pk": 187,
   "fields": {
-    "parent": 42,
+    "parent": 125,
     "language": 2,
     "audio": "milling_device3_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 108,
+  "pk": 188,
   "fields": {
-    "parent": 42,
+    "parent": 125,
     "language": 3,
     "audio": "milling_device3_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 109,
+  "pk": 189,
   "fields": {
-    "parent": 43,
+    "parent": 126,
     "language": 2,
     "audio": "storage1_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 110,
+  "pk": 190,
   "fields": {
-    "parent": 43,
+    "parent": 126,
     "language": 3,
     "audio": "storage1_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 111,
+  "pk": 191,
   "fields": {
-    "parent": 44,
+    "parent": 127,
     "language": 2,
     "audio": "storage2_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 112,
+  "pk": 192,
   "fields": {
-    "parent": 44,
+    "parent": 127,
     "language": 3,
     "audio": "storage2_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 113,
+  "pk": 193,
   "fields": {
-    "parent": 45,
+    "parent": 128,
     "language": 2,
     "audio": "storage3_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 114,
+  "pk": 194,
   "fields": {
-    "parent": 45,
+    "parent": 128,
     "language": 3,
     "audio": "storage3_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 115,
+  "pk": 195,
   "fields": {
-    "parent": 46,
+    "parent": 129,
     "language": 2,
     "audio": "selected_storage_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 116,
+  "pk": 196,
   "fields": {
-    "parent": 46,
+    "parent": 129,
     "language": 3,
     "audio": "selected_storage_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 117,
+  "pk": 197,
   "fields": {
-    "parent": 47,
+    "parent": 130,
     "language": 2,
     "audio": "selected_milling_devices_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 118,
+  "pk": 198,
   "fields": {
-    "parent": 47,
+    "parent": 130,
     "language": 3,
     "audio": "selected_milling_devices_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 119,
+  "pk": 199,
   "fields": {
-    "parent": 48,
+    "parent": 131,
     "language": 2,
     "audio": "selected_transport_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 120,
+  "pk": 200,
   "fields": {
-    "parent": 48,
+    "parent": 131,
     "language": 3,
     "audio": "selected_transport_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 121,
+  "pk": 201,
   "fields": {
-    "parent": 49,
-    "language": 2,
-    "audio": "choose_region_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 122,
-  "fields": {
-    "parent": 49,
-    "language": 3,
-    "audio": "choose_region_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 123,
-  "fields": {
-    "parent": 50,
-    "language": 2,
-    "audio": "region_gao_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 124,
-  "fields": {
-    "parent": 50,
-    "language": 3,
-    "audio": "region_gao_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 125,
-  "fields": {
-    "parent": 51,
+    "parent": 132,
     "language": 2,
     "audio": "region_kayes_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 126,
+  "pk": 202,
   "fields": {
-    "parent": 51,
+    "parent": 132,
     "language": 3,
     "audio": "region_kayes_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 127,
+  "pk": 203,
   "fields": {
-    "parent": 52,
-    "language": 2,
-    "audio": "region_kidal_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 128,
-  "fields": {
-    "parent": 52,
-    "language": 3,
-    "audio": "region_kidal_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 129,
-  "fields": {
-    "parent": 53,
+    "parent": 133,
     "language": 2,
     "audio": "region_koulikoro_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 130,
+  "pk": 204,
   "fields": {
-    "parent": 53,
+    "parent": 133,
     "language": 3,
     "audio": "region_koulikoro_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 131,
+  "pk": 205,
   "fields": {
-    "parent": 54,
-    "language": 2,
-    "audio": "region_menaka_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 132,
-  "fields": {
-    "parent": 54,
-    "language": 3,
-    "audio": "region_menaka_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 133,
-  "fields": {
-    "parent": 55,
-    "language": 2,
-    "audio": "region_mopti_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 134,
-  "fields": {
-    "parent": 55,
-    "language": 3,
-    "audio": "region_mopti_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 135,
-  "fields": {
-    "parent": 56,
-    "language": 2,
-    "audio": "region_segou_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 136,
-  "fields": {
-    "parent": 56,
-    "language": 3,
-    "audio": "region_segou_fr.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 137,
-  "fields": {
-    "parent": 57,
+    "parent": 134,
     "language": 2,
     "audio": "region_sikasso_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 138,
+  "pk": 206,
   "fields": {
-    "parent": 57,
+    "parent": 134,
     "language": 3,
     "audio": "region_sikasso_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 139,
+  "pk": 207,
   "fields": {
-    "parent": 58,
+    "parent": 135,
     "language": 2,
-    "audio": "region_taoudenit_en.wav"
+    "audio": "region_segou_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 140,
+  "pk": 208,
   "fields": {
-    "parent": 58,
+    "parent": 135,
     "language": 3,
-    "audio": "region_taoudenit_fr.wav"
+    "audio": "region_segou_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 141,
+  "pk": 209,
   "fields": {
-    "parent": 59,
+    "parent": 136,
+    "language": 2,
+    "audio": "region_mopti_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 210,
+  "fields": {
+    "parent": 136,
+    "language": 3,
+    "audio": "region_mopti_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 211,
+  "fields": {
+    "parent": 137,
     "language": 2,
     "audio": "region_tombouctou_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 142,
+  "pk": 212,
   "fields": {
-    "parent": 59,
+    "parent": 137,
     "language": 3,
     "audio": "region_tombouctou_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 143,
+  "pk": 213,
   "fields": {
-    "parent": 60,
+    "parent": 138,
     "language": 2,
-    "audio": "choose_request_en.wav"
+    "audio": "region_gao_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 144,
+  "pk": 214,
   "fields": {
-    "parent": 60,
+    "parent": 138,
     "language": 3,
-    "audio": "choose_request_fr.wav"
+    "audio": "region_gao_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 145,
+  "pk": 215,
   "fields": {
-    "parent": 61,
+    "parent": 139,
     "language": 2,
-    "audio": "choose_offer_en.wav"
+    "audio": "region_kidal_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 146,
+  "pk": 216,
   "fields": {
-    "parent": 61,
+    "parent": 139,
     "language": 3,
-    "audio": "choose_offer_fr.wav"
+    "audio": "region_kidal_fr.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 147,
+  "pk": 217,
   "fields": {
-    "parent": 62,
+    "parent": 140,
+    "language": 2,
+    "audio": "region_taoudenit_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 218,
+  "fields": {
+    "parent": 140,
+    "language": 3,
+    "audio": "region_taoudenit_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 219,
+  "fields": {
+    "parent": 141,
+    "language": 2,
+    "audio": "region_menaka_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 220,
+  "fields": {
+    "parent": 141,
+    "language": 3,
+    "audio": "region_menaka_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 221,
+  "fields": {
+    "parent": 142,
+    "language": 2,
+    "audio": "choose_region_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 222,
+  "fields": {
+    "parent": 142,
+    "language": 3,
+    "audio": "choose_region_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 223,
+  "fields": {
+    "parent": 143,
     "language": 2,
     "audio": "choose_offer_or_request_en.wav"
   }
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 148,
+  "pk": 224,
   "fields": {
-    "parent": 62,
+    "parent": 143,
     "language": 3,
     "audio": "choose_offer_or_request_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 225,
+  "fields": {
+    "parent": 144,
+    "language": 2,
+    "audio": "choose_offer_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 226,
+  "fields": {
+    "parent": 144,
+    "language": 3,
+    "audio": "choose_offer_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 227,
+  "fields": {
+    "parent": 145,
+    "language": 2,
+    "audio": "choose_request_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 228,
+  "fields": {
+    "parent": 145,
+    "language": 3,
+    "audio": "choose_request_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 229,
+  "fields": {
+    "parent": 146,
+    "language": 2,
+    "audio": "pre_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 230,
+  "fields": {
+    "parent": 146,
+    "language": 3,
+    "audio": "pre_offers_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 231,
+  "fields": {
+    "parent": 147,
+    "language": 2,
+    "audio": "post_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 232,
+  "fields": {
+    "parent": 147,
+    "language": 3,
+    "audio": "post_offers_fr.wav"
   }
 },
 {
@@ -1933,7 +2011,7 @@
     "modification_date": "2019-05-06T12:34:46.671Z",
     "name": "Welcome",
     "description": "",
-    "voice_label": 26
+    "voice_label": null
   }
 },
 {
@@ -1945,7 +2023,7 @@
     "modification_date": "2019-05-01T15:29:58.052Z",
     "name": "Contact user",
     "description": "",
-    "voice_label": 36
+    "voice_label": null
   }
 },
 {
@@ -1957,7 +2035,7 @@
     "modification_date": "2019-05-01T15:38:31.226Z",
     "name": "What product would you like?",
     "description": "",
-    "voice_label": 27
+    "voice_label": null
   }
 },
 {
@@ -1969,7 +2047,7 @@
     "modification_date": "2019-05-01T15:38:31.229Z",
     "name": "transport",
     "description": "",
-    "voice_label": 28
+    "voice_label": null
   }
 },
 {
@@ -1981,7 +2059,7 @@
     "modification_date": "2019-05-01T15:38:31.231Z",
     "name": "milling devices",
     "description": "",
-    "voice_label": 29
+    "voice_label": null
   }
 },
 {
@@ -1993,7 +2071,7 @@
     "modification_date": "2019-05-01T15:38:31.233Z",
     "name": "storage",
     "description": "",
-    "voice_label": 30
+    "voice_label": null
   }
 },
 {
@@ -2005,7 +2083,7 @@
     "modification_date": "2019-05-03T16:12:20.148Z",
     "name": "continue transport",
     "description": "",
-    "voice_label": 48
+    "voice_label": null
   }
 },
 {
@@ -2017,7 +2095,7 @@
     "modification_date": "2019-05-03T16:12:20.152Z",
     "name": "continue",
     "description": "",
-    "voice_label": 31
+    "voice_label": null
   }
 },
 {
@@ -2029,7 +2107,7 @@
     "modification_date": "2019-05-01T15:32:36.456Z",
     "name": "go back",
     "description": "",
-    "voice_label": 32
+    "voice_label": null
   }
 },
 {
@@ -2041,7 +2119,7 @@
     "modification_date": "2019-05-03T16:11:56.754Z",
     "name": "continue milling devices",
     "description": "",
-    "voice_label": 47
+    "voice_label": null
   }
 },
 {
@@ -2053,7 +2131,7 @@
     "modification_date": "2019-05-03T16:11:56.759Z",
     "name": "continue milling",
     "description": "",
-    "voice_label": 31
+    "voice_label": null
   }
 },
 {
@@ -2065,7 +2143,7 @@
     "modification_date": "2019-05-01T15:33:29.471Z",
     "name": "go back",
     "description": "",
-    "voice_label": 32
+    "voice_label": null
   }
 },
 {
@@ -2077,7 +2155,7 @@
     "modification_date": "2019-05-03T16:11:10.146Z",
     "name": "continue storage",
     "description": "",
-    "voice_label": 48
+    "voice_label": null
   }
 },
 {
@@ -2089,7 +2167,7 @@
     "modification_date": "2019-05-03T16:11:10.153Z",
     "name": "continue storage",
     "description": "",
-    "voice_label": 31
+    "voice_label": null
   }
 },
 {
@@ -2101,7 +2179,7 @@
     "modification_date": "2019-05-01T15:34:25.048Z",
     "name": "go back",
     "description": "",
-    "voice_label": 32
+    "voice_label": null
   }
 },
 {
@@ -2113,7 +2191,7 @@
     "modification_date": "2019-05-01T15:35:33.169Z",
     "name": "offers transport",
     "description": "",
-    "voice_label": 34
+    "voice_label": null
   }
 },
 {
@@ -2125,7 +2203,7 @@
     "modification_date": "2019-05-01T15:35:07.571Z",
     "name": "transport1",
     "description": "",
-    "voice_label": 37
+    "voice_label": null
   }
 },
 {
@@ -2137,7 +2215,7 @@
     "modification_date": "2019-05-01T15:35:07.575Z",
     "name": "transport2",
     "description": "",
-    "voice_label": 38
+    "voice_label": null
   }
 },
 {
@@ -2149,7 +2227,7 @@
     "modification_date": "2019-05-01T15:35:33.172Z",
     "name": "transport3",
     "description": "",
-    "voice_label": 39
+    "voice_label": null
   }
 },
 {
@@ -2161,7 +2239,7 @@
     "modification_date": "2019-05-01T15:36:23.750Z",
     "name": "offers milling devices",
     "description": "",
-    "voice_label": 34
+    "voice_label": null
   }
 },
 {
@@ -2173,7 +2251,7 @@
     "modification_date": "2019-05-01T15:36:23.754Z",
     "name": "milling1",
     "description": "",
-    "voice_label": 40
+    "voice_label": null
   }
 },
 {
@@ -2185,7 +2263,7 @@
     "modification_date": "2019-05-01T15:36:23.755Z",
     "name": "milling2",
     "description": "",
-    "voice_label": 41
+    "voice_label": null
   }
 },
 {
@@ -2197,7 +2275,7 @@
     "modification_date": "2019-05-01T15:36:23.757Z",
     "name": "milling3",
     "description": "",
-    "voice_label": 42
+    "voice_label": null
   }
 },
 {
@@ -2209,7 +2287,7 @@
     "modification_date": "2019-05-01T15:37:23.632Z",
     "name": "offers storage",
     "description": "",
-    "voice_label": 34
+    "voice_label": null
   }
 },
 {
@@ -2221,7 +2299,7 @@
     "modification_date": "2019-05-01T15:37:23.635Z",
     "name": "storage1",
     "description": "",
-    "voice_label": 43
+    "voice_label": null
   }
 },
 {
@@ -2233,7 +2311,7 @@
     "modification_date": "2019-05-01T15:37:23.637Z",
     "name": "storage2",
     "description": "",
-    "voice_label": 44
+    "voice_label": null
   }
 },
 {
@@ -2245,7 +2323,7 @@
     "modification_date": "2019-05-01T15:37:23.639Z",
     "name": "storage3",
     "description": "",
-    "voice_label": 45
+    "voice_label": null
   }
 },
 {
@@ -2257,7 +2335,7 @@
     "modification_date": "2019-05-03T16:05:20.637Z",
     "name": "choice_region_transport",
     "description": "",
-    "voice_label": 49
+    "voice_label": null
   }
 },
 {
@@ -2269,7 +2347,7 @@
     "modification_date": "2019-05-03T16:04:46.740Z",
     "name": "gao",
     "description": "",
-    "voice_label": 50
+    "voice_label": null
   }
 },
 {
@@ -2281,7 +2359,7 @@
     "modification_date": "2019-05-03T16:04:46.746Z",
     "name": "kayes",
     "description": "",
-    "voice_label": 51
+    "voice_label": null
   }
 },
 {
@@ -2293,7 +2371,7 @@
     "modification_date": "2019-05-03T16:04:46.748Z",
     "name": "kidal",
     "description": "",
-    "voice_label": 52
+    "voice_label": null
   }
 },
 {
@@ -2305,7 +2383,7 @@
     "modification_date": "2019-05-03T16:04:46.750Z",
     "name": "koulikoro",
     "description": "",
-    "voice_label": 53
+    "voice_label": null
   }
 },
 {
@@ -2317,7 +2395,7 @@
     "modification_date": "2019-05-03T16:04:46.754Z",
     "name": "menaka",
     "description": "",
-    "voice_label": 54
+    "voice_label": null
   }
 },
 {
@@ -2329,7 +2407,7 @@
     "modification_date": "2019-05-03T16:04:46.756Z",
     "name": "mopti",
     "description": "",
-    "voice_label": 55
+    "voice_label": null
   }
 },
 {
@@ -2341,7 +2419,7 @@
     "modification_date": "2019-05-03T16:04:46.758Z",
     "name": "segou",
     "description": "",
-    "voice_label": 56
+    "voice_label": null
   }
 },
 {
@@ -2353,7 +2431,7 @@
     "modification_date": "2019-05-03T16:04:46.759Z",
     "name": "sikasso",
     "description": "",
-    "voice_label": 57
+    "voice_label": null
   }
 },
 {
@@ -2365,7 +2443,7 @@
     "modification_date": "2019-05-03T16:04:46.761Z",
     "name": "taoudenit",
     "description": "",
-    "voice_label": 58
+    "voice_label": null
   }
 },
 {
@@ -2377,7 +2455,7 @@
     "modification_date": "2019-05-03T16:04:46.763Z",
     "name": "tombouctou",
     "description": "",
-    "voice_label": 59
+    "voice_label": null
   }
 },
 {
@@ -2389,7 +2467,7 @@
     "modification_date": "2019-05-03T16:07:50.394Z",
     "name": "choice_region_milling",
     "description": "",
-    "voice_label": 49
+    "voice_label": null
   }
 },
 {
@@ -2401,7 +2479,7 @@
     "modification_date": "2019-05-03T16:07:50.397Z",
     "name": "gao",
     "description": "",
-    "voice_label": 50
+    "voice_label": null
   }
 },
 {
@@ -2413,7 +2491,7 @@
     "modification_date": "2019-05-03T16:07:50.399Z",
     "name": "kayes",
     "description": "",
-    "voice_label": 51
+    "voice_label": null
   }
 },
 {
@@ -2425,7 +2503,7 @@
     "modification_date": "2019-05-03T16:07:50.403Z",
     "name": "kidal",
     "description": "",
-    "voice_label": 52
+    "voice_label": null
   }
 },
 {
@@ -2437,7 +2515,7 @@
     "modification_date": "2019-05-03T16:07:50.405Z",
     "name": "koulikoro",
     "description": "",
-    "voice_label": 53
+    "voice_label": null
   }
 },
 {
@@ -2449,7 +2527,7 @@
     "modification_date": "2019-05-03T16:07:50.408Z",
     "name": "menaka",
     "description": "",
-    "voice_label": 54
+    "voice_label": null
   }
 },
 {
@@ -2461,7 +2539,7 @@
     "modification_date": "2019-05-03T16:07:50.410Z",
     "name": "mopti",
     "description": "",
-    "voice_label": 55
+    "voice_label": null
   }
 },
 {
@@ -2473,7 +2551,7 @@
     "modification_date": "2019-05-03T16:07:50.412Z",
     "name": "segou",
     "description": "",
-    "voice_label": 56
+    "voice_label": null
   }
 },
 {
@@ -2485,7 +2563,7 @@
     "modification_date": "2019-05-03T16:07:50.414Z",
     "name": "sikasso",
     "description": "",
-    "voice_label": 57
+    "voice_label": null
   }
 },
 {
@@ -2497,7 +2575,7 @@
     "modification_date": "2019-05-03T16:07:50.415Z",
     "name": "taoudenit",
     "description": "",
-    "voice_label": 58
+    "voice_label": null
   }
 },
 {
@@ -2509,7 +2587,7 @@
     "modification_date": "2019-05-03T16:07:50.420Z",
     "name": "tombouctou",
     "description": "",
-    "voice_label": 59
+    "voice_label": null
   }
 },
 {
@@ -2521,7 +2599,7 @@
     "modification_date": "2019-05-03T16:10:01.465Z",
     "name": "choice_region_storage",
     "description": "",
-    "voice_label": 49
+    "voice_label": null
   }
 },
 {
@@ -2533,7 +2611,7 @@
     "modification_date": "2019-05-03T16:10:01.471Z",
     "name": "gao",
     "description": "",
-    "voice_label": 50
+    "voice_label": null
   }
 },
 {
@@ -2545,7 +2623,7 @@
     "modification_date": "2019-05-03T16:10:01.473Z",
     "name": "kayes",
     "description": "",
-    "voice_label": 51
+    "voice_label": null
   }
 },
 {
@@ -2557,7 +2635,7 @@
     "modification_date": "2019-05-03T16:10:01.476Z",
     "name": "kidal",
     "description": "",
-    "voice_label": 52
+    "voice_label": null
   }
 },
 {
@@ -2569,7 +2647,7 @@
     "modification_date": "2019-05-03T16:10:01.478Z",
     "name": "koulikoro",
     "description": "",
-    "voice_label": 53
+    "voice_label": null
   }
 },
 {
@@ -2581,7 +2659,7 @@
     "modification_date": "2019-05-03T16:10:01.479Z",
     "name": "menaka",
     "description": "",
-    "voice_label": 54
+    "voice_label": null
   }
 },
 {
@@ -2593,7 +2671,7 @@
     "modification_date": "2019-05-03T16:10:01.481Z",
     "name": "mopti",
     "description": "",
-    "voice_label": 55
+    "voice_label": null
   }
 },
 {
@@ -2605,7 +2683,7 @@
     "modification_date": "2019-05-03T16:10:01.484Z",
     "name": "segou",
     "description": "",
-    "voice_label": 56
+    "voice_label": null
   }
 },
 {
@@ -2617,7 +2695,7 @@
     "modification_date": "2019-05-03T16:10:01.487Z",
     "name": "sikasso",
     "description": "",
-    "voice_label": 57
+    "voice_label": null
   }
 },
 {
@@ -2629,7 +2707,7 @@
     "modification_date": "2019-05-03T16:10:01.489Z",
     "name": "taoudenit",
     "description": "",
-    "voice_label": 58
+    "voice_label": null
   }
 },
 {
@@ -2641,7 +2719,7 @@
     "modification_date": "2019-05-03T16:10:01.492Z",
     "name": "tombouctou",
     "description": "",
-    "voice_label": 59
+    "voice_label": null
   }
 },
 {
@@ -2653,7 +2731,7 @@
     "modification_date": "2019-05-06T12:34:22.136Z",
     "name": "choose_offer_request",
     "description": "",
-    "voice_label": 62
+    "voice_label": null
   }
 },
 {
@@ -2665,7 +2743,7 @@
     "modification_date": "2019-05-06T12:34:22.142Z",
     "name": "request",
     "description": "",
-    "voice_label": 60
+    "voice_label": null
   }
 },
 {
@@ -2677,7 +2755,7 @@
     "modification_date": "2019-05-06T12:34:22.145Z",
     "name": "offer",
     "description": "",
-    "voice_label": 61
+    "voice_label": null
   }
 },
 {
@@ -3257,6 +3335,258 @@
   }
 },
 {
+  "model": "service_development.callsession",
+  "pk": 33,
+  "fields": {
+    "start": "2019-05-13T12:57:30.689Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 34,
+  "fields": {
+    "start": "2019-05-13T12:57:32.681Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 35,
+  "fields": {
+    "start": "2019-05-13T12:57:43.925Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 36,
+  "fields": {
+    "start": "2019-05-13T12:57:54.297Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 37,
+  "fields": {
+    "start": "2019-05-13T12:58:04.408Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 38,
+  "fields": {
+    "start": "2019-05-13T12:58:05.466Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 39,
+  "fields": {
+    "start": "2019-05-13T12:59:28.782Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 40,
+  "fields": {
+    "start": "2019-05-13T12:59:39.101Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 41,
+  "fields": {
+    "start": "2019-05-13T13:00:24.749Z",
+    "end": null,
+    "user": 2,
+    "caller_id": "123",
+    "service": 2,
+    "_language": 2
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 42,
+  "fields": {
+    "start": "2019-05-13T13:02:03.144Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 43,
+  "fields": {
+    "start": "2019-05-13T13:02:14.466Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1234",
+    "service": 1,
+    "_language": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 44,
+  "fields": {
+    "start": "2019-05-13T13:02:33.831Z",
+    "end": "2019-05-13T13:07:27.212Z",
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 45,
+  "fields": {
+    "start": "2019-05-13T13:02:44.558Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 46,
+  "fields": {
+    "start": "2019-05-13T13:03:12.711Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 47,
+  "fields": {
+    "start": "2019-05-13T13:03:47.188Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 48,
+  "fields": {
+    "start": "2019-05-13T13:04:22.694Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 49,
+  "fields": {
+    "start": "2019-05-13T13:04:29.181Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 50,
+  "fields": {
+    "start": "2019-05-13T13:05:15.680Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 51,
+  "fields": {
+    "start": "2019-05-13T13:05:21.544Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 52,
+  "fields": {
+    "start": "2019-05-13T13:05:25.951Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 53,
+  "fields": {
+    "start": "2019-05-13T13:05:29.806Z",
+    "end": null,
+    "user": null,
+    "caller_id": "123",
+    "service": 1,
+    "_language": null
+  }
+},
+{
   "model": "service_development.callsessionstep",
   "pk": 1,
   "fields": {
@@ -3292,6 +3622,26 @@
   "fields": {
     "time": "2019-05-01T11:38:50.579Z",
     "session": 16,
+    "_visited_element": 2,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 5,
+  "fields": {
+    "time": "2019-05-13T13:02:33.930Z",
+    "session": 44,
+    "_visited_element": 2,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 6,
+  "fields": {
+    "time": "2019-05-13T13:07:27.239Z",
+    "session": 44,
     "_visited_element": 2,
     "description": null
   }
@@ -3810,6 +4160,61 @@
   "fields": {
     "final_element": true,
     "_redirect": null
+  }
+},
+{
+  "model": "service_development.product",
+  "pk": 1,
+  "fields": {
+    "product_name": "Milling Devices",
+    "voice_label": 111
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 1,
+  "fields": {
+    "region_name": "Gao",
+    "voice_label": 138
+  }
+},
+{
+  "model": "service_development.offer",
+  "pk": 1,
+  "fields": {
+    "name": "Molen",
+    "startdate": "2019-05-08",
+    "enddate": "2019-05-22",
+    "voice_label": 123,
+    "product_type": 1,
+    "region": 1,
+    "user_id": 2
+  }
+},
+{
+  "model": "service_development.offer",
+  "pk": 2,
+  "fields": {
+    "name": "Molen2.0",
+    "startdate": "2019-05-13",
+    "enddate": "2019-05-31",
+    "voice_label": 124,
+    "product_type": 1,
+    "region": 1,
+    "user_id": 2
+  }
+},
+{
+  "model": "service_development.offer",
+  "pk": 3,
+  "fields": {
+    "name": "inactive_molen",
+    "startdate": "2019-05-13",
+    "enddate": "2019-05-13",
+    "voice_label": 125,
+    "product_type": 1,
+    "region": 1,
+    "user_id": 2
   }
 }
 ]
