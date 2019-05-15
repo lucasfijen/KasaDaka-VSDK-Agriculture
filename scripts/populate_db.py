@@ -25,7 +25,8 @@ def run():
             sound = AudioSegment.from_mp3(folder+file)
             sound = sound.set_channels(1)
             sound = sound.set_frame_rate(8000)
-            os.remove(folder+filename+'.wav')
+            if os.path.exists(folder+filename+'.wav'):
+                os.remove(folder+filename+'.wav')
             sound.export(folder + filename + '.wav', format="wav", bitrate=16, codec='s16le')
             os.remove(folder+file)
     

@@ -59,3 +59,5 @@ choose_offer, Share a product, Partager un produit, 0
 choose_request, Use a product, Utiliser un produit, 0
 pre_offers, These are the offers of, Ce sont les offres des, 0
 post_offers, in, a, 0
+pre_offer_voice, We will now redirect you to the following number: , Nous allons maintenant vous rediriger vers le numéro:, 0
+post_offer_voice, We will also send you this phonenumber through SMS., Nous vous enverrons aussi ce numéro de téléphone par SMS., 0

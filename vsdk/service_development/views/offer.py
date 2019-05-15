@@ -3,12 +3,9 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404, redirec
 from ..models import *
 
 def create_requests(session):
-    # language = session.language
-    # product = session._product
-    # region = session._region
-    language = get_object_or_404(Language, pk=2)
-    product = get_object_or_404(Product, pk=1)
-    region = get_object_or_404(Region, pk=1)
+    language = session._language
+    product = session._product
+    region = session._region
     offers = get_list_or_404(Offer, region = region, product_type = product)
     offers = [offer for offer in offers if offer.is_active()]
     questions = [get_object_or_404(VoiceLabel, name='pre_offers'), \
@@ -24,24 +21,29 @@ def create_requests(session):
     return context
 
 def offer(request, session_id):
-
+    """ Page to show the offers given the product and region,
+        someone selected earlier
+        """
     session = get_object_or_404(CallSession, pk=session_id)
-    session.record_step(None, 'Showed the offers')
-    
     context = create_requests(session)
-    
     return render(request, 'offer.xml', context, content_type='text/xml')
 
+def number_to_url_list(language, number):
+    numberurls = language.get_interface_numbers_voice_label_url_list
+    number = str(number)
+    return [numberurls[int(n)] for n in number]
 
 def show_offer(request, session_id, offer_id):
-
+    """ Page to return the phone number and redirect"""
     session = get_object_or_404(CallSession, pk=session_id)
-    session.record_step(None, 'Showing offer %s' % offer_id)
-    offer = get_object_or_404(Offer, pk=offer_id)
 
-    context  = {'pre_offer_voice': get_object_or_404(VoiceLabel, name='pre_offer_voice').get_voice_gragment_url(language),
-                'number': ['listofnumbers'],
-                'post_offer_voice': get_object_or_404(VoiceLabel, name='post_offer_voice').get_voice_gragment_url(language),
+    offer = get_object_or_404(Offer, pk=offer_id)
+    language = session._language
+    number = session.caller_id
+    
+    context  = {'pre_offer_voice': get_object_or_404(VoiceLabel, name='pre_offer_voice').get_voice_fragment_url(language),
+                'number': number_to_url_list(language, number),
+                'post_offer_voice': get_object_or_404(VoiceLabel, name='post_offer_voice').get_voice_fragment_url(language),
                 }
 
     return render(request, 'show_offer.xml', context, content_type='text/xml')
