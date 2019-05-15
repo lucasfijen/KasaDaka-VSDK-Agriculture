@@ -1,0 +1,3870 @@
+[
+{
+  "model": "service_development.voicelabel",
+  "pk": 1,
+  "fields": {
+    "name": "Dutch language",
+    "description": "Nederlandse taal"
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 2,
+  "fields": {
+    "name": "General error message",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 3,
+  "fields": {
+    "name": "This is the truth",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 4,
+  "fields": {
+    "name": "English language",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 5,
+  "fields": {
+    "name": "Thank you for using this service",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 6,
+  "fields": {
+    "name": "Wow, it must be a really boring guy!",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 7,
+  "fields": {
+    "name": "French language",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 8,
+  "fields": {
+    "name": "Please select your language",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 9,
+  "fields": {
+    "name": "Pre Choice Option",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 10,
+  "fields": {
+    "name": "Post Choice Option",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 11,
+  "fields": {
+    "name": "One",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 12,
+  "fields": {
+    "name": "Two",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 13,
+  "fields": {
+    "name": "Three",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 14,
+  "fields": {
+    "name": "Four",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 15,
+  "fields": {
+    "name": "Five",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 16,
+  "fields": {
+    "name": "Six",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 17,
+  "fields": {
+    "name": "Seven",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 18,
+  "fields": {
+    "name": "Eight",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 19,
+  "fields": {
+    "name": "Nine",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 20,
+  "fields": {
+    "name": "Zero",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 21,
+  "fields": {
+    "name": "Yes",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 22,
+  "fields": {
+    "name": "No",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 23,
+  "fields": {
+    "name": "Does the king like to drink beer?",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 25,
+  "fields": {
+    "name": "Please speak your message",
+    "description": ""
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 26,
+  "fields": {
+    "name": "welcome",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 27,
+  "fields": {
+    "name": "category",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 28,
+  "fields": {
+    "name": "transport",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 29,
+  "fields": {
+    "name": "milling devices",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 30,
+  "fields": {
+    "name": "storage",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 31,
+  "fields": {
+    "name": "to continue",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 32,
+  "fields": {
+    "name": "choose_differently",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 33,
+  "fields": {
+    "name": "you selected",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 34,
+  "fields": {
+    "name": "hear offers",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 35,
+  "fields": {
+    "name": "select offers",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 36,
+  "fields": {
+    "name": "contact user",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 37,
+  "fields": {
+    "name": "transport1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 38,
+  "fields": {
+    "name": "transport2",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 39,
+  "fields": {
+    "name": "transport 3",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 40,
+  "fields": {
+    "name": "milling device1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 41,
+  "fields": {
+    "name": "milling device2",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 42,
+  "fields": {
+    "name": "milling device3",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 43,
+  "fields": {
+    "name": "storage1",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 44,
+  "fields": {
+    "name": "storage2",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 45,
+  "fields": {
+    "name": "storage3",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 46,
+  "fields": {
+    "name": "selected storage",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 47,
+  "fields": {
+    "name": "selected milling devices",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 48,
+  "fields": {
+    "name": "selected transport",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 49,
+  "fields": {
+    "name": "choose_region",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 50,
+  "fields": {
+    "name": "region_gao",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 51,
+  "fields": {
+    "name": "region_kayes",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 52,
+  "fields": {
+    "name": "region_kidal",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 53,
+  "fields": {
+    "name": "region_koulikoro",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 54,
+  "fields": {
+    "name": "region_menaka",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 55,
+  "fields": {
+    "name": "region_mopti",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 56,
+  "fields": {
+    "name": "region_segou",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 57,
+  "fields": {
+    "name": "region_sikasso",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 58,
+  "fields": {
+    "name": "region_taoudenit",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 59,
+  "fields": {
+    "name": "region_tombouctou",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 60,
+  "fields": {
+    "name": "choose_request",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 61,
+  "fields": {
+    "name": "choose_offer",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 62,
+  "fields": {
+    "name": "choose_offer_request",
+    "description": null
+  }
+},
+{
+  "model": "service_development.language",
+  "pk": 1,
+  "fields": {
+    "name": "Nederlands",
+    "code": "nl",
+    "voice_label": 1,
+    "error_message": 2,
+    "select_language": 8,
+    "pre_choice_option": 9,
+    "post_choice_option": 10,
+    "one": 11,
+    "two": 12,
+    "three": 13,
+    "four": 14,
+    "five": 15,
+    "six": 16,
+    "seven": 17,
+    "eight": 18,
+    "nine": 19,
+    "zero": 20
+  }
+},
+{
+  "model": "service_development.language",
+  "pk": 2,
+  "fields": {
+    "name": "English",
+    "code": "en",
+    "voice_label": 4,
+    "error_message": 2,
+    "select_language": 8,
+    "pre_choice_option": 9,
+    "post_choice_option": 10,
+    "one": 11,
+    "two": 12,
+    "three": 13,
+    "four": 14,
+    "five": 15,
+    "six": 16,
+    "seven": 17,
+    "eight": 18,
+    "nine": 19,
+    "zero": 20
+  }
+},
+{
+  "model": "service_development.language",
+  "pk": 3,
+  "fields": {
+    "name": "Francais",
+    "code": "fr",
+    "voice_label": 7,
+    "error_message": 2,
+    "select_language": 8,
+    "pre_choice_option": 9,
+    "post_choice_option": 10,
+    "one": 11,
+    "two": 12,
+    "three": 13,
+    "four": 14,
+    "five": 15,
+    "six": 16,
+    "seven": 17,
+    "eight": 18,
+    "nine": 19,
+    "zero": 20
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 1,
+  "fields": {
+    "parent": 6,
+    "language": 2,
+    "audio": "boring_guy_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 2,
+  "fields": {
+    "parent": 6,
+    "language": 1,
+    "audio": "boring_guy_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 6,
+  "fields": {
+    "parent": 22,
+    "language": 1,
+    "audio": "no_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 7,
+  "fields": {
+    "parent": 22,
+    "language": 2,
+    "audio": "no_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 8,
+  "fields": {
+    "parent": 22,
+    "language": 3,
+    "audio": "no_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 9,
+  "fields": {
+    "parent": 21,
+    "language": 1,
+    "audio": "yes_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 10,
+  "fields": {
+    "parent": 21,
+    "language": 2,
+    "audio": "yes_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 11,
+  "fields": {
+    "parent": 21,
+    "language": 3,
+    "audio": "yes_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 12,
+  "fields": {
+    "parent": 20,
+    "language": 1,
+    "audio": "0_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 13,
+  "fields": {
+    "parent": 20,
+    "language": 2,
+    "audio": "0_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 14,
+  "fields": {
+    "parent": 20,
+    "language": 3,
+    "audio": "0_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 15,
+  "fields": {
+    "parent": 19,
+    "language": 1,
+    "audio": "9_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 16,
+  "fields": {
+    "parent": 19,
+    "language": 2,
+    "audio": "9_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 17,
+  "fields": {
+    "parent": 19,
+    "language": 3,
+    "audio": "9_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 18,
+  "fields": {
+    "parent": 18,
+    "language": 1,
+    "audio": "8_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 19,
+  "fields": {
+    "parent": 18,
+    "language": 2,
+    "audio": "8_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 20,
+  "fields": {
+    "parent": 18,
+    "language": 3,
+    "audio": "8_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 21,
+  "fields": {
+    "parent": 17,
+    "language": 1,
+    "audio": "7_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 22,
+  "fields": {
+    "parent": 17,
+    "language": 2,
+    "audio": "7_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 23,
+  "fields": {
+    "parent": 17,
+    "language": 3,
+    "audio": "7_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 24,
+  "fields": {
+    "parent": 16,
+    "language": 1,
+    "audio": "6_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 25,
+  "fields": {
+    "parent": 16,
+    "language": 2,
+    "audio": "6_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 26,
+  "fields": {
+    "parent": 16,
+    "language": 3,
+    "audio": "6_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 27,
+  "fields": {
+    "parent": 15,
+    "language": 1,
+    "audio": "5_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 28,
+  "fields": {
+    "parent": 15,
+    "language": 2,
+    "audio": "5_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 29,
+  "fields": {
+    "parent": 15,
+    "language": 3,
+    "audio": "5_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 30,
+  "fields": {
+    "parent": 14,
+    "language": 1,
+    "audio": "4_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 31,
+  "fields": {
+    "parent": 14,
+    "language": 2,
+    "audio": "4_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 32,
+  "fields": {
+    "parent": 14,
+    "language": 3,
+    "audio": "4_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 33,
+  "fields": {
+    "parent": 13,
+    "language": 1,
+    "audio": "3_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 34,
+  "fields": {
+    "parent": 13,
+    "language": 2,
+    "audio": "3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 35,
+  "fields": {
+    "parent": 13,
+    "language": 3,
+    "audio": "3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 36,
+  "fields": {
+    "parent": 12,
+    "language": 1,
+    "audio": "2_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 37,
+  "fields": {
+    "parent": 12,
+    "language": 2,
+    "audio": "2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 38,
+  "fields": {
+    "parent": 12,
+    "language": 3,
+    "audio": "2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 39,
+  "fields": {
+    "parent": 11,
+    "language": 1,
+    "audio": "1_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 40,
+  "fields": {
+    "parent": 11,
+    "language": 2,
+    "audio": "1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 41,
+  "fields": {
+    "parent": 11,
+    "language": 3,
+    "audio": "1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 42,
+  "fields": {
+    "parent": 10,
+    "language": 1,
+    "audio": "post_choice_option_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 43,
+  "fields": {
+    "parent": 10,
+    "language": 2,
+    "audio": "post_choice_option_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 44,
+  "fields": {
+    "parent": 10,
+    "language": 3,
+    "audio": "post_choice_option_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 45,
+  "fields": {
+    "parent": 9,
+    "language": 1,
+    "audio": "pre_choice_option_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 46,
+  "fields": {
+    "parent": 9,
+    "language": 2,
+    "audio": "pre_choice_option_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 47,
+  "fields": {
+    "parent": 9,
+    "language": 3,
+    "audio": "pre_choice_option_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 48,
+  "fields": {
+    "parent": 8,
+    "language": 1,
+    "audio": "select_language_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 49,
+  "fields": {
+    "parent": 8,
+    "language": 2,
+    "audio": "select_language_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 50,
+  "fields": {
+    "parent": 8,
+    "language": 3,
+    "audio": "select_language_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 51,
+  "fields": {
+    "parent": 7,
+    "language": 1,
+    "audio": "french_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 52,
+  "fields": {
+    "parent": 7,
+    "language": 2,
+    "audio": "french_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 53,
+  "fields": {
+    "parent": 7,
+    "language": 3,
+    "audio": "french_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 54,
+  "fields": {
+    "parent": 6,
+    "language": 3,
+    "audio": "boring_guy_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 55,
+  "fields": {
+    "parent": 5,
+    "language": 1,
+    "audio": "thank_you_for_using_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 56,
+  "fields": {
+    "parent": 5,
+    "language": 2,
+    "audio": "thank_you_for_using_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 57,
+  "fields": {
+    "parent": 5,
+    "language": 3,
+    "audio": "thank_you_for_using_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 58,
+  "fields": {
+    "parent": 4,
+    "language": 1,
+    "audio": "english_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 59,
+  "fields": {
+    "parent": 4,
+    "language": 2,
+    "audio": "english_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 60,
+  "fields": {
+    "parent": 4,
+    "language": 3,
+    "audio": "english_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 61,
+  "fields": {
+    "parent": 3,
+    "language": 1,
+    "audio": "truth_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 62,
+  "fields": {
+    "parent": 3,
+    "language": 2,
+    "audio": "truth_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 63,
+  "fields": {
+    "parent": 3,
+    "language": 3,
+    "audio": "truth_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 64,
+  "fields": {
+    "parent": 2,
+    "language": 1,
+    "audio": "error_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 65,
+  "fields": {
+    "parent": 2,
+    "language": 2,
+    "audio": "error_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 66,
+  "fields": {
+    "parent": 2,
+    "language": 3,
+    "audio": "error_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 67,
+  "fields": {
+    "parent": 1,
+    "language": 1,
+    "audio": "dutch_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 68,
+  "fields": {
+    "parent": 1,
+    "language": 2,
+    "audio": "dutch_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 69,
+  "fields": {
+    "parent": 1,
+    "language": 3,
+    "audio": "dutch_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 70,
+  "fields": {
+    "parent": 23,
+    "language": 1,
+    "audio": "king_question_nl.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 71,
+  "fields": {
+    "parent": 23,
+    "language": 2,
+    "audio": "king_question_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 72,
+  "fields": {
+    "parent": 23,
+    "language": 3,
+    "audio": "king_question_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 74,
+  "fields": {
+    "parent": 25,
+    "language": 3,
+    "audio": "speakYourMessage.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 75,
+  "fields": {
+    "parent": 26,
+    "language": 2,
+    "audio": "welcome_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 76,
+  "fields": {
+    "parent": 26,
+    "language": 3,
+    "audio": "welcome_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 77,
+  "fields": {
+    "parent": 27,
+    "language": 2,
+    "audio": "category_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 78,
+  "fields": {
+    "parent": 27,
+    "language": 3,
+    "audio": "category_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 79,
+  "fields": {
+    "parent": 28,
+    "language": 2,
+    "audio": "transport_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 80,
+  "fields": {
+    "parent": 28,
+    "language": 3,
+    "audio": "transport_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 81,
+  "fields": {
+    "parent": 29,
+    "language": 2,
+    "audio": "milling_devices_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 82,
+  "fields": {
+    "parent": 29,
+    "language": 3,
+    "audio": "milling_devices_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 83,
+  "fields": {
+    "parent": 30,
+    "language": 2,
+    "audio": "storage_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 84,
+  "fields": {
+    "parent": 30,
+    "language": 3,
+    "audio": "storage_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 85,
+  "fields": {
+    "parent": 31,
+    "language": 2,
+    "audio": "to_continue_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 86,
+  "fields": {
+    "parent": 31,
+    "language": 3,
+    "audio": "to_continue_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 87,
+  "fields": {
+    "parent": 32,
+    "language": 2,
+    "audio": "choose_differently_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 88,
+  "fields": {
+    "parent": 32,
+    "language": 3,
+    "audio": "choose_differently_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 89,
+  "fields": {
+    "parent": 33,
+    "language": 2,
+    "audio": "you_selected_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 90,
+  "fields": {
+    "parent": 33,
+    "language": 3,
+    "audio": "you_selected_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 91,
+  "fields": {
+    "parent": 34,
+    "language": 2,
+    "audio": "hear_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 92,
+  "fields": {
+    "parent": 34,
+    "language": 3,
+    "audio": "hear_offers_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 93,
+  "fields": {
+    "parent": 35,
+    "language": 2,
+    "audio": "select_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 94,
+  "fields": {
+    "parent": 35,
+    "language": 3,
+    "audio": "select_offers_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 95,
+  "fields": {
+    "parent": 36,
+    "language": 2,
+    "audio": "contact_user_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 96,
+  "fields": {
+    "parent": 36,
+    "language": 3,
+    "audio": "contact_user_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 97,
+  "fields": {
+    "parent": 37,
+    "language": 2,
+    "audio": "transport1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 98,
+  "fields": {
+    "parent": 37,
+    "language": 3,
+    "audio": "transport1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 99,
+  "fields": {
+    "parent": 38,
+    "language": 2,
+    "audio": "transport2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 100,
+  "fields": {
+    "parent": 38,
+    "language": 3,
+    "audio": "transport2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 101,
+  "fields": {
+    "parent": 39,
+    "language": 2,
+    "audio": "transport3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 102,
+  "fields": {
+    "parent": 39,
+    "language": 3,
+    "audio": "transport3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 103,
+  "fields": {
+    "parent": 40,
+    "language": 2,
+    "audio": "milling_device1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 104,
+  "fields": {
+    "parent": 40,
+    "language": 3,
+    "audio": "milling_device1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 105,
+  "fields": {
+    "parent": 41,
+    "language": 2,
+    "audio": "milling_device2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 106,
+  "fields": {
+    "parent": 41,
+    "language": 3,
+    "audio": "milling_device2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 107,
+  "fields": {
+    "parent": 42,
+    "language": 2,
+    "audio": "milling_device3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 108,
+  "fields": {
+    "parent": 42,
+    "language": 3,
+    "audio": "milling_device3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 109,
+  "fields": {
+    "parent": 43,
+    "language": 2,
+    "audio": "storage1_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 110,
+  "fields": {
+    "parent": 43,
+    "language": 3,
+    "audio": "storage1_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 111,
+  "fields": {
+    "parent": 44,
+    "language": 2,
+    "audio": "storage2_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 112,
+  "fields": {
+    "parent": 44,
+    "language": 3,
+    "audio": "storage2_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 113,
+  "fields": {
+    "parent": 45,
+    "language": 2,
+    "audio": "storage3_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 114,
+  "fields": {
+    "parent": 45,
+    "language": 3,
+    "audio": "storage3_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 115,
+  "fields": {
+    "parent": 46,
+    "language": 2,
+    "audio": "selected_storage_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 116,
+  "fields": {
+    "parent": 46,
+    "language": 3,
+    "audio": "selected_storage_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 117,
+  "fields": {
+    "parent": 47,
+    "language": 2,
+    "audio": "selected_milling_devices_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 118,
+  "fields": {
+    "parent": 47,
+    "language": 3,
+    "audio": "selected_milling_devices_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 119,
+  "fields": {
+    "parent": 48,
+    "language": 2,
+    "audio": "selected_transport_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 120,
+  "fields": {
+    "parent": 48,
+    "language": 3,
+    "audio": "selected_transport_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 121,
+  "fields": {
+    "parent": 49,
+    "language": 2,
+    "audio": "choose_region_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 122,
+  "fields": {
+    "parent": 49,
+    "language": 3,
+    "audio": "choose_region_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 123,
+  "fields": {
+    "parent": 50,
+    "language": 2,
+    "audio": "region_gao_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 124,
+  "fields": {
+    "parent": 50,
+    "language": 3,
+    "audio": "region_gao_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 125,
+  "fields": {
+    "parent": 51,
+    "language": 2,
+    "audio": "region_kayes_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 126,
+  "fields": {
+    "parent": 51,
+    "language": 3,
+    "audio": "region_kayes_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 127,
+  "fields": {
+    "parent": 52,
+    "language": 2,
+    "audio": "region_kidal_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 128,
+  "fields": {
+    "parent": 52,
+    "language": 3,
+    "audio": "region_kidal_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 129,
+  "fields": {
+    "parent": 53,
+    "language": 2,
+    "audio": "region_koulikoro_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 130,
+  "fields": {
+    "parent": 53,
+    "language": 3,
+    "audio": "region_koulikoro_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 131,
+  "fields": {
+    "parent": 54,
+    "language": 2,
+    "audio": "region_menaka_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 132,
+  "fields": {
+    "parent": 54,
+    "language": 3,
+    "audio": "region_menaka_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 133,
+  "fields": {
+    "parent": 55,
+    "language": 2,
+    "audio": "region_mopti_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 134,
+  "fields": {
+    "parent": 55,
+    "language": 3,
+    "audio": "region_mopti_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 135,
+  "fields": {
+    "parent": 56,
+    "language": 2,
+    "audio": "region_segou_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 136,
+  "fields": {
+    "parent": 56,
+    "language": 3,
+    "audio": "region_segou_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 137,
+  "fields": {
+    "parent": 57,
+    "language": 2,
+    "audio": "region_sikasso_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 138,
+  "fields": {
+    "parent": 57,
+    "language": 3,
+    "audio": "region_sikasso_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 139,
+  "fields": {
+    "parent": 58,
+    "language": 2,
+    "audio": "region_taoudenit_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 140,
+  "fields": {
+    "parent": 58,
+    "language": 3,
+    "audio": "region_taoudenit_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 141,
+  "fields": {
+    "parent": 59,
+    "language": 2,
+    "audio": "region_tombouctou_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 142,
+  "fields": {
+    "parent": 59,
+    "language": 3,
+    "audio": "region_tombouctou_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 143,
+  "fields": {
+    "parent": 60,
+    "language": 2,
+    "audio": "choose_request_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 144,
+  "fields": {
+    "parent": 60,
+    "language": 3,
+    "audio": "choose_request_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 145,
+  "fields": {
+    "parent": 61,
+    "language": 2,
+    "audio": "choose_offer_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 146,
+  "fields": {
+    "parent": 61,
+    "language": 3,
+    "audio": "choose_offer_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 147,
+  "fields": {
+    "parent": 62,
+    "language": 2,
+    "audio": "choose_offer_or_request_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 148,
+  "fields": {
+    "parent": 62,
+    "language": 3,
+    "audio": "choose_offer_or_request_fr.wav"
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 2,
+  "fields": {
+    "service": 1,
+    "creation_date": "2017-04-23T19:30:23.792Z",
+    "modification_date": "2018-02-16T16:42:26.402Z",
+    "name": "Does the king like to drink beer?",
+    "description": "",
+    "voice_label": 23
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 3,
+  "fields": {
+    "service": 1,
+    "creation_date": "2017-04-23T19:32:07.853Z",
+    "modification_date": "2018-01-25T14:35:48.977Z",
+    "name": "Yes",
+    "description": "King <3's BEER",
+    "voice_label": 21
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 4,
+  "fields": {
+    "service": 1,
+    "creation_date": "2017-04-23T19:32:07.854Z",
+    "modification_date": "2018-02-16T16:42:26.405Z",
+    "name": "No",
+    "description": "",
+    "voice_label": 22
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 5,
+  "fields": {
+    "service": 1,
+    "creation_date": "2017-04-23T19:49:50.055Z",
+    "modification_date": "2018-02-16T16:42:51.484Z",
+    "name": "This is the truth",
+    "description": "",
+    "voice_label": 3
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 6,
+  "fields": {
+    "service": 1,
+    "creation_date": "2017-04-23T21:11:06.805Z",
+    "modification_date": "2017-04-23T21:33:29.853Z",
+    "name": "Thank you for using this service",
+    "description": "",
+    "voice_label": 5
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 7,
+  "fields": {
+    "service": 1,
+    "creation_date": "2017-04-23T21:36:55.756Z",
+    "modification_date": "2017-04-23T21:36:55.756Z",
+    "name": "King is boring",
+    "description": "",
+    "voice_label": 6
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 8,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:29:00.903Z",
+    "modification_date": "2019-05-06T12:34:46.671Z",
+    "name": "Welcome",
+    "description": "",
+    "voice_label": 26
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 9,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:29:55.825Z",
+    "modification_date": "2019-05-01T15:29:58.052Z",
+    "name": "Contact user",
+    "description": "",
+    "voice_label": 36
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 10,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.314Z",
+    "modification_date": "2019-05-01T15:38:31.226Z",
+    "name": "What product would you like?",
+    "description": "",
+    "voice_label": 27
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 11,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.319Z",
+    "modification_date": "2019-05-01T15:38:31.229Z",
+    "name": "transport",
+    "description": "",
+    "voice_label": 28
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 12,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.321Z",
+    "modification_date": "2019-05-01T15:38:31.231Z",
+    "name": "milling devices",
+    "description": "",
+    "voice_label": 29
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 13,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:31:34.323Z",
+    "modification_date": "2019-05-01T15:38:31.233Z",
+    "name": "storage",
+    "description": "",
+    "voice_label": 30
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 14,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:32:36.450Z",
+    "modification_date": "2019-05-03T16:12:20.148Z",
+    "name": "continue transport",
+    "description": "",
+    "voice_label": 48
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 15,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:32:36.453Z",
+    "modification_date": "2019-05-03T16:12:20.152Z",
+    "name": "continue",
+    "description": "",
+    "voice_label": 31
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 16,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:32:36.456Z",
+    "modification_date": "2019-05-01T15:32:36.456Z",
+    "name": "go back",
+    "description": "",
+    "voice_label": 32
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 17,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:33:29.464Z",
+    "modification_date": "2019-05-03T16:11:56.754Z",
+    "name": "continue milling devices",
+    "description": "",
+    "voice_label": 47
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 18,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:33:29.468Z",
+    "modification_date": "2019-05-03T16:11:56.759Z",
+    "name": "continue milling",
+    "description": "",
+    "voice_label": 31
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 19,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:33:29.471Z",
+    "modification_date": "2019-05-01T15:33:29.471Z",
+    "name": "go back",
+    "description": "",
+    "voice_label": 32
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 20,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:34:25.044Z",
+    "modification_date": "2019-05-03T16:11:10.146Z",
+    "name": "continue storage",
+    "description": "",
+    "voice_label": 48
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 21,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:34:25.047Z",
+    "modification_date": "2019-05-03T16:11:10.153Z",
+    "name": "continue storage",
+    "description": "",
+    "voice_label": 31
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 22,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:34:25.048Z",
+    "modification_date": "2019-05-01T15:34:25.048Z",
+    "name": "go back",
+    "description": "",
+    "voice_label": 32
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 23,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:07.564Z",
+    "modification_date": "2019-05-01T15:35:33.169Z",
+    "name": "offers transport",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 24,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:07.571Z",
+    "modification_date": "2019-05-01T15:35:07.571Z",
+    "name": "transport1",
+    "description": "",
+    "voice_label": 37
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 25,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:07.575Z",
+    "modification_date": "2019-05-01T15:35:07.575Z",
+    "name": "transport2",
+    "description": "",
+    "voice_label": 38
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 26,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:35:33.172Z",
+    "modification_date": "2019-05-01T15:35:33.172Z",
+    "name": "transport3",
+    "description": "",
+    "voice_label": 39
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 27,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.750Z",
+    "modification_date": "2019-05-01T15:36:23.750Z",
+    "name": "offers milling devices",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 28,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.753Z",
+    "modification_date": "2019-05-01T15:36:23.754Z",
+    "name": "milling1",
+    "description": "",
+    "voice_label": 40
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 29,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.755Z",
+    "modification_date": "2019-05-01T15:36:23.755Z",
+    "name": "milling2",
+    "description": "",
+    "voice_label": 41
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 30,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:36:23.757Z",
+    "modification_date": "2019-05-01T15:36:23.757Z",
+    "name": "milling3",
+    "description": "",
+    "voice_label": 42
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 31,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.632Z",
+    "modification_date": "2019-05-01T15:37:23.632Z",
+    "name": "offers storage",
+    "description": "",
+    "voice_label": 34
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 32,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.635Z",
+    "modification_date": "2019-05-01T15:37:23.635Z",
+    "name": "storage1",
+    "description": "",
+    "voice_label": 43
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 33,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.637Z",
+    "modification_date": "2019-05-01T15:37:23.637Z",
+    "name": "storage2",
+    "description": "",
+    "voice_label": 44
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 34,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-01T15:37:23.639Z",
+    "modification_date": "2019-05-01T15:37:23.639Z",
+    "name": "storage3",
+    "description": "",
+    "voice_label": 45
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 35,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.732Z",
+    "modification_date": "2019-05-03T16:05:20.637Z",
+    "name": "choice_region_transport",
+    "description": "",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 36,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.739Z",
+    "modification_date": "2019-05-03T16:04:46.740Z",
+    "name": "gao",
+    "description": "",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 37,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.745Z",
+    "modification_date": "2019-05-03T16:04:46.746Z",
+    "name": "kayes",
+    "description": "",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 38,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.748Z",
+    "modification_date": "2019-05-03T16:04:46.748Z",
+    "name": "kidal",
+    "description": "",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 39,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.750Z",
+    "modification_date": "2019-05-03T16:04:46.750Z",
+    "name": "koulikoro",
+    "description": "",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 40,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.754Z",
+    "modification_date": "2019-05-03T16:04:46.754Z",
+    "name": "menaka",
+    "description": "",
+    "voice_label": 54
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 41,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.756Z",
+    "modification_date": "2019-05-03T16:04:46.756Z",
+    "name": "mopti",
+    "description": "",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 42,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.758Z",
+    "modification_date": "2019-05-03T16:04:46.758Z",
+    "name": "segou",
+    "description": "",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 43,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.759Z",
+    "modification_date": "2019-05-03T16:04:46.759Z",
+    "name": "sikasso",
+    "description": "",
+    "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 44,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.761Z",
+    "modification_date": "2019-05-03T16:04:46.761Z",
+    "name": "taoudenit",
+    "description": "",
+    "voice_label": 58
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 45,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:04:46.763Z",
+    "modification_date": "2019-05-03T16:04:46.763Z",
+    "name": "tombouctou",
+    "description": "",
+    "voice_label": 59
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 46,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.394Z",
+    "modification_date": "2019-05-03T16:07:50.394Z",
+    "name": "choice_region_milling",
+    "description": "",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 47,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.397Z",
+    "modification_date": "2019-05-03T16:07:50.397Z",
+    "name": "gao",
+    "description": "",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 48,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.399Z",
+    "modification_date": "2019-05-03T16:07:50.399Z",
+    "name": "kayes",
+    "description": "",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 49,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.403Z",
+    "modification_date": "2019-05-03T16:07:50.403Z",
+    "name": "kidal",
+    "description": "",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 50,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.405Z",
+    "modification_date": "2019-05-03T16:07:50.405Z",
+    "name": "koulikoro",
+    "description": "",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 51,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.408Z",
+    "modification_date": "2019-05-03T16:07:50.408Z",
+    "name": "menaka",
+    "description": "",
+    "voice_label": 54
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 52,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.410Z",
+    "modification_date": "2019-05-03T16:07:50.410Z",
+    "name": "mopti",
+    "description": "",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 53,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.412Z",
+    "modification_date": "2019-05-03T16:07:50.412Z",
+    "name": "segou",
+    "description": "",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 54,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.413Z",
+    "modification_date": "2019-05-03T16:07:50.414Z",
+    "name": "sikasso",
+    "description": "",
+    "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 55,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.415Z",
+    "modification_date": "2019-05-03T16:07:50.415Z",
+    "name": "taoudenit",
+    "description": "",
+    "voice_label": 58
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 56,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:07:50.419Z",
+    "modification_date": "2019-05-03T16:07:50.420Z",
+    "name": "tombouctou",
+    "description": "",
+    "voice_label": 59
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 57,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.465Z",
+    "modification_date": "2019-05-03T16:10:01.465Z",
+    "name": "choice_region_storage",
+    "description": "",
+    "voice_label": 49
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 58,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.471Z",
+    "modification_date": "2019-05-03T16:10:01.471Z",
+    "name": "gao",
+    "description": "",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 59,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.473Z",
+    "modification_date": "2019-05-03T16:10:01.473Z",
+    "name": "kayes",
+    "description": "",
+    "voice_label": 51
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 60,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.476Z",
+    "modification_date": "2019-05-03T16:10:01.476Z",
+    "name": "kidal",
+    "description": "",
+    "voice_label": 52
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 61,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.478Z",
+    "modification_date": "2019-05-03T16:10:01.478Z",
+    "name": "koulikoro",
+    "description": "",
+    "voice_label": 53
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 62,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.479Z",
+    "modification_date": "2019-05-03T16:10:01.479Z",
+    "name": "menaka",
+    "description": "",
+    "voice_label": 54
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 63,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.481Z",
+    "modification_date": "2019-05-03T16:10:01.481Z",
+    "name": "mopti",
+    "description": "",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 64,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.484Z",
+    "modification_date": "2019-05-03T16:10:01.484Z",
+    "name": "segou",
+    "description": "",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 65,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.487Z",
+    "modification_date": "2019-05-03T16:10:01.487Z",
+    "name": "sikasso",
+    "description": "",
+    "voice_label": 57
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 66,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.489Z",
+    "modification_date": "2019-05-03T16:10:01.489Z",
+    "name": "taoudenit",
+    "description": "",
+    "voice_label": 58
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 67,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-03T16:10:01.492Z",
+    "modification_date": "2019-05-03T16:10:01.492Z",
+    "name": "tombouctou",
+    "description": "",
+    "voice_label": 59
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 68,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-06T11:54:10.267Z",
+    "modification_date": "2019-05-06T12:34:22.136Z",
+    "name": "choose_offer_request",
+    "description": "",
+    "voice_label": 62
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 69,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-06T11:54:10.279Z",
+    "modification_date": "2019-05-06T12:34:22.142Z",
+    "name": "request",
+    "description": "",
+    "voice_label": 60
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 70,
+  "fields": {
+    "service": 2,
+    "creation_date": "2019-05-06T11:54:10.286Z",
+    "modification_date": "2019-05-06T12:34:22.145Z",
+    "name": "offer",
+    "description": "",
+    "voice_label": 61
+  }
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 2,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 5,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 6,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 7,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 8,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 9,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 10,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 14,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 17,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 20,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 23,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 27,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 31,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 35,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 46,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 57,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 68,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceservice",
+  "pk": 1,
+  "fields": {
+    "name": "King's truth checker",
+    "description": "Checks the user's knowledge about the king of the Netherlands",
+    "creation_date": "2017-04-23T19:23:52.392Z",
+    "modification_date": "2019-05-01T09:58:42.837Z",
+    "active": true,
+    "_start_element": 2,
+    "registration": "preferred",
+    "registration_language": true,
+    "registration_name": false,
+    "supported_languages": [
+      1,
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "service_development.voiceservice",
+  "pk": 2,
+  "fields": {
+    "name": "Shariculture",
+    "description": "Sharing platform",
+    "creation_date": "2019-05-01T12:10:48.511Z",
+    "modification_date": "2019-05-01T15:40:08.260Z",
+    "active": true,
+    "_start_element": 8,
+    "registration": "preferred",
+    "registration_language": true,
+    "registration_name": false,
+    "supported_languages": [
+      2,
+      3
+    ]
+  }
+},
+{
+  "model": "service_development.voiceservice",
+  "pk": 3,
+  "fields": {
+    "name": "test",
+    "description": "This is a test",
+    "creation_date": "2019-05-06T09:42:16.415Z",
+    "modification_date": "2019-05-06T09:42:16.415Z",
+    "active": false,
+    "_start_element": null,
+    "registration": "preferred",
+    "registration_language": true,
+    "registration_name": false,
+    "supported_languages": []
+  }
+},
+{
+  "model": "service_development.kasadakauser",
+  "pk": 1,
+  "fields": {
+    "caller_id": "456",
+    "first_name": "Henk",
+    "last_name": "Ernia",
+    "creation_date": "2018-02-02T11:10:27.670Z",
+    "modification_date": "2018-02-12T14:44:24.019Z",
+    "language": 1,
+    "service": 1
+  }
+},
+{
+  "model": "service_development.kasadakauser",
+  "pk": 2,
+  "fields": {
+    "caller_id": "123",
+    "first_name": "lucas",
+    "last_name": "",
+    "creation_date": "2019-05-01T16:29:28.898Z",
+    "modification_date": "2019-05-01T16:29:28.898Z",
+    "language": 2,
+    "service": 2
+  }
+},
+{
+  "model": "service_development.kasadakauser",
+  "pk": 3,
+  "fields": {
+    "caller_id": "234",
+    "first_name": "suus",
+    "last_name": "",
+    "creation_date": "2019-05-01T16:29:48.216Z",
+    "modification_date": "2019-05-01T16:29:48.216Z",
+    "language": 3,
+    "service": 2
+  }
+},
+{
+  "model": "service_development.kasadakauser",
+  "pk": 4,
+  "fields": {
+    "caller_id": "124",
+    "first_name": "rens",
+    "last_name": "",
+    "creation_date": "2019-05-01T16:30:02.357Z",
+    "modification_date": "2019-05-01T16:30:02.357Z",
+    "language": 2,
+    "service": 2
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 1,
+  "fields": {
+    "region_name": "Gao",
+    "voice_label": 50
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 2,
+  "fields": {
+    "region_name": "Mopti",
+    "voice_label": 55
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 3,
+  "fields": {
+    "region_name": "Segou",
+    "voice_label": 56
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 1,
+  "fields": {
+    "start": "2019-05-01T09:55:43.899Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1234",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 2,
+  "fields": {
+    "start": "2019-05-01T09:55:54.963Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1234",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 3,
+  "fields": {
+    "start": "2019-05-01T09:56:31.300Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 4,
+  "fields": {
+    "start": "2019-05-01T09:57:06.336Z",
+    "end": null,
+    "user": null,
+    "caller_id": "123",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 5,
+  "fields": {
+    "start": "2019-05-01T09:58:53.941Z",
+    "end": null,
+    "user": null,
+    "caller_id": "1234",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 6,
+  "fields": {
+    "start": "2019-05-01T09:59:05.219Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 7,
+  "fields": {
+    "start": "2019-05-01T10:12:08.952Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 8,
+  "fields": {
+    "start": "2019-05-01T10:19:15.293Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 9,
+  "fields": {
+    "start": "2019-05-01T10:19:20.765Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 10,
+  "fields": {
+    "start": "2019-05-01T10:19:31.355Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 11,
+  "fields": {
+    "start": "2019-05-01T10:19:46.762Z",
+    "end": null,
+    "user": null,
+    "caller_id": "123",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 12,
+  "fields": {
+    "start": "2019-05-01T10:20:37.345Z",
+    "end": null,
+    "user": null,
+    "caller_id": "234",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 13,
+  "fields": {
+    "start": "2019-05-01T10:20:37.413Z",
+    "end": null,
+    "user": null,
+    "caller_id": "234",
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 14,
+  "fields": {
+    "start": "2019-05-01T11:32:50.826Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 15,
+  "fields": {
+    "start": "2019-05-01T11:33:29.368Z",
+    "end": null,
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 16,
+  "fields": {
+    "start": "2019-05-01T11:33:34.401Z",
+    "end": "2019-05-01T11:38:50.565Z",
+    "user": 1,
+    "caller_id": "456",
+    "service": 1,
+    "_language": 1,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 17,
+  "fields": {
+    "start": "2019-05-01T11:34:18.910Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 18,
+  "fields": {
+    "start": "2019-05-01T11:34:34.893Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 19,
+  "fields": {
+    "start": "2019-05-01T11:34:49.910Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 20,
+  "fields": {
+    "start": "2019-05-01T11:35:33.350Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 21,
+  "fields": {
+    "start": "2019-05-01T11:35:47.633Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 22,
+  "fields": {
+    "start": "2019-05-01T11:36:38.949Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 23,
+  "fields": {
+    "start": "2019-05-01T11:36:47.957Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 24,
+  "fields": {
+    "start": "2019-05-01T11:37:04.528Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 25,
+  "fields": {
+    "start": "2019-05-01T11:37:13.976Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 26,
+  "fields": {
+    "start": "2019-05-01T11:37:30.204Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 27,
+  "fields": {
+    "start": "2019-05-01T11:37:57.228Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 28,
+  "fields": {
+    "start": "2019-05-01T11:38:00.742Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 29,
+  "fields": {
+    "start": "2019-05-01T11:38:07.443Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 30,
+  "fields": {
+    "start": "2019-05-01T11:38:10.266Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 31,
+  "fields": {
+    "start": "2019-05-01T11:38:22.978Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 1,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsession",
+  "pk": 32,
+  "fields": {
+    "start": "2019-05-01T16:03:22.639Z",
+    "end": null,
+    "user": null,
+    "caller_id": null,
+    "service": 2,
+    "_language": null,
+    "_region": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 1,
+  "fields": {
+    "time": "2019-05-01T11:33:34.478Z",
+    "session": 16,
+    "_visited_element": 2,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 2,
+  "fields": {
+    "time": "2019-05-01T11:36:00.992Z",
+    "session": 16,
+    "_visited_element": 2,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 3,
+  "fields": {
+    "time": "2019-05-01T11:36:23.726Z",
+    "session": 16,
+    "_visited_element": 2,
+    "description": null
+  }
+},
+{
+  "model": "service_development.callsessionstep",
+  "pk": 4,
+  "fields": {
+    "time": "2019-05-01T11:38:50.579Z",
+    "session": 16,
+    "_visited_element": 2,
+    "description": null
+  }
+},
+{
+  "model": "service_development.choice",
+  "pk": 2,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 10,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 14,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 17,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 20,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 23,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 27,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 31,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 35,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 46,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 57,
+  "fields": {}
+},
+{
+  "model": "service_development.choice",
+  "pk": 68,
+  "fields": {}
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 3,
+  "fields": {
+    "parent": 2,
+    "_redirect": 5
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 4,
+  "fields": {
+    "parent": 2,
+    "_redirect": 7
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 11,
+  "fields": {
+    "parent": 10,
+    "_redirect": 14
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 12,
+  "fields": {
+    "parent": 10,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 13,
+  "fields": {
+    "parent": 10,
+    "_redirect": 20
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 15,
+  "fields": {
+    "parent": 14,
+    "_redirect": 35
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 16,
+  "fields": {
+    "parent": 14,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 18,
+  "fields": {
+    "parent": 17,
+    "_redirect": 46
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 19,
+  "fields": {
+    "parent": 17,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 21,
+  "fields": {
+    "parent": 20,
+    "_redirect": 57
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 22,
+  "fields": {
+    "parent": 20,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 24,
+  "fields": {
+    "parent": 23,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 25,
+  "fields": {
+    "parent": 23,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 26,
+  "fields": {
+    "parent": 23,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 28,
+  "fields": {
+    "parent": 27,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 29,
+  "fields": {
+    "parent": 27,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 30,
+  "fields": {
+    "parent": 27,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 32,
+  "fields": {
+    "parent": 31,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 33,
+  "fields": {
+    "parent": 31,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 34,
+  "fields": {
+    "parent": 31,
+    "_redirect": 9
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 36,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 37,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 38,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 39,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 40,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 41,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 42,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 43,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 44,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 45,
+  "fields": {
+    "parent": 35,
+    "_redirect": 23
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 47,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 48,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 49,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 50,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 51,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 52,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 53,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 54,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 55,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 56,
+  "fields": {
+    "parent": 46,
+    "_redirect": 27
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 58,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 59,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 60,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 61,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 62,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 63,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 64,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 65,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 66,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 67,
+  "fields": {
+    "parent": 57,
+    "_redirect": 31
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 69,
+  "fields": {
+    "parent": 68,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.choiceoption",
+  "pk": 70,
+  "fields": {
+    "parent": 68,
+    "_redirect": 10
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 5,
+  "fields": {
+    "final_element": false,
+    "_redirect": 6
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 6,
+  "fields": {
+    "final_element": true,
+    "_redirect": null
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 7,
+  "fields": {
+    "final_element": false,
+    "_redirect": 6
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 8,
+  "fields": {
+    "final_element": false,
+    "_redirect": 68
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 9,
+  "fields": {
+    "final_element": true,
+    "_redirect": null
+  }
+}
