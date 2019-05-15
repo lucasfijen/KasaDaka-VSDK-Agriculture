@@ -64,7 +64,7 @@ class RegionSelection(TemplateView):
         
         session = get_object_or_404(CallSession, pk = session_id)
         #voice_service = session.service
-        region = get_object_or_404(Region, pk = request.POST['region_id'])
+        region = get_object_or_404(Region, pk = request.POST['region_name'])
 
         session._region = region
         session.save()
