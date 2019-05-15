@@ -7,15 +7,16 @@ def create_requests(session):
     # product = session._product
     # region = session._region
     language = get_object_or_404(Language, pk=2)
-    product = 1
-    region = 1
+    product = get_object_or_404(Product, pk=1)
+    region = get_object_or_404(Region, pk=1)
     offers = get_list_or_404(Offer, region = region, product_type = product)
     offers = [offer for offer in offers if offer.is_active()]
+    questions = [get_object_or_404(VoiceLabel, name='pre_offers'), \
+                product.voice_label, \
+                get_object_or_404(VoiceLabel, name='post_offers'), \
+                region.voice_label]
     context = { 'offers': offers,
-                'questions': ['These are the offerse of',
-                             'pruduct',
-                             'in',
-                             'region'],
+                'questions': [question.get_voice_fragment_url(language) for question in questions],
                 'voice_labels': [offer.voice_label.get_voice_fragment_url(language) for offer in offers],
                 'language': language,
                 'choice_options_redirect_urls': ['vxml/offer_redirect/' + str(offer.id)  for offer in offers]
