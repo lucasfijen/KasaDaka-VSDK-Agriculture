@@ -65,14 +65,27 @@ class RegionSelection(TemplateView):
         return self.render_region_selection_form(request, session, redirect_url)
 
     def post(self, request, session_id):
-        if 'redirect_url' in request.POST:
-            redirect_url = request.POST['redirect_url']
-        else: raise ValueError('Incorrect request, redirect_url not set')
-        if 'region_id' not in request.POST:
-            raise ValueError('Incorrect request, region ID not set')
-        session = get_object_or_404(CallSession, pk = session_id)
-        voice_service = session.service
-        region = get_object_or_404(Region, pk = request.POST['region_id'])
+        try:
+            if 'redirect_url' in request.POST:
+                redirect_url = request.POST['redirect_url']
+            else: raise ValueError('Incorrect request, redirect_url not set')
+            if 'region_id' not in request.POST:
+                raise ValueError('Incorrect request, region ID not set')
+        except: 
+            return HttpResponseNotFound('1')
+
+        try:
+            session = get_object_or_404(CallSession, pk = session_id)
+        except:
+            return HttpResponseNotFound('2')
+        try:
+            voice_service = session.service
+        except:
+            return HttpResponseNotFound('3')
+        try:
+            region = get_object_or_404(Region, pk = request.POST['region_id'])
+        except:
+            return HttpResponseNotFound('4')
         return HttpResponseNotFound('hier gaat het fout')
 
         session._region = region
