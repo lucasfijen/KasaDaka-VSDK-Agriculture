@@ -87,13 +87,12 @@ class RegionSelection(TemplateView):
             #print(type(request.POST['region_id']))
         except:
             return HttpResponseNotFound(str(request.POST))
-        return HttpResponseNotFound('hier gaat het fout')
-
+        
         session._region = region
         session.save()
         print('done')
 
         #session.record_step(None, "Region selected, %s" % region.region_name)
 
-        #return HttpResponseNotFound('hier gaat het fout')
+        return HttpResponseNotFound('hier gaat het fout')
         
