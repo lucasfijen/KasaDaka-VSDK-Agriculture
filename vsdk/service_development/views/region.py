@@ -58,7 +58,7 @@ class RegionSelection(TemplateView):
         Asks the user to select one of the supported languages.
         """
         session = get_object_or_404(CallSession, pk = session_id)
-        #voice_service = session.service
+        voice_service = session.service
         #redirect_url = 'vxml/region_redirect/Gao'
         if 'redirect_url' in request.GET:
             redirect_url = request.GET['redirect_url']
@@ -71,7 +71,7 @@ class RegionSelection(TemplateView):
         if 'region_id' not in request.POST:
             raise ValueError('Incorrect request, region ID not set')
         session = get_object_or_404(CallSession, pk = session_id)
-        #voice_service = session.service
+        voice_service = session.service
         region = get_object_or_404(Region, pk = request.POST['region_id'])
 
         session._region = region
