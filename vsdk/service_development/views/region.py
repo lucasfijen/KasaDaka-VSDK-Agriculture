@@ -83,7 +83,7 @@ class RegionSelection(TemplateView):
         except:
             return HttpResponseNotFound('3')
         try:
-            region = get_object_or_404(Region, pk = 1)
+            region = get_object_or_404(Region, pk = request.POST['region_id'])
             #print(type(request.POST['region_id']))
         except:
             return HttpResponseNotFound(str(request.POST))
