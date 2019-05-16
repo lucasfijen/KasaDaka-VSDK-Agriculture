@@ -2,6 +2,7 @@ from django.shortcuts import render, get_object_or_404, get_list_or_404, redirec
 from django.urls import reverse
 from django.views.generic import TemplateView
 from django.http.response import HttpResponseRedirect
+from django.http import HttpResponseNotFound
 
 from ..models import *
 
@@ -79,4 +80,5 @@ class RegionSelection(TemplateView):
 
         #session.record_step(None, "Region selected, %s" % region.region_name)
 
-        return HttpResponseRedirect(redirect_url)
+        return HttpResponseNotFound('hier gaat het fout')
+        
