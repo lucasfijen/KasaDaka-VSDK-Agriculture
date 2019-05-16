@@ -65,6 +65,7 @@ class RegionSelection(TemplateView):
         return self.render_region_selection_form(request, session, redirect_url)
 
     def post(self, request, session_id):
+        return HttpResponseNotFound('hier gaat het fout')
         if 'redirect_url' in request.POST:
             redirect_url = request.POST['redirect_url']
         else: raise ValueError('Incorrect request, redirect_url not set')
@@ -80,5 +81,5 @@ class RegionSelection(TemplateView):
 
         #session.record_step(None, "Region selected, %s" % region.region_name)
 
-        return HttpResponseNotFound('hier gaat het fout')
+        #return HttpResponseNotFound('hier gaat het fout')
         
