@@ -15,5 +15,6 @@ urlpatterns = [
     url(r'^offers/(?P<session_id>[0-9]+)$', views.offer, name='offer'),
     url(r'^show_offer/(?P<session_id>[0-9]+)/(?P<offer_id>[0-9]+)$', views.show_offer, name='show_offer'),
     url(r'^region/(?P<session_id>[0-9]+)$', views.RegionSelection.as_view(), name='region'),
+    url(r'^product/(?P<session_id>[0-9]+)$', views.ProductSelection.as_view(), name='product'),
 ]
 

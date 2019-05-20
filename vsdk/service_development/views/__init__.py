@@ -7,3 +7,4 @@ from .voiceservice import *
 from .language import *
 from .offer import *
 from .region import *
+from .product import *
