@@ -6,10 +6,6 @@ from django.http import HttpResponseNotFound
 from ..models import *
 
 class RegionSelection(TemplateView):
-    try:
-        vse_element = get_object_or_404(Vse_Own_Added, name='region')
-    except:
-        print('fail')
     def render_region_selection_form(self, request, session):
         regions = get_list_or_404(Region)
 
@@ -17,7 +13,8 @@ class RegionSelection(TemplateView):
         redirect_url_POST = reverse( 'service-development:region', kwargs= {'session_id':session.id})
 
         # This is the redirect URL for *AFTER* the region selection process
-        pass_on_variables = {'redirect_url' : self.vse_element.get_absolute_url(session=session)}
+        vse_element = vse_element = get_object_or_404(Vse_Own_Added, name='region')
+        pass_on_variables = {'redirect_url' : vse_element.redirect.get_absolute_url(session=session)}
 
         region_options =  Region.objects.values_list('region_name', flat=True)
         language = get_object_or_404(Language, pk=2)
@@ -62,8 +59,10 @@ class RegionSelection(TemplateView):
         
         session._region = region
         session.save()
-        print('done')
+        # print('done')
 
         
         # session.record_step(None, "Region selected, %s" % region.region_name)
-        return HttpResponseRedirect(self.vse_element.redirect.get_absolute_url(session=session))
+        vse_element = get_object_or_404(Vse_Own_Added, name='region')
+        # print(vse_element.redirect.get_absolute_url(session=session))
+        return HttpResponseRedirect(vse_element.redirect.get_absolute_url(session=session))

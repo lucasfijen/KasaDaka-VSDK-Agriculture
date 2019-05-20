@@ -6,10 +6,6 @@ from django.http import HttpResponseNotFound
 from ..models import *
 
 class ProductSelection(TemplateView):
-    try:
-        vse_element = get_object_or_404(Vse_Own_Added, name='product')
-    except:
-        print('fail')
     def render_product_selection_form(self, request, session):
         products = get_list_or_404(Product)
 
@@ -17,7 +13,8 @@ class ProductSelection(TemplateView):
         redirect_url_POST = reverse( 'service-development:product', kwargs= {'session_id':session.id})
 
         # This is the redirect URL for *AFTER* the product selection process
-        pass_on_variables = {'redirect_url' : self.vse_element.get_absolute_url(session=session)}
+        vse_element = get_object_or_404(Vse_Own_Added, name='product')
+        pass_on_variables = {'redirect_url' : vse_element.get_absolute_url(session=session)}
 
         product_options =  Product.objects.values_list('product_name', flat=True)
         language = get_object_or_404(Language, pk=2)
@@ -63,8 +60,9 @@ class ProductSelection(TemplateView):
         
         session._product = product
         session.save()
-        print('done')
+        # print('done')
 
-        
-        # session.record_step(None, "product selected, %s" % product.product_name)
-        return HttpResponseRedirect(self.vse_element.redirect.get_absolute_url(session=session))
+        vse_element = get_object_or_404(Vse_Own_Added, name='product')
+
+        # print(vse_element.redirect.get_absolute_url(session=session))
+        return HttpResponseRedirect(vse_element.redirect.get_absolute_url(session=session))
