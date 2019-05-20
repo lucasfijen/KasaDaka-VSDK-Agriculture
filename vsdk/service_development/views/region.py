@@ -41,9 +41,6 @@ class RegionSelection(TemplateView):
 
     def post(self, request, session_id):
         try:
-            if 'redirect_url' in request.POST:
-                redirect_url = request.POST['redirect_url']
-            else: raise ValueError('Incorrect request, redirect_url not set')
             if 'region_id' not in request.POST:
                 raise ValueError('Incorrect request, region ID not set')
         except: 
@@ -68,5 +65,5 @@ class RegionSelection(TemplateView):
         print('done')
 
         
-        #session.record_step(None, "Region selected, %s" % region.region_name)
+        session.record_step(None, "Region selected, %s" % region.region_name)
         return HttpResponseRedirect(self.vse_element.get_absolute_url(session=session))

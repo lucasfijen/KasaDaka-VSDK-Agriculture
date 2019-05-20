@@ -41,10 +41,8 @@ class ProductSelection(TemplateView):
 
     def post(self, request, session_id):
         try:
-            if 'redirect_url' in request.POST:
-                redirect_url = request.POST['redirect_url']
-            else: raise ValueError('Incorrect request, redirect_url not set')
             if 'product_id' not in request.POST:
+                print()
                 raise ValueError('Incorrect request, product ID not set')
         except: 
             return HttpResponseNotFound('1')
@@ -68,5 +66,5 @@ class ProductSelection(TemplateView):
         print('done')
 
         
-        #session.record_step(None, "product selected, %s" % product.product_name)
+        session.record_step(None, "product selected, %s" % product.product_name)
         return HttpResponseRedirect(self.vse_element.get_absolute_url(session=session))
