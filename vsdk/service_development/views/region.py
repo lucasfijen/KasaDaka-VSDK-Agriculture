@@ -3,19 +3,19 @@ from django.urls import reverse
 from django.views.generic import TemplateView
 from django.http.response import HttpResponseRedirect
 from django.http import HttpResponseNotFound
-
 from ..models import *
 
 class RegionSelection(TemplateView):
+    vse_element = get_object_or_404(Vse_Own_Added, name='region')
 
-    def render_region_selection_form(self, request, session, redirect_url):
+    def render_region_selection_form(self, request, session):
         regions = get_list_or_404(Region)
 
         # This is the redirect URL to POST the region selected
-        redirect_url_POST = reverse('service-development:region', args = [session.id])
+        redirect_url_POST = reverse( 'service-development:region', kwargs= {'session_id':session.id})
 
         # This is the redirect URL for *AFTER* the region selection process
-        pass_on_variables = {'redirect_url' : redirect_url_POST}
+        pass_on_variables = {'redirect_url' : self.vse_element.get_absolute_url(session=session)}
 
         region_options =  Region.objects.values_list('region_name', flat=True)
         language = get_object_or_404(Language, pk=2)
@@ -35,12 +35,7 @@ class RegionSelection(TemplateView):
         """
         session = get_object_or_404(CallSession, pk = session_id)
         voice_service = session.service
-        #redirect_url = 'vxml/region_redirect/Gao'
-        if 'redirect_url' in request.GET:
-            redirect_url = request.GET['redirect_url']
-        else:
-            redirect_url = reverse('service-development:region', args = [session.id])
-        return self.render_region_selection_form(request, session, redirect_url)
+        return self.render_region_selection_form(request, session)
 
     def post(self, request, session_id):
         try:
@@ -72,4 +67,4 @@ class RegionSelection(TemplateView):
 
         
         #session.record_step(None, "Region selected, %s" % region.region_name)
-        return HttpResponseRedirect(reverse('service-development:offer', args = [33]))
+        return HttpResponseRedirect(self.vse_element.get_absolute_url(session=session))

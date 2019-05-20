@@ -16,7 +16,8 @@ def create_requests(session):
                 'questions': [question.get_voice_fragment_url(language) for question in questions],
                 'voice_labels': [offer.voice_label.get_voice_fragment_url(language) for offer in offers],
                 'language': language,
-                'choice_options_redirect_urls': ['/vxml/show_offer/' + str(session.id) + '/' + str(offer.id)  for offer in offers]
+                'choice_options_redirect_urls': [reverse('service-development:show_offer', kwargs= {'session_id': session.id, 
+                                                                                                    'offer_id':offer.id}) for offer in offers]
                 }
     return context
 

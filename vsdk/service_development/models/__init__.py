@@ -10,3 +10,4 @@ from .user_input import *
 from .offers import *
 from .region import *
 from .product import *
+from .vse_own_added import *
