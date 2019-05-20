@@ -65,5 +65,5 @@ class RegionSelection(TemplateView):
         print('done')
 
         
-        session.record_step(None, "Region selected, %s" % region.region_name)
-        return HttpResponseRedirect(self.vse_element.get_absolute_url(session=session))
+        # session.record_step(None, "Region selected, %s" % region.region_name)
+        return HttpResponseRedirect(self.vse_element.redirect.get_absolute_url(session=session))

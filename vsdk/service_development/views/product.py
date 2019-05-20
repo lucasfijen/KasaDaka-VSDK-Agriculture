@@ -56,7 +56,7 @@ class ProductSelection(TemplateView):
         except:
             return HttpResponseNotFound('3')
         try:
-            product = get_object_or_404(product, pk = request.POST['product_id'])
+            product = get_object_or_404(Product, pk = request.POST['product_id'])
             #print(type(request.POST['product_id']))
         except:
             return HttpResponseNotFound(str(request.POST))
@@ -66,5 +66,5 @@ class ProductSelection(TemplateView):
         print('done')
 
         
-        session.record_step(None, "product selected, %s" % product.product_name)
-        return HttpResponseRedirect(self.vse_element.get_absolute_url(session=session))
+        # session.record_step(None, "product selected, %s" % product.product_name)
+        return HttpResponseRedirect(self.vse_element.redirect.get_absolute_url(session=session))
