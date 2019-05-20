@@ -47,12 +47,4 @@ class Vse_Own_Added(VoiceServiceElement):
     is_valid.short_description = _('Is valid')
 
     def validator(self):
-        errors = []
-        errors.extend(super(MessagePresentation, self).validator())
-        if not self.final_element and not self._redirect:
-            errors.append(ugettext('Message %s does not have a redirect element and is not a final element')%self.name)
-        elif not self.final_element:
-            if self._redirect.id == self.id:
-                errors.append(ugettext('There is a loop in %s')%str(self))
-                
-        return errors
+        return []

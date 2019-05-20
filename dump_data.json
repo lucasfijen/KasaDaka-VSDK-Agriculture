@@ -193,14 +193,6 @@
 },
 {
   "model": "service_development.voicelabel",
-  "pk": 108,
-  "fields": {
-    "name": "welcome",
-    "description": null
-  }
-},
-{
-  "model": "service_development.voicelabel",
   "pk": 109,
   "fields": {
     "name": "category",
@@ -524,6 +516,14 @@
   "pk": 149,
   "fields": {
     "name": "post_offer_voice",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 150,
+  "fields": {
+    "name": "welcome",
     "description": null
   }
 },
@@ -1228,38 +1228,11 @@
 },
 {
   "model": "service_development.voicefragment",
-  "pk": 153,
-  "fields": {
-    "parent": 108,
-    "language": 2,
-    "audio": "welcome_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
   "pk": 154,
   "fields": {
     "parent": 109,
     "language": 2,
     "audio": "category_en.wav"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 155,
-  "fields": {
-    "parent": 108,
-    "language": 2,
-    "audio": "lol"
-  }
-},
-{
-  "model": "service_development.voicefragment",
-  "pk": 156,
-  "fields": {
-    "parent": 108,
-    "language": 2,
-    "audio": ""
   }
 },
 {
@@ -1983,6 +1956,24 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 237,
+  "fields": {
+    "parent": 150,
+    "language": 2,
+    "audio": "welcome_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 238,
+  "fields": {
+    "parent": 150,
+    "language": 3,
+    "audio": "welcome_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -2063,7 +2054,7 @@
     "modification_date": "2019-05-20T14:16:01.965Z",
     "name": "Welcome",
     "description": "",
-    "voice_label": 108
+    "voice_label": null
   }
 },
 {
@@ -2814,9 +2805,9 @@
   "model": "service_development.voiceservicesubelement",
   "pk": 71,
   "fields": {
-    "service": 2,
+    "service": 4,
     "creation_date": "2019-05-20T14:11:48.882Z",
-    "modification_date": "2019-05-20T14:14:28.039Z",
+    "modification_date": "2019-05-20T15:11:54.465Z",
     "name": "region",
     "description": "This is the page about regions",
     "voice_label": null
@@ -2826,9 +2817,9 @@
   "model": "service_development.voiceservicesubelement",
   "pk": 72,
   "fields": {
-    "service": 2,
+    "service": 4,
     "creation_date": "2019-05-20T14:12:57.324Z",
-    "modification_date": "2019-05-20T14:13:52.952Z",
+    "modification_date": "2019-05-20T15:11:49.452Z",
     "name": "product",
     "description": "choose product",
     "voice_label": null
@@ -2838,12 +2829,24 @@
   "model": "service_development.voiceservicesubelement",
   "pk": 73,
   "fields": {
-    "service": 2,
+    "service": 4,
     "creation_date": "2019-05-20T14:13:41.386Z",
-    "modification_date": "2019-05-20T14:14:05.561Z",
+    "modification_date": "2019-05-20T15:11:43.668Z",
     "name": "offers",
     "description": "The final page at what things are shared",
     "voice_label": null
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 74,
+  "fields": {
+    "service": 4,
+    "creation_date": "2019-05-20T15:09:13.711Z",
+    "modification_date": "2019-05-20T15:19:21.030Z",
+    "name": "Welcome Shariculture",
+    "description": "Welcome message",
+    "voice_label": 150
   }
 },
 {
@@ -2947,6 +2950,11 @@
   "fields": {}
 },
 {
+  "model": "service_development.voiceserviceelement",
+  "pk": 74,
+  "fields": {}
+},
+{
   "model": "service_development.voiceservice",
   "pk": 1,
   "fields": {
@@ -2999,6 +3007,25 @@
     "registration_language": true,
     "registration_name": false,
     "supported_languages": []
+  }
+},
+{
+  "model": "service_development.voiceservice",
+  "pk": 4,
+  "fields": {
+    "name": "Shariculture2",
+    "description": "Shariculture",
+    "creation_date": "2019-05-20T15:10:46.093Z",
+    "modification_date": "2019-05-20T15:14:04.286Z",
+    "active": true,
+    "_start_element": 74,
+    "registration": "preferred",
+    "registration_language": true,
+    "registration_name": false,
+    "supported_languages": [
+      2,
+      3
+    ]
   }
 },
 {
@@ -4519,6 +4546,14 @@
   "fields": {
     "final_element": true,
     "_redirect": null
+  }
+},
+{
+  "model": "service_development.messagepresentation",
+  "pk": 74,
+  "fields": {
+    "final_element": false,
+    "_redirect": 72
   }
 },
 {
