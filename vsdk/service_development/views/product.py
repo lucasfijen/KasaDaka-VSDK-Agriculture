@@ -6,8 +6,10 @@ from django.http import HttpResponseNotFound
 from ..models import *
 
 class ProductSelection(TemplateView):
-    vse_element = get_object_or_404(Vse_Own_Added, name='product')
-
+    try:
+        vse_element = get_object_or_404(Vse_Own_Added, name='product')
+    except:
+        print('fail')
     def render_product_selection_form(self, request, session):
         products = get_list_or_404(product)
 

@@ -6,8 +6,10 @@ from django.http import HttpResponseNotFound
 from ..models import *
 
 class RegionSelection(TemplateView):
-    vse_element = get_object_or_404(Vse_Own_Added, name='region')
-
+    try:
+        vse_element = get_object_or_404(Vse_Own_Added, name='region')
+    except:
+        print('fail')
     def render_region_selection_form(self, request, session):
         regions = get_list_or_404(Region)
 
