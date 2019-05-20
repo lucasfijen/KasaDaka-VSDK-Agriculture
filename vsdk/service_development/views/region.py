@@ -72,4 +72,4 @@ class RegionSelection(TemplateView):
 
         
         #session.record_step(None, "Region selected, %s" % region.region_name)
-        return HttpResponseRedirect('vxml/offers/33')
+        return HttpResponseRedirect(reverse('service-development:language-selection', args = [33]))
