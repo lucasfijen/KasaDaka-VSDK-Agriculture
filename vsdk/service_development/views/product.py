@@ -19,7 +19,7 @@ class ProductSelection(TemplateView):
         # This is the redirect URL for *AFTER* the product selection process
         pass_on_variables = {'redirect_url' : self.vse_element.get_absolute_url(session=session)}
 
-        product_options =  product.objects.values_list('product_name', flat=True)
+        product_options =  Product.objects.values_list('product_name', flat=True)
         language = get_object_or_404(Language, pk=2)
         context = {'products' : products,
                     'product_voice_labels': [product_name.voice_label.get_voice_fragment_url(language) for product_name in products],
