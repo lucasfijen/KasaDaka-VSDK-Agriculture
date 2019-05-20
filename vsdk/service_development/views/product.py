@@ -11,7 +11,7 @@ class ProductSelection(TemplateView):
     except:
         print('fail')
     def render_product_selection_form(self, request, session):
-        products = get_list_or_404(product)
+        products = get_list_or_404(Product)
 
         # This is the redirect URL to POST the product selected
         redirect_url_POST = reverse( 'service-development:product', kwargs= {'session_id':session.id})
