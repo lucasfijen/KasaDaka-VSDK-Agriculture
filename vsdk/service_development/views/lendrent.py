@@ -49,7 +49,8 @@ class LendRentSelection(TemplateView):
 
         lend_bool = True if request.POST['lending'] == 1 else False
         sys.stdout.write(request.POST['lending'])
-        sys.stdout.write(type(request.POST['lending']))
+        sys.stdout.write(str(type(request.POST['lending'])))
+        sys.stdout.write(str(request.POST))
         session._lending = lend_bool
         session.save()
         # print('done')
