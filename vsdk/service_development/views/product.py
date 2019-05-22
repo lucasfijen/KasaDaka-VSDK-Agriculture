@@ -18,9 +18,13 @@ class ProductSelection(TemplateView):
 
         product_options =  Product.objects.values_list('product_name', flat=True)
         language = session.language
+
+        questionurl = get_object_or_404(VoiceLabel, name='category').get_voice_fragment_url(language)
+
         context = {'products' : products,
                     'product_voice_labels': [product_name.voice_label.get_voice_fragment_url(language) for product_name in products],
                     # 'product_options_redirect_urls': ['vxml/product_redirect/' + str(product_options[n]) for n, _ in enumerate(products, 0)],
+                    'question_url': questionurl,
                     'redirect_url' : redirect_url_POST,
                     'pass_on_variables' : pass_on_variables,
                     'language': language

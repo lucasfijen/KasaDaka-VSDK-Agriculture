@@ -3,6 +3,7 @@
 <form id="regions">
 	<field name="region_field">
 		<prompt>
+      <audio src="{{ question_url }}"/>
 			{% for region_voice_lable in region_voice_labels %}
 			<audio src="{{ language.get_interface_voice_label_url_dict.pre_choice_option }}"/>
 			<audio src="{{ region_voice_lable }}"/>

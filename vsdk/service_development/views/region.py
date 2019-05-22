@@ -18,9 +18,13 @@ class RegionSelection(TemplateView):
 
         region_options =  Region.objects.values_list('region_name', flat=True)
         language = session.language
+
+        questionurl = get_object_or_404(VoiceLabel, name='choose_region').get_voice_fragment_url(language)
+
         context = {'regions' : regions,
                     'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
                     # 'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
+                    'question_url': questionurl,
                     'redirect_url' : redirect_url_POST,
                     'pass_on_variables' : pass_on_variables,
                     'language': language

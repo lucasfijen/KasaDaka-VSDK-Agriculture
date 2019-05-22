@@ -3,6 +3,7 @@
 <form id="products">
 	<field name="product_field">
 		<prompt>
+      <audio src="{{ question_url }}"/>
 			{% for product_voice_lable in product_voice_labels %}
 			<audio src="{{ language.get_interface_voice_label_url_dict.pre_choice_option }}"/>
 			<audio src="{{ product_voice_lable }}"/>
