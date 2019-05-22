@@ -79,3 +79,4 @@ confirmation_audio,"Are you satisfied with your recording? Press 1 to confirm, o
 repeat_message,Your message is:,Votre message est:,0
 save_audio,Your audio is now being stored.,Votre message sera sauvé.,0
 audio_failed,"We did not hear anything, please speak your message.","Nous n'avons rien entendu, dites s'il vous plaît votre message.",0
+no_offers,"Sorry, there are no offers in this region of the chosen product. You can now choose a different product or terminate the call.","Nous sommes désolé, il n'y a pas d'offres dans cette région du produit choisi. Vous pouvez maintenant choisir un autre produit ou mettre fin à l'appel.",0
