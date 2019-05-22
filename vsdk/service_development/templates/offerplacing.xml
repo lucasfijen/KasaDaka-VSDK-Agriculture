@@ -1,0 +1,10 @@
+{% extends "base.xml" %}
+{% block content%}
+<form>
+  <block>
+    <prompt>
+        <audio src="{{ final_message }}"/>
+    </prompt>
+  </block>
+</form>
+{% endblock %}
