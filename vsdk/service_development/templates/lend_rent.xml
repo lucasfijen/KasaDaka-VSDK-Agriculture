@@ -1,11 +1,12 @@
 {% extends "base.xml" %}
 {% block content%}
-<form id="regions">
-	<field name="region_field">
+<form id="lendrent">
+	<field name="lend_or_rent">
 		<prompt>
-			{% for region_voice_lable in region_voice_labels %}
+      <audio src="{{ question_url }}"/>
+			{% for choice in choice_labels %}
 			<audio src="{{ language.get_interface_voice_label_url_dict.pre_choice_option }}"/>
-			<audio src="{{ region_voice_lable }}"/>
+			<audio src="{{ choice }}"/>
 			<audio src="{{ language.get_interface_voice_label_url_dict.post_choice_option }}"/>
 			{% for number in language.get_interface_numbers_voice_label_url_list %}{% if forloop.counter0 == forloop.parentloop.counter %}<audio src="{{ number }}"/>{% endif %}{% endfor %}
 			{% endfor %}
@@ -15,7 +16,7 @@
    <grammar xml:lang="en-US" root = "MYRULE" mode="dtmf">
       <rule id="MYRULE" scope = "public">
         <one-of>
-          {% for region in regions %}
+          {% for choice in choice_labels %}
             <item>{{ forloop.counter }}</item>
           {% endfor %}
         </one-of>
@@ -23,13 +24,13 @@
    </grammar>
    {# when there has been input, save the corresponding URI in the given variable #}
    <filled>
-    {% for region in regions %}
+    {% for choice in returning_options %}
       {% if forloop.counter == 1 %}
-      <if cond="region_field == '{{ forloop.counter }}'">
-		  <assign name="region_id" expr="'{{ region.id }}'"/>
+      <if cond="lend_or_rent == '{{ forloop.counter }}'">
+		  <assign name="lending" expr="'{{ choice }}'"/>
       {% else %}
-      <elseif cond="region_field == '{{ forloop.counter }}'" />
-      <assign name="region_id" expr="'{{ region.id }}'"/>
+      <elseif cond="lend_or_rent == '{{ forloop.counter }}'" />
+      <assign name="lending" expr="'{{ choice }}'"/>
       {% endif %}
     {% endfor %}
 
@@ -48,7 +49,7 @@
 	{% for key, value in pass_on_variables.items %}
 	<assign name="{{ key }}" expr="'{{ value }}'"/>
 	{% endfor %}
-	<submit next="{{ redirect_url }}" method="post" namelist="region_id {% for key, value in pass_on_variables.items %} {{ key }} {% endfor %}"/>
+	<submit next="{{ redirect_url }}" method="post" namelist="lend_rent {% for key, value in pass_on_variables.items %} {{ key }} {% endfor %}"/>
 </block>
 </form>
 

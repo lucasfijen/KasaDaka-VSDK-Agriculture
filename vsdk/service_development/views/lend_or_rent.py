@@ -17,15 +17,17 @@ class LendRentSelection(TemplateView):
         pass_on_variables = {'redirect_url' : vse_element.redirect.get_absolute_url(session=session)}
 
         # region_options =  Region.objects.values_list('region_name', flat=True)
-        language = get_object_or_404(Language, pk=2)
-        context = {'regions' : regions,
-                    'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
+        language = session.language
+        context = {'returning_options' : [0, 1]],
+                   'question_url': get_object_or_404(VoiceLabel, name='lend_or_rent').get_voice_fragment_url(language),
+                    'choice_labels': [get_object_or_404(VoiceLabel, name='rent_a_product').get_voice_fragment_url(language),
+                                            get_object_or_404(VoiceLabel, name='lend_a_product').get_voice_fragment_url(language)],
                     # 'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
                     'redirect_url' : redirect_url_POST,
                     'pass_on_variables' : pass_on_variables,
                     'language': language
                     }
-        return render(request, 'region_selection.xml', context, content_type='text/xml')
+        return render(request, 'lend_rent.xml', context, content_type='text/xml')
 
 
     def get(self, request, session_id):
@@ -37,22 +39,20 @@ class LendRentSelection(TemplateView):
 
     def post(self, request, session_id):
         try:
-            if 'region_id' not in request.POST:
+            if 'lending' not in request.POST:
                 raise ValueError('Incorrect request, region ID not set')
         except: 
-            return HttpResponseNotFound('No change made')
+            return HttpResponseNotFound('No choice made')
 
         session = get_object_or_404(CallSession, pk = session_id)
-        voice_service = session.service
-        region = get_object_or_404(Region, pk = request.POST['region_id'])
-        #print(type(request.POST['region_id']))
-        lend_bool == True if request.POST['lending'] == 1 else False
+
+        lend_bool = True if request.POST['lending'] == 1 else False
         session._lending = lend_bool
         session.save()
         # print('done')
 
         
         # session.record_step(None, "Region selected, %s" % region.region_name)
-        vse_element = get_object_or_404(Vse_Own_Added, name='region')
+        vse_element = get_object_or_404(Vse_Own_Added, name='lendrent')
         # print(vse_element.redirect.get_absolute_url(session=session))
         return HttpResponseRedirect(vse_element.redirect.get_absolute_url(session=session))
