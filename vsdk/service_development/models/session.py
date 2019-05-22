@@ -21,7 +21,8 @@ class CallSession(models.Model):
     _language = models.ForeignKey(Language,on_delete = models.SET_NULL, null = True)
     _region = models.ForeignKey(Region, on_delete = models.SET_NULL, null = True, blank = True)
     _product = models.ForeignKey(Product, on_delete = models.SET_NULL, null = True, blank = True)
-    
+    _lending = models.BooleanField(default=True)
+
     class Meta:
         verbose_name = _('Call Session')
 

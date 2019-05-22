@@ -1,6 +1,6 @@
 filename,en,fr,exists
 welcome,Welcome to our application prototype Shariculture! A platform to borrow items or services from others.,Bienvenue à notre prototype de Shariculture! Où on peut louer des outils agricoles d'autre fermiers. ,0
-category,What product would you like to lend?,Quel produit es-ce que vous voulez louer?,0
+category,What product would you like to choose?,Quel produit voulez-vous choisir?,0
 pre_choice_option,To select,Pour sélectionner,1
 post_choice_option,press,appuyer sur,1
 0,0,0,1
@@ -54,10 +54,17 @@ region_kidal,Kidal,Kidal,0
 region_taoudenit,Taoudénit,Taoudénit,0
 region_menaka,Ménaka,Ménaka,0
 choose_region,In what region are you located?,Dans quelle région cherchez-vous ce produit?,0
-choose_offer_or_request, Do you want to use a product or share a product?, Voulez-vous utiliser un produitou partager un produit?, 0
-choose_offer, Share a product, Partager un produit, 0
-choose_request, Use a product, Utiliser un produit, 0
-pre_offers, These are the offers of, Ce sont les offres des, 0
-post_offers, in, a, 0
-pre_offer_voice, We will now redirect you to the following number: , Nous allons maintenant vous rediriger vers le numéro:, 0
-post_offer_voice, We will also send you this phonenumber through SMS., Nous vous enverrons aussi ce numéro de téléphone par SMS., 0
+choose_offer_or_request, Do you want to use a product or share a product?, Voulez-vous utiliser un produitou partager un produit?,0
+choose_offer, Share a product, Partager un produit,0
+choose_request, Use a product, Utiliser un produit,0
+pre_offers, These are the offers of, Ce sont les offres des,0
+post_offers, in, a,0
+pre_offer_voice, We will now redirect you to the following number: , Nous allons maintenant vous rediriger vers le numéro:,0
+post_offer_voice, We will also send you this phonenumber through SMS., Nous vous enverrons aussi ce numéro de téléphone par SMS.,0
+lend_or_rent,"Would you like to make use of a product, or do you want to offer a product on our platform?","Voulez-vous utiliser un produit, ou voulez-vous proposer un produit à louer?",0
+rent_a_product,use a product,utiliser un produit,0
+lend_a_product,offer a product,propser un produit,0
+record_message,You will now be able to record a short message about your offer. You will now hear an example message.,Vous pourrez maintenant enregistrer un court message concernant votre offre. Vous allez maintenant entendre un exemple de message.,0
+example_message,"Hi, I’m lucas from Amsterdam. I’m offering a milling device that is able to mill 200 nuts an hour. The price will be around 5 to 10 milian frank an hour.","Salut, je suis Lucas d’Amsterdam. J’offre une fraiseuze capable de fraiser 200 noix à l’heure. Le prix sera de 5 à 10 Franc Malien par heure. ",0
+post_record,Please record a similar short message about your product.,Veuillez enregistrer un message court similaire sur votre product. ,0
+save_recording,"Your offer is now available for a duration of 1 month. You will receive a text-message when your offer is expired. Feel free to call again to place another product, or to make use of others’ tools. Thank you for using our application. Have a nice day!","Votre offre est valable pendant un mois à partir de aujourd’hui. Nous vous enverrons un S M S quand l’offre est expiré. Si vous voulez placer un autre offre, où si vour voulez utiliser un produit d’une autre personne, rappellez-nous. Merci à utilliser notre application. Bonne journée. ",0

@@ -17,7 +17,7 @@ class ProductSelection(TemplateView):
         pass_on_variables = {'redirect_url' : vse_element.get_absolute_url(session=session)}
 
         product_options =  Product.objects.values_list('product_name', flat=True)
-        language = get_object_or_404(Language, pk=2)
+        language = session.language
         context = {'products' : products,
                     'product_voice_labels': [product_name.voice_label.get_voice_fragment_url(language) for product_name in products],
                     # 'product_options_redirect_urls': ['vxml/product_redirect/' + str(product_options[n]) for n, _ in enumerate(products, 0)],

@@ -5,19 +5,19 @@ from django.http.response import HttpResponseRedirect
 from django.http import HttpResponseNotFound
 from ..models import *
 
-class RegionSelection(TemplateView):
-    def render_region_selection_form(self, request, session):
-        regions = get_list_or_404(Region)
+class LendRentSelection(TemplateView):
+    def render_selection(self, request, session):
+        # regions = get_list_or_404(Region)
 
         # This is the redirect URL to POST the region selected
-        redirect_url_POST = reverse( 'service-development:region', kwargs= {'session_id':session.id})
+        redirect_url_POST = reverse( 'service-development:lendrent', kwargs= {'session_id':session.id})
 
         # This is the redirect URL for *AFTER* the region selection process
-        vse_element = vse_element = get_object_or_404(Vse_Own_Added, name='region')
+        vse_element = vse_element = get_object_or_404(Vse_Own_Added, name='lendrent')
         pass_on_variables = {'redirect_url' : vse_element.redirect.get_absolute_url(session=session)}
 
-        region_options =  Region.objects.values_list('region_name', flat=True)
-        language = session.language
+        # region_options =  Region.objects.values_list('region_name', flat=True)
+        language = get_object_or_404(Language, pk=2)
         context = {'regions' : regions,
                     'region_voice_labels': [region_name.voice_label.get_voice_fragment_url(language) for region_name in regions],
                     # 'region_options_redirect_urls': ['vxml/region_redirect/' + str(region_options[n]) for n, _ in enumerate(regions, 0)],
@@ -33,31 +33,21 @@ class RegionSelection(TemplateView):
         Asks the user to select one of the supported languages.
         """
         session = get_object_or_404(CallSession, pk = session_id)
-        voice_service = session.service
-        return self.render_region_selection_form(request, session)
+        return self.render_selection(request, session)
 
     def post(self, request, session_id):
         try:
             if 'region_id' not in request.POST:
                 raise ValueError('Incorrect request, region ID not set')
         except: 
-            return HttpResponseNotFound('1')
+            return HttpResponseNotFound('No change made')
 
-        try:
-            session = get_object_or_404(CallSession, pk = session_id)
-        except:
-            return HttpResponseNotFound('2')
-        try:
-            voice_service = session.service
-        except:
-            return HttpResponseNotFound('3')
-        try:
-            region = get_object_or_404(Region, pk = request.POST['region_id'])
-            #print(type(request.POST['region_id']))
-        except:
-            return HttpResponseNotFound(str(request.POST))
-        
-        session._region = region
+        session = get_object_or_404(CallSession, pk = session_id)
+        voice_service = session.service
+        region = get_object_or_404(Region, pk = request.POST['region_id'])
+        #print(type(request.POST['region_id']))
+        lend_bool == True if request.POST['lending'] == 1 else False
+        session._lending = lend_bool
         session.save()
         # print('done')
 
