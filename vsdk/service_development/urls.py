@@ -17,5 +17,7 @@ urlpatterns = [
     url(r'^region/(?P<session_id>[0-9]+)$', views.RegionSelection.as_view(), name='region'),
     url(r'^product/(?P<session_id>[0-9]+)$', views.ProductSelection.as_view(), name='product'),
     url(r'^lendrent/(?P<session_id>[0-9]+)$', views.LendRentSelection.as_view(), name='lendrent'),
+    url(r'^lendorrentredirect/(?P<session_id>[0-9]+)$', views.lendrentredirect, name='lendorrentredirect'),
+    url(r'^offerplacing/(?P<session_id>[0-9]+)$', views.offerplacing, name='offerplacing'),
 ]
 

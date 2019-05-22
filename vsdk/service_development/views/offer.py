@@ -1,25 +1,39 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404, redirect
-
+from django.conf import settings
 from ..models import *
 
 def create_requests(session):
     language = session._language
     product = session._product
     region = session._region
-    offers = get_list_or_404(Offer, region = region, product_type = product)
+    offers = get_list_or_404(Offer, region = region, product_type = product, language = language)
     offers = [offer for offer in offers if offer.is_active()]
     questions = [get_object_or_404(VoiceLabel, name='pre_offers'), \
                 product.voice_label, \
                 get_object_or_404(VoiceLabel, name='post_offers'), \
                 region.voice_label]
+
+    offer_urls = [get_offer_url(offer, language) for offer in offers]
+    
     context = { 'offers': offers,
                 'questions': [question.get_voice_fragment_url(language) for question in questions],
-                'voice_labels': [offer.voice_label.get_voice_fragment_url(language) for offer in offers],
+                'voice_labels': offer_urls,
                 'language': language,
                 'choice_options_redirect_urls': [reverse('service-development:show_offer', kwargs= {'session_id': session.id, 
-                                                                                                    'offer_id':offer.id}) for offer in offers]
+                                                                                                   'offer_id':offer.id}) for offer in offers]
                 }
     return context
+
+def get_offer_url(offer, language):
+    try:
+        audio_model = offer.audio_file
+        return settings.MEDIA_URL + str(audio_model.audio)
+    except:
+        if offer.voice_label:
+            return offer.voice_label.get_voice_fragment_url(language)
+        else:
+            return get_object_or_404(VoiceLabel, name='standard_no_audio').get_voice_fragment_url(language)
+
 
 def offer(request, session_id):
     """ Page to show the offers given the product and region,

@@ -49,6 +49,6 @@ class LanguageSelection(TemplateView):
         session._language = language
         session.save()
 
-        session.record_step(None, "Language selected, %s" % language.name)
+        # session.record_step(None, "Language selected, %s" % language.name)
 
         return HttpResponseRedirect(redirect_url)

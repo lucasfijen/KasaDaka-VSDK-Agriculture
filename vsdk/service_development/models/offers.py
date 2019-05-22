@@ -12,9 +12,10 @@ from . import Language
 import datetime
 from django.utils import timezone
 
-from .product import Product
-from .region import Region
-from .voicelabel import VoiceLabel
+# from .product import Product
+# from .region import Region
+# from .voicelabel import VoiceLabel
+from ..models import *
 
 
 class Offer(models.Model):
@@ -28,6 +29,10 @@ class Offer(models.Model):
 
     def is_active(self):
         return self.enddate >= timezone.now().date()
+
+    def create_enddate(self):
+        self.enddate = self.startdate + datetime.timedelta(days=31)
+
     is_active.admin_order_field = 'is_active'
     is_active.boolean = True
     is_active.short_description = 'Is active?'
@@ -38,13 +43,21 @@ class Offer(models.Model):
     enddate = models.DateField()
 
     # Reference to the wav that describes the product, for now redirects to voicelabel
-    # TODO: change this to actual recorded instances
     voice_label = models.ForeignKey(
             VoiceLabel,
             verbose_name = _('Voice label'),
             on_delete = models.SET_NULL,
             null = True,
-            blank = True,
+            blank=True,
+            )
+
+    # Reference to the recorded audio file, kept the upper one for spare
+    audio_file = models.ForeignKey(
+            SpokenUserInput,
+            verbose_name = _('Recorded audio'),
+            on_delete = models.PROTECT,
+            null=True,
+            blank=True,
             )
 
     # Selects product type
@@ -53,7 +66,7 @@ class Offer(models.Model):
             verbose_name = _('Product type'),
             on_delete = models.SET_NULL,
             null = True,
-            blank = True,
+            blank=True,
             )
 
     # ID towards the location field
@@ -62,7 +75,7 @@ class Offer(models.Model):
             verbose_name = _('Region'),
             on_delete = models.SET_NULL,
             null = True,
-            blank = True,
+            blank=True,
             )
 
     # Id to which user the offer belongs, gives information on phonenumber
@@ -71,6 +84,14 @@ class Offer(models.Model):
             verbose_name = _('Caller id'),
             on_delete = models.CASCADE,
             null = True,
-            blank = True,
+            blank=True,
             )
-
+    # Reference to in which language the offer was recorded (we only show those in
+    # the same language as the placed order)
+    language = models.ForeignKey(
+            Language,
+            verbose_name = _('Offer_language'),
+            on_delete = models.SET_NULL,
+            null=True,
+            blank=True,
+    )

@@ -27,7 +27,7 @@ class KasaDakaUserRegistration(TemplateView):
         user.save()
         session.link_to_user(user)
 
-        session.record_step(None, "Registered as user: %s" % str(user))
+        # session.record_step(None, "Registered as user: %s" % str(user))
         return
 
     def user_registration_process(self, request, session):

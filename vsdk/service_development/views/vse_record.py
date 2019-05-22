@@ -61,7 +61,7 @@ def record(request, element_id, session_id):
         return redirect(request.POST['redirect'])
 
 
-    session.record_step(record_element)
+    # session.record_step(record_element)
     context = record_generate_context(record_element, session)
 
     context['url'] = request.get_full_path(False)

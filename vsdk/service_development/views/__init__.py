@@ -9,3 +9,5 @@ from .offer import *
 from .region import *
 from .product import *
 from .lendrent import *
+from .lendrentredirect import *
+from .offerplacing import *
