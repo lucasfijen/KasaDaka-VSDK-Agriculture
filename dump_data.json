@@ -632,6 +632,46 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 164,
+  "fields": {
+    "name": "standard_no_audio",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 165,
+  "fields": {
+    "name": "confirmation_audio",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 166,
+  "fields": {
+    "name": "repeat_message",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 167,
+  "fields": {
+    "name": "save_audio",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 168,
+  "fields": {
+    "name": "audio_failed",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -2312,6 +2352,96 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 265,
+  "fields": {
+    "parent": 164,
+    "language": 2,
+    "audio": "standard_no_audio_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 266,
+  "fields": {
+    "parent": 164,
+    "language": 3,
+    "audio": "standard_no_audio_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 267,
+  "fields": {
+    "parent": 165,
+    "language": 2,
+    "audio": "confirmation_audio_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 268,
+  "fields": {
+    "parent": 165,
+    "language": 3,
+    "audio": "confirmation_audio_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 269,
+  "fields": {
+    "parent": 166,
+    "language": 2,
+    "audio": "repeat_message_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 270,
+  "fields": {
+    "parent": 166,
+    "language": 3,
+    "audio": "repeat_message_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 271,
+  "fields": {
+    "parent": 167,
+    "language": 2,
+    "audio": "save_audio_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 272,
+  "fields": {
+    "parent": 167,
+    "language": 3,
+    "audio": "save_audio_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 273,
+  "fields": {
+    "parent": 168,
+    "language": 2,
+    "audio": "audio_failed_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 274,
+  "fields": {
+    "parent": 168,
+    "language": 3,
+    "audio": "audio_failed_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -3145,7 +3275,7 @@
   "fields": {
     "service": 4,
     "creation_date": "2019-05-20T14:11:48.882Z",
-    "modification_date": "2019-05-20T15:11:54.465Z",
+    "modification_date": "2019-05-22T12:05:43.343Z",
     "name": "region",
     "description": "This is the page about regions",
     "voice_label": null
@@ -3196,6 +3326,42 @@
     "modification_date": "2019-05-22T11:10:42.003Z",
     "name": "lendrent",
     "description": "Choose between lending and renting",
+    "voice_label": null
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 76,
+  "fields": {
+    "service": 4,
+    "creation_date": "2019-05-22T12:05:30.912Z",
+    "modification_date": "2019-05-22T19:00:40.772Z",
+    "name": "lendorrentredirect",
+    "description": "redirect item is for the redirect to placing an offer",
+    "voice_label": null
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 77,
+  "fields": {
+    "service": 4,
+    "creation_date": "2019-05-22T12:22:25.680Z",
+    "modification_date": "2019-05-22T18:54:47.642Z",
+    "name": "offer_audios",
+    "description": "recorded voice messages of offers",
+    "voice_label": 154
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 78,
+  "fields": {
+    "service": 4,
+    "creation_date": "2019-05-22T15:12:27.216Z",
+    "modification_date": "2019-05-22T15:12:27.216Z",
+    "name": "offerplacing",
+    "description": "placing the actual offer and saving it and saying goodbye",
     "voice_label": null
   }
 },
@@ -3307,6 +3473,21 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 75,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 76,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 77,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 78,
   "fields": {}
 },
 {
@@ -4008,12 +4189,12 @@
   "pk": 33,
   "fields": {
     "start": "2019-05-13T12:57:30.689Z",
-    "end": "2019-05-20T22:09:55.814Z",
+    "end": "2019-05-22T12:22:46.014Z",
     "user": 2,
     "caller_id": "123",
     "service": 2,
     "_language": 2,
-    "_region": null,
+    "_region": 2,
     "_product": 1,
     "_lending": false
   }
@@ -5038,6 +5219,30 @@
   }
 },
 {
+  "model": "service_development.userinputcategory",
+  "pk": 1,
+  "fields": {
+    "name": "offers_audios",
+    "description": null,
+    "service": 4
+  }
+},
+{
+  "model": "service_development.record",
+  "pk": 77,
+  "fields": {
+    "not_heard_voice_label": 168,
+    "repeat_recording_to_caller": true,
+    "repeat_voice_label": 166,
+    "ask_confirmation": true,
+    "ask_confirmation_voice_label": 165,
+    "final_voice_label": 167,
+    "input_category": 1,
+    "max_time_input": 20,
+    "_redirect": 78
+  }
+},
+{
   "model": "service_development.offer",
   "pk": 1,
   "fields": {
@@ -5045,9 +5250,11 @@
     "startdate": "2019-05-08",
     "enddate": "2019-05-22",
     "voice_label": 123,
+    "audio_file": null,
     "product_type": 1,
-    "region": null,
-    "user_id": 2
+    "region": 2,
+    "user_id": 2,
+    "language": 2
   }
 },
 {
@@ -5058,9 +5265,11 @@
     "startdate": "2019-05-13",
     "enddate": "2019-05-31",
     "voice_label": 124,
+    "audio_file": null,
     "product_type": 1,
-    "region": null,
-    "user_id": 2
+    "region": 2,
+    "user_id": 2,
+    "language": 2
   }
 },
 {
@@ -5071,9 +5280,11 @@
     "startdate": "2019-05-13",
     "enddate": "2019-05-13",
     "voice_label": 125,
+    "audio_file": null,
     "product_type": 1,
     "region": null,
-    "user_id": 2
+    "user_id": 2,
+    "language": null
   }
 },
 {
@@ -5081,7 +5292,7 @@
   "pk": 71,
   "fields": {
     "final_element": false,
-    "_redirect": 73
+    "_redirect": 76
   }
 },
 {
@@ -5106,6 +5317,22 @@
   "fields": {
     "final_element": false,
     "_redirect": 72
+  }
+},
+{
+  "model": "service_development.vse_own_added",
+  "pk": 76,
+  "fields": {
+    "final_element": true,
+    "_redirect": 77
+  }
+},
+{
+  "model": "service_development.vse_own_added",
+  "pk": 78,
+  "fields": {
+    "final_element": true,
+    "_redirect": null
   }
 }
 ]
