@@ -672,6 +672,14 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 169,
+  "fields": {
+    "name": "no_offers",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -2442,6 +2450,24 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 275,
+  "fields": {
+    "parent": 169,
+    "language": 2,
+    "audio": "no_offers_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 276,
+  "fields": {
+    "parent": 169,
+    "language": 3,
+    "audio": "no_offers_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -3299,7 +3325,7 @@
   "fields": {
     "service": 4,
     "creation_date": "2019-05-20T14:13:41.386Z",
-    "modification_date": "2019-05-20T15:11:43.668Z",
+    "modification_date": "2019-05-22T22:00:13.496Z",
     "name": "offers",
     "description": "The final page at what things are shared",
     "voice_label": null
@@ -3363,6 +3389,18 @@
     "name": "offerplacing",
     "description": "placing the actual offer and saving it and saying goodbye",
     "voice_label": null
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 79,
+  "fields": {
+    "service": 4,
+    "creation_date": "2019-05-22T21:59:24.609Z",
+    "modification_date": "2019-05-22T21:59:24.609Z",
+    "name": "no_offers",
+    "description": "says no offers were there for combi with region and language, goes back to begin",
+    "voice_label": 169
   }
 },
 {
@@ -3488,6 +3526,11 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 78,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 79,
   "fields": {}
 },
 {
@@ -4316,7 +4359,7 @@
     "_language": 2,
     "_region": null,
     "_product": null,
-    "_lending": true
+    "_lending": false
   }
 },
 {
@@ -5219,6 +5262,14 @@
   }
 },
 {
+  "model": "service_development.messagepresentation",
+  "pk": 79,
+  "fields": {
+    "final_element": false,
+    "_redirect": 71
+  }
+},
+{
   "model": "service_development.userinputcategory",
   "pk": 1,
   "fields": {
@@ -5288,6 +5339,36 @@
   }
 },
 {
+  "model": "service_development.offer",
+  "pk": 4,
+  "fields": {
+    "name": null,
+    "startdate": "2019-05-22",
+    "enddate": "2019-06-21",
+    "voice_label": null,
+    "audio_file": null,
+    "product_type": 1,
+    "region": 2,
+    "user_id": 2,
+    "language": 2
+  }
+},
+{
+  "model": "service_development.offer",
+  "pk": 5,
+  "fields": {
+    "name": null,
+    "startdate": "2019-05-22",
+    "enddate": "2019-06-21",
+    "voice_label": null,
+    "audio_file": null,
+    "product_type": 1,
+    "region": 2,
+    "user_id": 2,
+    "language": 2
+  }
+},
+{
   "model": "service_development.vse_own_added",
   "pk": 71,
   "fields": {
@@ -5308,7 +5389,7 @@
   "pk": 73,
   "fields": {
     "final_element": true,
-    "_redirect": 73
+    "_redirect": 79
   }
 },
 {

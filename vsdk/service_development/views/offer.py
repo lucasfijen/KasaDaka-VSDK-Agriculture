@@ -1,6 +1,7 @@
 from django.shortcuts import render, get_object_or_404, get_list_or_404, redirect
 from django.conf import settings
 from ..models import *
+from django.http import Http404
 
 def create_requests(session):
     language = session._language
@@ -8,6 +9,9 @@ def create_requests(session):
     region = session._region
     offers = get_list_or_404(Offer, region = region, product_type = product, language = language)
     offers = [offer for offer in offers if offer.is_active()]
+    if len(offers) == 0:
+        raise Http404('No offers found')
+        
     questions = [get_object_or_404(VoiceLabel, name='pre_offers'), \
                 product.voice_label, \
                 get_object_or_404(VoiceLabel, name='post_offers'), \
@@ -40,8 +44,13 @@ def offer(request, session_id):
         someone selected earlier
         """
     session = get_object_or_404(CallSession, pk=session_id)
-    context = create_requests(session)
-    return render(request, 'offer.xml', context, content_type='text/xml')
+    try:
+        context = create_requests(session)
+        return render(request, 'offer.xml', context, content_type='text/xml')
+    except:
+        vse_element = get_object_or_404(Vse_Own_Added, name='offers')
+        return HttpResponseRedirect(vse_element.redirect.get_absolute_url(session=session))
+
 
 def number_to_url_list(language, number):
     numberurls = language.get_interface_numbers_voice_label_url_list

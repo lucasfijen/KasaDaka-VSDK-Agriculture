@@ -47,10 +47,15 @@ class LendRentSelection(TemplateView):
 
         session = get_object_or_404(CallSession, pk = session_id)
 
-        lend_bool = True if request.POST['lending'] == 1 else False
-        sys.stdout.write(request.POST['lending'])
-        sys.stdout.write(str(type(request.POST['lending'])))
-        sys.stdout.write(str(request.POST))
+        if request.POST['lending'] == '1' or \
+            request.POST['lending'] == 1:
+            lend_bool = True
+        else:
+            lend_bool = False
+        # lend_bool = True if request.POST['lending'] == 1 else False
+        # sys.stdout.write(request.POST['lending'])
+        # sys.stdout.write(str(type(request.POST['lending'])))
+        # sys.stdout.write(str(request.POST))
         session._lending = lend_bool
         session.save()
         # print('done')
