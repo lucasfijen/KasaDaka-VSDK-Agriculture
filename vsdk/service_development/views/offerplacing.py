@@ -16,4 +16,4 @@ def offerplacing(request, session_id):
     newoffer.save()
     final_audio_url = get_object_or_404(VoiceLabel, name='save_recording').get_voice_fragment_url(session.language)
     context = {'final_message': final_audio_url}
-    render(request, 'product_selection.xml', context, content_type='text/xml')
+    return render(request, 'product_selection.xml', context, content_type='text/xml')
