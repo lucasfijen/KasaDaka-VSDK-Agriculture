@@ -10,7 +10,6 @@ from . import VoiceService, VoiceServiceElement
 from . import Language
 
 import datetime
-from django.utils import timezone
 
 # from .product import Product
 # from .region import Region
@@ -30,9 +29,6 @@ class Offer(models.Model):
     def is_active(self):
         return self.enddate >= timezone.now().date()
 
-    def create_enddate(self):
-        self.enddate = self.startdate + datetime.timedelta(days=31)
-
     is_active.admin_order_field = 'is_active'
     is_active.boolean = True
     is_active.short_description = 'Is active?'
@@ -40,7 +36,7 @@ class Offer(models.Model):
     name = models.CharField(max_length = 255, null = True, blank = True)
 
     startdate = models.DateField(auto_now_add = True)
-    enddate = models.DateField()
+    enddate = models.DateField(default=timezone.now() + datetime.timedelta(days=30))
 
     # Reference to the wav that describes the product, for now redirects to voicelabel
     voice_label = models.ForeignKey(
