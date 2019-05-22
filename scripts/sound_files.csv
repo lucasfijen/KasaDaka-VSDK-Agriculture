@@ -53,6 +53,7 @@ region_gao,Gao,Gao,0
 region_kidal,Kidal,Kidal,0
 region_taoudenit,Taoudénit,Taoudénit,0
 region_menaka,Ménaka,Ménaka,0
+region_bamako,Bamako,Bamako,0
 choose_region,In what region are you located?,Dans quelle région cherchez-vous ce produit?,0
 choose_offer_or_request, Do you want to use a product or share a product?, Voulez-vous utiliser un produitou partager un produit?,0
 choose_offer, Share a product, Partager un produit,0
@@ -68,3 +69,8 @@ record_message,You will now be able to record a short message about your offer. 
 example_message,"Hi, I’m lucas from Amsterdam. I’m offering a milling device that is able to mill 200 nuts an hour. The price will be around 5 to 10 milian frank an hour.","Salut, je suis Lucas d’Amsterdam. J’offre une fraiseuze capable de fraiser 200 noix à l’heure. Le prix sera de 5 à 10 Franc Malien par heure. ",0
 post_record,Please record a similar short message about your product.,Veuillez enregistrer un message court similaire sur votre product. ,0
 save_recording,"Your offer is now available for a duration of 1 month. You will receive a text-message when your offer is expired. Feel free to call again to place another product, or to make use of others’ tools. Thank you for using our application. Have a nice day!","Votre offre est valable pendant un mois à partir de aujourd’hui. Nous vous enverrons un S M S quand l’offre est expiré. Si vous voulez placer un autre offre, où si vour voulez utiliser un produit d’une autre personne, rappellez-nous. Merci à utilliser notre application. Bonne journée. ",0
+product_milling,Milling devices,Moulin,0
+product_transport,Transport,Transport,0
+product_peeling,Peeling Machine,Machine a Decortiquer ,0
+product_roasting,Roasting Machine,Torrefacteur,0
+product_churn,Churn,Baratte,0

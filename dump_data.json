@@ -528,6 +528,110 @@
   }
 },
 {
+  "model": "service_development.voicelabel",
+  "pk": 151,
+  "fields": {
+    "name": "lend_or_rent",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 152,
+  "fields": {
+    "name": "rent_a_product",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 153,
+  "fields": {
+    "name": "lend_a_product",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 154,
+  "fields": {
+    "name": "record_message",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 155,
+  "fields": {
+    "name": "example_message",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 156,
+  "fields": {
+    "name": "post_record",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 157,
+  "fields": {
+    "name": "save_recording",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 158,
+  "fields": {
+    "name": "region_bamako",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 159,
+  "fields": {
+    "name": "product_milling",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 160,
+  "fields": {
+    "name": "product_transport",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 161,
+  "fields": {
+    "name": "product_peeling",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 162,
+  "fields": {
+    "name": "product_roasting",
+    "description": null
+  }
+},
+{
+  "model": "service_development.voicelabel",
+  "pk": 163,
+  "fields": {
+    "name": "product_churn",
+    "description": null
+  }
+},
+{
   "model": "service_development.language",
   "pk": 1,
   "fields": {
@@ -1974,6 +2078,240 @@
   }
 },
 {
+  "model": "service_development.voicefragment",
+  "pk": 239,
+  "fields": {
+    "parent": 151,
+    "language": 2,
+    "audio": "lend_or_rent_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 240,
+  "fields": {
+    "parent": 151,
+    "language": 3,
+    "audio": "lend_or_rent_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 241,
+  "fields": {
+    "parent": 152,
+    "language": 2,
+    "audio": "rent_a_product_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 242,
+  "fields": {
+    "parent": 152,
+    "language": 3,
+    "audio": "rent_a_product_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 243,
+  "fields": {
+    "parent": 153,
+    "language": 2,
+    "audio": "lend_a_product_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 244,
+  "fields": {
+    "parent": 153,
+    "language": 3,
+    "audio": "lend_a_product_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 245,
+  "fields": {
+    "parent": 154,
+    "language": 2,
+    "audio": "record_message_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 246,
+  "fields": {
+    "parent": 154,
+    "language": 3,
+    "audio": "record_message_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 247,
+  "fields": {
+    "parent": 155,
+    "language": 2,
+    "audio": "example_message_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 248,
+  "fields": {
+    "parent": 155,
+    "language": 3,
+    "audio": "example_message_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 249,
+  "fields": {
+    "parent": 156,
+    "language": 2,
+    "audio": "post_record_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 250,
+  "fields": {
+    "parent": 156,
+    "language": 3,
+    "audio": "post_record_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 251,
+  "fields": {
+    "parent": 157,
+    "language": 2,
+    "audio": "save_recording_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 252,
+  "fields": {
+    "parent": 157,
+    "language": 3,
+    "audio": "save_recording_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 253,
+  "fields": {
+    "parent": 158,
+    "language": 2,
+    "audio": "region_bamako_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 254,
+  "fields": {
+    "parent": 158,
+    "language": 3,
+    "audio": "region_bamako_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 255,
+  "fields": {
+    "parent": 159,
+    "language": 2,
+    "audio": "product_milling_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 256,
+  "fields": {
+    "parent": 159,
+    "language": 3,
+    "audio": "product_milling_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 257,
+  "fields": {
+    "parent": 160,
+    "language": 2,
+    "audio": "product_transport_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 258,
+  "fields": {
+    "parent": 160,
+    "language": 3,
+    "audio": "product_transport_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 259,
+  "fields": {
+    "parent": 161,
+    "language": 2,
+    "audio": "product_peeling_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 260,
+  "fields": {
+    "parent": 161,
+    "language": 3,
+    "audio": "product_peeling_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 261,
+  "fields": {
+    "parent": 162,
+    "language": 2,
+    "audio": "product_roasting_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 262,
+  "fields": {
+    "parent": 162,
+    "language": 3,
+    "audio": "product_roasting_fr.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 263,
+  "fields": {
+    "parent": 163,
+    "language": 2,
+    "audio": "product_churn_en.wav"
+  }
+},
+{
+  "model": "service_development.voicefragment",
+  "pk": 264,
+  "fields": {
+    "parent": 163,
+    "language": 3,
+    "audio": "product_churn_fr.wav"
+  }
+},
+{
   "model": "service_development.voiceservicesubelement",
   "pk": 2,
   "fields": {
@@ -2843,10 +3181,22 @@
   "fields": {
     "service": 4,
     "creation_date": "2019-05-20T15:09:13.711Z",
-    "modification_date": "2019-05-20T15:19:21.030Z",
+    "modification_date": "2019-05-22T11:42:01.050Z",
     "name": "Welcome Shariculture",
     "description": "Welcome message",
     "voice_label": 150
+  }
+},
+{
+  "model": "service_development.voiceservicesubelement",
+  "pk": 75,
+  "fields": {
+    "service": 4,
+    "creation_date": "2019-05-22T11:10:42.003Z",
+    "modification_date": "2019-05-22T11:10:42.003Z",
+    "name": "lendrent",
+    "description": "Choose between lending and renting",
+    "voice_label": null
   }
 },
 {
@@ -2952,6 +3302,11 @@
 {
   "model": "service_development.voiceserviceelement",
   "pk": 74,
+  "fields": {}
+},
+{
+  "model": "service_development.voiceserviceelement",
+  "pk": 75,
   "fields": {}
 },
 {
@@ -3085,15 +3440,87 @@
   "pk": 1,
   "fields": {
     "product_name": "Milling Devices",
-    "voice_label": 111
+    "voice_label": 159
+  }
+},
+{
+  "model": "service_development.product",
+  "pk": 2,
+  "fields": {
+    "product_name": "transport",
+    "voice_label": 160
+  }
+},
+{
+  "model": "service_development.product",
+  "pk": 3,
+  "fields": {
+    "product_name": "peeling",
+    "voice_label": 161
+  }
+},
+{
+  "model": "service_development.product",
+  "pk": 4,
+  "fields": {
+    "product_name": "roasting",
+    "voice_label": 162
+  }
+},
+{
+  "model": "service_development.product",
+  "pk": 5,
+  "fields": {
+    "product_name": "churn",
+    "voice_label": 163
   }
 },
 {
   "model": "service_development.region",
-  "pk": 1,
+  "pk": 2,
   "fields": {
-    "region_name": "Gao",
-    "voice_label": 138
+    "region_name": "Kayes",
+    "voice_label": 132
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 3,
+  "fields": {
+    "region_name": "Koulikoro",
+    "voice_label": 133
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 4,
+  "fields": {
+    "region_name": "Sikasso",
+    "voice_label": 134
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 5,
+  "fields": {
+    "region_name": "segou",
+    "voice_label": 135
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 6,
+  "fields": {
+    "region_name": "Mopti",
+    "voice_label": 136
+  }
+},
+{
+  "model": "service_development.region",
+  "pk": 7,
+  "fields": {
+    "region_name": "bamako",
+    "voice_label": 158
   }
 },
 {
@@ -3107,7 +3534,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3121,7 +3549,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3135,7 +3564,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3149,7 +3579,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3163,7 +3594,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3177,7 +3609,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3191,7 +3624,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3205,7 +3639,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3219,7 +3654,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3233,7 +3669,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3247,7 +3684,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3261,7 +3699,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3275,7 +3714,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3289,7 +3729,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3303,7 +3744,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3317,7 +3759,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3331,7 +3774,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3345,7 +3789,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3359,7 +3804,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3373,7 +3819,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3387,7 +3834,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3401,7 +3849,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3415,7 +3864,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3429,7 +3879,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3443,7 +3894,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3457,7 +3909,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3471,7 +3924,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3485,7 +3939,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3499,7 +3954,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3513,7 +3969,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3527,7 +3984,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3541,7 +3999,8 @@
     "service": 2,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3549,13 +4008,14 @@
   "pk": 33,
   "fields": {
     "start": "2019-05-13T12:57:30.689Z",
-    "end": "2019-05-20T14:17:35.821Z",
+    "end": "2019-05-20T22:09:55.814Z",
     "user": 2,
     "caller_id": "123",
     "service": 2,
     "_language": 2,
-    "_region": 1,
-    "_product": 1
+    "_region": null,
+    "_product": 1,
+    "_lending": false
   }
 },
 {
@@ -3569,7 +4029,8 @@
     "service": 2,
     "_language": 2,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3583,7 +4044,8 @@
     "service": 2,
     "_language": 2,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3597,7 +4059,8 @@
     "service": 2,
     "_language": 2,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3611,7 +4074,8 @@
     "service": 2,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3625,7 +4089,8 @@
     "service": 2,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3639,7 +4104,8 @@
     "service": 2,
     "_language": 2,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3653,7 +4119,8 @@
     "service": 2,
     "_language": 2,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3667,7 +4134,8 @@
     "service": 2,
     "_language": 2,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3681,7 +4149,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3695,7 +4164,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3709,7 +4179,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3723,7 +4194,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3737,7 +4209,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3751,7 +4224,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3765,7 +4239,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3779,7 +4254,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3793,7 +4269,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3807,7 +4284,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3821,7 +4299,8 @@
     "service": 1,
     "_language": 1,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3835,7 +4314,8 @@
     "service": 1,
     "_language": null,
     "_region": null,
-    "_product": null
+    "_product": null,
+    "_lending": true
   }
 },
 {
@@ -3848,8 +4328,9 @@
     "caller_id": "0612973758",
     "service": null,
     "_language": null,
-    "_region": 1,
-    "_product": 1
+    "_region": null,
+    "_product": 1,
+    "_lending": true
   }
 },
 {
@@ -4553,7 +5034,7 @@
   "pk": 74,
   "fields": {
     "final_element": false,
-    "_redirect": 72
+    "_redirect": 75
   }
 },
 {
@@ -4565,7 +5046,7 @@
     "enddate": "2019-05-22",
     "voice_label": 123,
     "product_type": 1,
-    "region": 1,
+    "region": null,
     "user_id": 2
   }
 },
@@ -4578,7 +5059,7 @@
     "enddate": "2019-05-31",
     "voice_label": 124,
     "product_type": 1,
-    "region": 1,
+    "region": null,
     "user_id": 2
   }
 },
@@ -4591,7 +5072,7 @@
     "enddate": "2019-05-13",
     "voice_label": 125,
     "product_type": 1,
-    "region": 1,
+    "region": null,
     "user_id": 2
   }
 },
@@ -4617,6 +5098,14 @@
   "fields": {
     "final_element": true,
     "_redirect": 73
+  }
+},
+{
+  "model": "service_development.vse_own_added",
+  "pk": 75,
+  "fields": {
+    "final_element": false,
+    "_redirect": 72
   }
 }
 ]

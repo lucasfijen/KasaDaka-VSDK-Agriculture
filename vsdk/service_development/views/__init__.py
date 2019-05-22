@@ -8,3 +8,4 @@ from .language import *
 from .offer import *
 from .region import *
 from .product import *
+from .lendrent import *

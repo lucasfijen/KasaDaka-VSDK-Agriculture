@@ -18,7 +18,7 @@ class LendRentSelection(TemplateView):
 
         # region_options =  Region.objects.values_list('region_name', flat=True)
         language = session.language
-        context = {'returning_options' : [0, 1]],
+        context = {'returning_options' : [0, 1],
                    'question_url': get_object_or_404(VoiceLabel, name='lend_or_rent').get_voice_fragment_url(language),
                     'choice_labels': [get_object_or_404(VoiceLabel, name='rent_a_product').get_voice_fragment_url(language),
                                             get_object_or_404(VoiceLabel, name='lend_a_product').get_voice_fragment_url(language)],
