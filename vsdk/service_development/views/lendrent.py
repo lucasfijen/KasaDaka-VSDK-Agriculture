@@ -4,6 +4,7 @@ from django.views.generic import TemplateView
 from django.http.response import HttpResponseRedirect
 from django.http import HttpResponseNotFound
 from ..models import *
+import sys
 
 class LendRentSelection(TemplateView):
     def render_selection(self, request, session):
@@ -47,6 +48,8 @@ class LendRentSelection(TemplateView):
         session = get_object_or_404(CallSession, pk = session_id)
 
         lend_bool = True if request.POST['lending'] == 1 else False
+        sys.stdout.write(request.POST['lending'])
+        sys.stdout.write(type(request.POST['lending']))
         session._lending = lend_bool
         session.save()
         # print('done')
